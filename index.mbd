@@ -1,0 +1,55 @@
+<frontmatter>
+title: CS3281&2 - {{ year }} Batch
+header: pagetop.md
+pageNav: 2
+</frontmatter>
+
+# CS3281 - {{ year }} Batch
+
+{% set projects = [
+    {name: 'CATcher', students: [
+        ['DING YUCHEN', 'dingyuchen', 'A1', 'B1', 'C1'],
+        ['KANG SU MIN', 'kkangs0226', 'A2', 'B3', 'C2'],
+        ['LOW JUN KAI, SEAN', 'seanlowjk', 'A1', 'B2', 'C2'],
+        ['PRITHIVI RAJ S/O SIVA KUMAR', 'ptvrajsk', 'A2', 'B2', 'C2']
+    ]},
+    {name: 'MarkBind', students: [
+        ['JONAH TAN JUN ZI', 'jonahtanjz', 'A2', 'B3', 'C2'],
+        ['KOH RAYSON', 'raysonkoh', 'A3', 'B3', 'C2'],
+        ['ONG WEI XIANG', 'wxwxwxwx9', 'A1', 'B1', 'C1'],
+        ['RYO CHANDRA PUTRA ARMANDA', 'ryoarmanda', 'A2', 'B1', 'C1']
+    ]},
+    {name: 'RepoSense', students: [
+        ['CHAN GER HEAN', 'gerhean', 'A1', 'B1', 'C1'],
+        ['HSU ZHONG JUN', 'dcshzj', 'A2', 'B1', 'C1'],
+        ['HUANG CHENGYU', 'HCY123902', 'A1', 'B2', 'C1'],
+        ['ROLAND YU WENYANG', 'rolandyuwy', 'A1', 'B3', 'C2']
+    ]},
+    {name: 'TEAMMATES', students: [
+        ['ADITHYA NARAYAN RANGARAJAN SREENIVASAN', 'AdithyaNarayan', 'A3', 'B1', 'C1'],
+        ['DAO NGOC HIEU', 'daongochieu2810', 'A2', 'B1', 'C1'],
+        ['LI JIANHAN', 'jianhandev', 'A1', 'B2', 'C1'],
+        ['LIM ZI WEI', 'halfwhole', 'A3', 'B2', 'C1'],
+        ['MO ZONGRAN', 'moziliar', 'A3', 'B1', 'C1'],
+        ['TAN CHEE PENG', 't-cheepeng', 'A1', 'B2', 'C2'],
+        ['TAN TEIK JUN', 'teikjun', 'A2', 'B2', 'C1'],
+        ['ZHUANG XINJIE', 'Derek-Hardy', 'A2', 'B2', 'C2']
+    ]}
+] %}
+
+{% for project in projects %}
+**{{ project.name }}:**
+{% for student in project.students %}* [{{ student[0] }}](#{{ student[0] | lower | replace(' ', '-') | replace(',', '')}})
+{% endfor %}
+{% endfor %}
+
+{% for project in projects %}
+# {{ project.name }}
+  {% for student in project.students %}
+
+<include src="students/{{ student[1] }}/studentInfo.md" boilerplate >
+  <span id="name">{{ student[0] }}</span>
+  <span id="folder">{{ student[1] }}</span>
+</include>
+  {% endfor %}
+{% endfor %}
