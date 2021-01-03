@@ -12,5 +12,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-          BASE_URL: https://nus-cs3281.github.io/2021
+          BASE_URL: /2021
         uses: MarkBind/markbind-action@1.0.0
