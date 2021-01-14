@@ -3,4 +3,4 @@
 <span id="github">https://github.com/Derek-Hardy</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[TEAMMATES](https://github.com/TEAMMATES/teammates), [MarkBind](https://github.com/MarkBind/markbind )</span>
+<span id="projects">[TEAMMATES](https://github.com/TEAMMATES/teammates) </span>
