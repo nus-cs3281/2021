@@ -3,4 +3,4 @@
 <span id="github">https://www.github.com/jianhandev</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[TEAMMATES]()</span>
+<span id="projects">[TEAMMATES](https://github.com/TEAMMATES/teammates)</span>
