@@ -1,7 +1,6 @@
-### Tool/Technology 1
+### Tool/Angular
 
-List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
+Aspects: Components, Templates, Directives, Dependencies Injection
+Source: Official Docs
 
-### Tool/Technology 2
-
-...
+### Tool/Google App Engine
