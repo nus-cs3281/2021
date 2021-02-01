@@ -5,3 +5,4 @@
 | 0    | Merged PR: [[#1252] Add front-end tests reminder on Developer Guide](https://github.com/reposense/RepoSense/pull/1384)                       |
 | 0    | Merged PR: [[#1369]Make enhancement to DG workflow guideline](https://github.com/reposense/RepoSense/pull/1378)                              |
 | 3    | Merged PR: [Handle CLI documentation bug](https://github.com/reposense/RepoSense/pull/1432)                                                  |
+| 3    | Opened issue: [Some backend unit test cannot pass on Windows](https://github.com/reposense/RepoSense/issues/1444)                            |
