@@ -20,13 +20,17 @@ Some useful resources:
 - [Github - HTTP-based Authentication](https://docs.github.com/en/developers/apps/authenticating-with-github-apps#http-based-git-access-by-an-installation)
 - [Github Actions - Authentication in a workflow](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
 #### Testing CI scripts during development
-I have found that there are not a lot of resources online regarding the testing CI scripts during development. This is especially so since Markbind is using a [Lerna mono-repo structure](https://lerna.js.org/) and it needs to be installed prior to deploying to Github-Pages. After many trial and error, I have found a way that works. 
+I have found that there are not a lot of resources online regarding the testing CI scripts during development. This is especially so since Markbind is using a [Lerna mono-repo structure](https://lerna.js.org/) and it needs to be installed prior to deploying to Github-Pages. After many trials and errors, I have found a way that works. 
 
 The following is a general guideline for a CI build script that allows you to test your code changes:
 1. Navigate out of the current directory and [git clone your forked repo](https://stackoverflow.com/questions/1911109/how-do-i-clone-a-specific-git-branch)
 2. Navigate into the your cloned repo and run the setup instructions in your repo
 3. Navigate into the original directory - most CI platforms provide an environment variable for this (eg. Travis-CI provides `TRAVIS_BUILD_DIR`)
 4. Run the deploy steps
+
+Some alternatives that I have considered:
+- [Github Packages](https://docs.github.com/en/packages/learn-github-packages/about-github-packages)
+- [How to install NPM package from Github directly](https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly)
 
 ### Tool/Technology 2
 
