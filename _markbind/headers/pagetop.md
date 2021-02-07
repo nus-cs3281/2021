@@ -18,7 +18,7 @@
     <a href="{{ baseUrl }}/students/observations.html" class="nav-link">Observations</a>
   </li -->
   <li>
-    <a href="https://nus-cs3281.github.io/2020-dashboard/#search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=false&groupSelect=groupByAuthors&breakdown=false" class="nav-link">Code Dashboard</a>
+    <a href="https://nus-cs3281.github.io/{{ year }}-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByAuthors&breakdown=false" class="nav-link">Code Dashboard</a>
   </li>
     <li>
     <a href="https://nus-cs3281.github.io/website/" class="nav-link">CS3281&2 Website <md>:glyphicon-share-alt:</md></a>
