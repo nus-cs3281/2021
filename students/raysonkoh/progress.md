@@ -9,4 +9,5 @@ Week | Achievements
 3 | Merged PR: [Add support for AppVeyor CI using markbind deploy --ci #1453](https://github.com/MarkBind/markbind/pull/1453)
 3 | Merged PR: [Remove occurences of --travis in build script #1458](https://github.com/MarkBind/markbind/pull/1458)
 3 | Responded to Issue: [The markbind-action workflow should not always force push #1461](https://github.com/MarkBind/markbind/issues/1461)
-4 | Authored PR: [Support deploying via Github Actions using deploy --ci command #1460](https://github.com/MarkBind/markbind/pull/1460)
+4 | Merged PR: [Support deploying via Github Actions using deploy --ci command #1460](https://github.com/MarkBind/markbind/pull/1460)
+5 | Submitted Issue: [Explore different services for previewing PR #1466](https://github.com/MarkBind/markbind/issues/1466)

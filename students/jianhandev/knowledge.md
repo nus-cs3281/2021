@@ -1,7 +1,9 @@
-### Tool/Technology 1
+### Tool/Angular
 
-List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
+Aspects: components, modules, routing, angular cli, rxjs, dependency injection
+Resources: Angular's official documentation, DigitalOcean
 
-### Tool/Technology 2
+### Tool/Jest
 
-...
+Aspects: snapshot testing
+Resources: Jest documentation
