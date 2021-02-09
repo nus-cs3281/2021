@@ -9,3 +9,8 @@ Week | Achievements
 3 | Merged PR: [Implement Disqus plugin #1449](https://github.com/MarkBind/markbind/pull/1449)
 4 | Merged PR: [Fix node-processing bug from dropdown temporary placeholder #1467](https://github.com/MarkBind/markbind/pull/1467)
 4 | Merged PR: [Fix algolia selectors for no-indexing #1468](https://github.com/MarkBind/markbind/pull/1468)
+5 | Merged PR: [Update deprecated Vue slot syntax #1464](https://github.com/MarkBind/markbind/pull/1464)
+5 | Reviewed PR: [Restyle minimal panel header to full opacity #1469](https://github.com/MarkBind/markbind/pull/1469)
+5 | Opened Issue: [Moving intralink validation checks to a log file #1470](https://github.com/MarkBind/markbind/issues/1470)
+5 | Authored PR: [Implement Markdown rules for bigger / smaller text #1473](https://github.com/MarkBind/markbind/pull/1473)
+5 | Investigated Issue: [Last dropdown header not processed #1472](https://github.com/MarkBind/markbind/issues/1472)
