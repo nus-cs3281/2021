@@ -14,3 +14,4 @@ Week | Achievements
 5 | Opened Issue: [Moving intralink validation checks to a log file #1470](https://github.com/MarkBind/markbind/issues/1470)
 5 | Authored PR: [Implement Markdown rules for bigger / smaller text #1473](https://github.com/MarkBind/markbind/pull/1473)
 5 | Investigated Issue: [Last dropdown header not processed #1472](https://github.com/MarkBind/markbind/issues/1472)
+5 | Authored PR: [Add new inline Markdown underline rule #1476](https://github.com/MarkBind/markbind/pull/1476)
