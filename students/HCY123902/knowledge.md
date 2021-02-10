@@ -1,6 +1,8 @@
 ### Tool/Technology 1
 
-Vuex 
+Vuex
+
+Description of the tool: State management tool for Vue applications
 
 Aspect: Introduction to Vuex
 
@@ -10,6 +12,20 @@ https://www.youtube.com/watch?v=5lVQgZzLMHc
 
 Figma 
 
-Aspect: User interface design tool that allows automatic generation of css
+Description of the tool: Grapgical User interface design tool that allows automatic generation of css style sheet
+
+Aspect: Introduction to the usage of Figma
 
 https://www.youtube.com/watch?v=3q3FV65ZrUs
+
+### Tool/Technology 2
+
+scss and css
+
+Description of the tool: style sheet used by Vue project
+
+Aspect: Difference between the usage of class selector in css and scss style sheet
+
+https://stackoverflow.com/questions/30505225/how-to-reference-nested-classes-with-css
+https://stackoverflow.com/questions/13051721/inheriting-from-another-css-class
+https://stackoverflow.com/questions/11084757/sass-scss-nesting-and-multiple-classes
