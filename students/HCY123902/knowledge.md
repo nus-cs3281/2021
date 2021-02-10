@@ -27,5 +27,7 @@ Description of the tool: style sheet used by Vue project
 Aspect: Difference between the usage of class selector in css and scss style sheet
 
 https://stackoverflow.com/questions/30505225/how-to-reference-nested-classes-with-css
+
 https://stackoverflow.com/questions/13051721/inheriting-from-another-css-class
+
 https://stackoverflow.com/questions/11084757/sass-scss-nesting-and-multiple-classes
