@@ -24,10 +24,12 @@ Scss and Css
 
 Description of the tool: style sheet used by Vue project
 
-Aspect: Difference between the usage of class selector in css and scss style sheet
+Aspect: Difference between the usage of class selector in css and scss style sheet, and the naming convention in css style sheet.
 
 https://stackoverflow.com/questions/30505225/how-to-reference-nested-classes-with-css
 
 https://stackoverflow.com/questions/13051721/inheriting-from-another-css-class
 
 https://stackoverflow.com/questions/11084757/sass-scss-nesting-and-multiple-classes
+
+https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/
