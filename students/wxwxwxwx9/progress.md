@@ -16,3 +16,4 @@ Week | Achievements
 5 | Investigated Issue: [Last dropdown header not processed #1472](https://github.com/MarkBind/markbind/issues/1472)
 5 | Authored PR: [Add new inline Markdown underline rule #1476](https://github.com/MarkBind/markbind/pull/1476)
 5 | Reviewed PR: [Toggle fixed header on scroll #1474](https://github.com/MarkBind/markbind/pull/1474)
+5 | Reviewed PR: [Support deploying to gh-pages via CircleCI #1471](https://github.com/MarkBind/markbind/pull/1471)
