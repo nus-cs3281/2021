@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=3q3FV65ZrUs
 
 ### Tool/Technology 2
 
-scss and css
+Scss and Css
 
 Description of the tool: style sheet used by Vue project
 
