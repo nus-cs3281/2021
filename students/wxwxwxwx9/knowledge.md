@@ -2,20 +2,13 @@
 
 This web API was brought to my attention by my mentor when I was implementing the Disqus plugin for MarkBind. 
 
-Disqus comments are typically positioned at the bottom of the page. It can be quite expensive to
-load the comments and we should only do so when it is necessary -- that is when users actually
-want to read them. Thus, it is appropriate to introduce lazy-loading here, where we only load the
-comments when user scrolls to the comment section. 
+Disqus comments are typically positioned at the bottom of the page. It can be quite expensive to load the comments and we should only do so when it is necessary -- that is when users actually want to read them. Thus, it is appropriate to introduce lazy-loading here, where we only load the comments when user scrolls to the comment section. 
 
-However, implementing a solution to detect whether a user has scrolled to a particular section can
-be difficult and "messy". This is where the **Intesection Observer API* comes in handy. One of the
-motivations for this API was to resolve the lazy-loading problem, by providing a way to detect when
-a target elements comes into the viewport. 
+However, implementing a solution to detect whether a user has scrolled to a particular section can be difficult and "messy". This is where the **Intesection Observer API* comes in handy. One of the motivations for this API was to resolve the lazy-loading problem, by providing a way to detect when a target elements comes into the viewport. 
 
 https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
 
-Mozilla usually have very comprehensive and well-written documentation for web APIs and this is
-no exception. 
+Mozilla usually have very comprehensive and well-written documentation for web APIs and this is no exception. 
 
 https://www.youtube.com/watch?v=T8EYosX4NOo&ab_channel=KevinPowell
 
@@ -35,13 +28,11 @@ The above provides a summary of the major markdown parsers available and a quick
 
 https://css-tricks.com/choosing-right-markdown-parser/
 
-The above provides the various features of a markdown parser and helps you to decide why you
-may want to choose one library over another, based on the features you may need. 
+The above provides the various features of a markdown parser and helps you to decide why you may want to choose one library over another, based on the features you may need. 
 
 Even though **marked** is a more popular parser than **markdown-it** based on downloads, **markdown-it** offers more features to users such as better curation of community-written plugins and the adherence to the CommonMark spec. Furthermore, at a quick glance, the API documentation for **markdown-it** seems to be more thorough and well-written. This leads me to believe that perhaps **marked** is a better choice for lightweight users, and **markdown-it** is more suitable for users who require more complex features (which can be found in the form of plugins).
 
-What I have written so far is based on my brief insight into the available markdown parsers. There
-are a lot more details and nuances that I have yet to look into like (markdown parsers are actually quite complex!). I will continue to update this space when I find out more about markdown parsers. 
+What I have written so far is based on my brief insight into the available markdown parsers. There are a lot more details and nuances that I have yet to look into like (markdown parsers are actually quite complex!). I will continue to update this space when I find out more about markdown parsers. 
 
 ### Why you should not use setTimeout to resolve async bug (even when it seems to work)
 
