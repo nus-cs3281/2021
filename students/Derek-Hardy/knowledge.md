@@ -1,3 +1,16 @@
+### Objectify v5, v6
+**Aspects:** 
+
+* Common operations on entity schema, queries and migration
+* Interactions with Google Cloud Datastore in different versions
+
+**Resource:** [Objectify wiki](https://github.com/objectify/objectify/wiki)
+
+### GitHub Action
+**Aspects:** how to configure CI workflow to the existing project
+
+**Resource:** [GitHub Action documentation](https://docs.github.com/en/actions/quickstart)
+
 ### Angular test framework
 **Aspects:** available components and best practices to test Angular components
 

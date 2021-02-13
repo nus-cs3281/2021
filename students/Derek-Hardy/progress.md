@@ -9,3 +9,13 @@ Week | Achievements
 2 | Authored PR: [[#10885] Fixed unresponsive question tab in instructor help page #10921](https://github.com/TEAMMATES/teammates/pull/10921)
 2 | Authored PR: [[#10920] Add front-end tests for student home page component #10925](https://github.com/TEAMMATES/teammates/pull/10925)
 3 | Authored PR: [[#10920] Add front-end tests for instructor home page component #10935](https://github.com/TEAMMATES/teammates/pull/10935)
+5 | Reviewed PR: [[#10920] Add snapshot tests for admin search page #10949](https://github.com/TEAMMATES/teammates/pull/10949)
+5 | Reviewed PR: [[#10928] Add script to list active instructors within a period #10947](https://github.com/TEAMMATES/teammates/pull/10947)
+5 | Merged PR: [[#10885] Fixed unresponsive question tab in instructor help page #10921](https://github.com/TEAMMATES/teammates/pull/10921)
+5 | Merged PR: [[#10920] Add front-end tests for student home page component #10925](https://github.com/TEAMMATES/teammates/pull/10925)
+5 | Submitted Issue: [GAE Runtime Upgrade #10955](https://github.com/TEAMMATES/teammates/issues/10955)
+5 | Authored PR: [[#10955] Initial Objectify upgrade from v5 to v6 #10956](https://github.com/TEAMMATES/teammates/pull/10956)
+5 | Authored PR: [[#10955] Configure CI for 'objectify-v6-migration' branch #10957](https://github.com/TEAMMATES/teammates/pull/10957)
+5 | Authored PR: [[#10955] Add Datastore Emulator setup documentation #10958](https://github.com/TEAMMATES/teammates/pull/10958)
+5 | Merged PR: [[#10920] Add front-end tests for instructor home page component #10935](https://github.com/TEAMMATES/teammates/pull/10935)
+
