@@ -14,8 +14,6 @@ https://www.youtube.com/watch?v=T8EYosX4NOo&ab_channel=KevinPowell
 
 Another resource that I would recommend to learn about this API is an introductory video by Kevin Powell. 
 
-### Tool/Technology 2
-
 ### Markdown Parsers
 
 As I was implementing the markdown feature to enable `++` for larger text, `--` for smaller text, and `$$` for underlining, I decided to learn more about the parser that we were using, **markdown-it**, and the other choices available out there, because markdown is one of the core component of MarkBind.
