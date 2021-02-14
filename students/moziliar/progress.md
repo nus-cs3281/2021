@@ -8,4 +8,5 @@ Week | Achievements
 3 | Reviewed PR: [Add unit testings #12](https://github.com/moziliar/teammates/pull/12)
 3 | Reviewed PR: [Double-line graph #13](https://github.com/moziliar/teammates/pull/13)
 5 | Authored PR: [[#10953] Create mock course script #10954](https://github.com/TEAMMATES/teammates/pull/10954)
+5 | Authored PR: [[#10959] Paginate frontend call to webapi for large course #10960](https://github.com/TEAMMATES/teammates/pull/10960)
 
