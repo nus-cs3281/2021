@@ -6,6 +6,12 @@
 
 **Resource:** [Objectify wiki](https://github.com/objectify/objectify/wiki)
 
+**Aspects:**
+
+* Objectify unit test environment setup
+
+**Resource:** [Stackoverflow](https://stackoverflow.com/questions/32628124/how-to-use-objectifyservice-in-junit-testing) and relevant codebase
+
 ### GitHub Action
 **Aspects:** how to configure CI workflow to the existing project
 
