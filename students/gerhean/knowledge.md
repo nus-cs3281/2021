@@ -1,7 +1,9 @@
-### Tool/Technology 1
+### Vue
 
-List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
+Things I learned about Vue:
+- It does not watch nested properties (of arrays, objects) in the state.
+- Using async syntax leads to neater code. 
 
-### Tool/Technology 2
+### Github
 
-...
+- Nicer commit messages are beneficial even to myself, as it helps me to remember what I did previously.
