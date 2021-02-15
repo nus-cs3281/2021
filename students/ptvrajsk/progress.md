@@ -16,7 +16,8 @@
 | 5    | Merged PR: [Remove Automatic Profile Detection #583](https://github.com/CATcher-org/CATcher/pull/583) |
 | 5    | Merged PR: [E2E Bug Fix #591](https://github.com/CATcher-org/CATcher/pull/591) |
 | 5    | Authored PR (Pending Review): [Add E2E to GH Actions Workflow #588](https://github.com/CATcher-org/CATcher/pull/588) |
-| 5    | Authored PR (Pending Review): [Session Data Verification Bug Fix #586](https://github.com/CATcher-org/CATcher/pull/586) |
+| 5    | Merged PR: [Session Data Verification Bug Fix #586](https://github.com/CATcher-org/CATcher/pull/586) |
 | 5    | Reviewed PR: [Rename 'View on Github Button' #582](https://github.com/CATcher-org/CATcher/pull/582) |
 | 5    | Reviewed PR: [Phase Enum Abstraction #581](https://github.com/CATcher-org/CATcher/pull/581) |
 | 5    | Reviewed PR: [Mock Services Function Implementation #579](https://github.com/CATcher-org/CATcher/pull/579) |
+| 6    | Opened Issue: [Remove Current Phase Verification in storeSessionData #595](https://github.com/CATcher-org/CATcher/issues/595) |
