@@ -11,3 +11,6 @@ Week | Achievements
 3 | Responded to Issue: [The markbind-action workflow should not always force push #1461](https://github.com/MarkBind/markbind/issues/1461)
 4 | Merged PR: [Support deploying via Github Actions using deploy --ci command #1460](https://github.com/MarkBind/markbind/pull/1460)
 5 | Submitted Issue: [Explore different services for previewing PR #1466](https://github.com/MarkBind/markbind/issues/1466)
+5 | Merged PR: [Support deploying to gh-pages via CircleCI #1471](https://github.com/MarkBind/markbind/pull/1471)
+5 | Reviewed PR: [Toggle fixed header on scroll #1474](https://github.com/MarkBind/markbind/pull/1474)
+5 | Reviewed PR: [Code blocks: Support partial text highlighting #1478](https://github.com/MarkBind/markbind/pull/1478)
