@@ -26,5 +26,32 @@ Merged PRs:
 
 </td>
 </tr>
+
+<tr>
+<td>4</td>
+<td>
+
+Merged PRs:
+- [\[#1423\] Fix Vue build warning](https://github.com/reposense/RepoSense/pull/1442)
+- [DG: remove need to open PR for small issues](https://github.com/reposense/RepoSense/pull/1422)
+- [\[#1417\] Change the way api.js loads json files](https://github.com/reposense/RepoSense/pull/1418)
+- [\[#1340\] v_segment: rewrite toggling logic](https://github.com/reposense/RepoSense/pull/1416)
+
+</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>
+
+PRs commented:
+- [Add Cypress tests](https://github.com/reposense/RepoSense/pull/1443)
+
+Issues opened:
+- [Should URL validation be added?](https://github.com/reposense/RepoSense/issues/1445)
+
+</td>
+</tr>
+
 </tbody>
 </table>

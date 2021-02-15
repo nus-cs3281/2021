@@ -9,3 +9,5 @@
 | 4    | Merged PR: [[#1404] DG: edit the running from code part](https://github.com/reposense/RepoSense/pull/1405)                                   |
 | 4    | Merged PR: [[#1407] DG: add Gradle instructions to workflow](https://github.com/reposense/RepoSense/pull/1408)                               |
 | 4    | Merged PR: [[#1409] UG: fix typos in CLI documentation](https://github.com/reposense/RepoSense/pull/1410)                                    |
+| 5    | Reviewed PR: [Add Cypress tests](https://github.com/reposense/RepoSense/pull/1443)                                                           |
+| 6    | Opened issue: [Reloading hides the display name in authorship contribution](https://github.com/reposense/RepoSense/issues/1455)              |
