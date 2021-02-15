@@ -1,5 +1,4 @@
 ### Angular Workspace & Build Configurations
-
 #### Aspects
 - Setting up separate environments for different purposes (testing in this case).
 - How Angular does file replacements and injects different data from files on compile and runtime for these different configs.
@@ -16,3 +15,8 @@
 ### Sources
 - Youtube
 - [Potractor Docs](http://www.protractortest.org/#/)
+
+### Github Actions
+#### Aspects
+- Setting up Virtual Environments to run E2E Testing as a part of CI when PRs are made to the main repository.
+- Configuring Virtual Environments and performing manual driver configurations to add support for headless E2E tests for multiple browsers.
