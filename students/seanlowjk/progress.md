@@ -8,3 +8,6 @@
 | 2    | Merged PR: [Refactor Issue Sorting Logic into Separate Module and Add Tests #538](https://github.com/CATcher-org/CATcher/pull/538) |
 | 3    | Submitted Issue: [Migration from tslint to an alternate static analysis tool #550](https://github.com/CATcher-org/CATcher/issues/550) |
 | 3    | Merged PR: [Add Staging Site Deployment from CATcher repository #546](https://github.com/CATcher-org/CATcher/pull/546) |
+| 4    | Submitted Issue: [Add tests/coverage/ to .gitignore #565](https://github.com/CATcher-org/CATcher/issues/565) |
+| 4    | Merged PR: [Add Tests for Phase Service Logic #560](https://github.com/CATcher-org/CATcher/pull/560) |
+| 4    | Reviewed PR: [Setup code coverage reporting #575](https://github.com/CATcher-org/CATcher/pull/575) |
