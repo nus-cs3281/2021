@@ -18,7 +18,7 @@ Aspect: Introduction to the usage of Figma
 
 https://www.youtube.com/watch?v=3q3FV65ZrUs
 
-### Tool/Technology 2
+### Tool/Technology 3
 
 Scss and Css
 
@@ -33,3 +33,15 @@ https://stackoverflow.com/questions/13051721/inheriting-from-another-css-class
 https://stackoverflow.com/questions/11084757/sass-scss-nesting-and-multiple-classes
 
 https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/
+
+### Tool/Technology 4
+
+Vue LifeCycle
+
+Description of the tool: Vue component life cycle management tool
+
+Aspect: Methods that can be used to create hook between Vue component and the template
+
+https://medium.com/@akgarg007/vuejs-created-vs-mounted-life-cycle-hooks-74c522b9ceee
+
+
