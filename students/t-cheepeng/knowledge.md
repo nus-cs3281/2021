@@ -16,3 +16,10 @@ Resource: [GitHub Blogs](https://github.blog/2020-12-15-token-authentication-req
 Aspects: FOSS charts library for web pages.
 
 Resource: [Apexcharts Website](https://apexcharts.com/)
+
+---
+
+### Google Analytics
+Aspects: Tracking of page views, events, costs associated with usage of analytics and opt-out privacy policies
+
+Resource: [Google Analytics Documentation](https://developers.google.com/analytics/devguides/collection/gtagjs)
