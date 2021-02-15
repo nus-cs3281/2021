@@ -13,7 +13,7 @@
 | 4    | Reviewed PR: [SessionData: add tests for session validation logic #566](https://github.com/CATcher-org/CATcher/pull/566) |
 | 4    | Reviewed PR: [AuthService: Abstract out logic for setting browser / window title #564](https://github.com/CATcher-org/CATcher/pull/564) |
 | 4    | Reviewed PR: [Add Tests for Phase Service Logic #560](https://github.com/CATcher-org/CATcher/pull/560) |
-| 5    | Merged PR: [Add Tests for Phase Service Logic #583](https://github.com/CATcher-org/CATcher/pull/583) |
+| 5    | Merged PR: [Remove Automatic Profile Detection #583](https://github.com/CATcher-org/CATcher/pull/583) |
 | 5    | Merged PR: [E2E Bug Fix #591](https://github.com/CATcher-org/CATcher/pull/591) |
 | 5    | Authored PR (Pending Review): [Add E2E to GH Actions Workflow #588](https://github.com/CATcher-org/CATcher/pull/588) |
 | 5    | Authored PR (Pending Review): [Session Data Verification Bug Fix #586](https://github.com/CATcher-org/CATcher/pull/586) |
