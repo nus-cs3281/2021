@@ -36,7 +36,7 @@ https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hour
 
 ### Tool/Technology 4
 
-Vue LifeCycle
+Vue LifeCycle Management
 
 Description of the tool: Vue component life cycle management tool
 
