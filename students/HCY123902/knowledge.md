@@ -52,13 +52,13 @@ Description of the tool: Javascript Syntax related to the retrival of map keys, 
 
 Aspect: Some instance methods of retriving key and entry in the Map class does not seem to work because of some reason. The corresponding class methods in the Object class can be used as an alternative option. 
 
-https://devdocs.io/javascript-map/
-
-https://devdocs.io/javascript-object/
-
 https://stackoverflow.com/questions/35341696/how-to-convert-map-keys-to-array
 
 https://stackoverflow.com/questions/16507866/iterate-through-a-map-in-javascript/54550693
 
 https://stackoverflow.com/questions/42196853/convert-a-map-object-to-array-of-objects-in-java-script
+
+https://devdocs.io/javascript-map/
+
+https://devdocs.io/javascript-object/
 
