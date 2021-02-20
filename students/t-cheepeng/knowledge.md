@@ -23,3 +23,10 @@ Resource: [Apexcharts Website](https://apexcharts.com/)
 Aspects: Tracking of page views, events, costs associated with usage of analytics and opt-out privacy policies
 
 Resource: [Google Analytics Documentation](https://developers.google.com/analytics/devguides/collection/gtagjs)
+
+---
+
+### Google Cloud Logging
+Aspects: Logs API(GAE platform), Cloud Logging(GCP platform), differences between the two and how cloud logging on the upgraded GCP platform is more powerful than GAE, and logs-related quotas
+
+Resource: [Log API](https://cloud.google.com/appengine/docs/standard/java/javadoc/com/google/appengine/api/log/package-summary), [Cloud Logging](https://cloud.google.com/logging/docs)
