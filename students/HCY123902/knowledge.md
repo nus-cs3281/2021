@@ -60,7 +60,5 @@ https://stackoverflow.com/questions/35341696/how-to-convert-map-keys-to-array
 
 https://stackoverflow.com/questions/16507866/iterate-through-a-map-in-javascript/54550693
 
-https://stackoverflow.com/questions/35341696/how-to-convert-map-keys-to-array
-
 https://stackoverflow.com/questions/42196853/convert-a-map-object-to-array-of-objects-in-java-script
 
