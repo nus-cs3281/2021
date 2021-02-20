@@ -31,3 +31,26 @@ One of the interesting things that I noticed about GitHub actions is that all co
 available through the GitHub Marketplace.
 
 Running a GitHub Action simply requires the action name and a version to be specified in the `actions.yml` file.
+
+### Gitignore Pattern Format
+
+While it is common to see the regular ignore patterns and wildcards in a gitignore file, 
+gitignore also comes with a negation pattern that allows for exceptions.
+
+The exceptions are specified using the `!` prefix, and files that start with the `!` literal can be
+escaped using backslash `\`.
+
+The most common usecase for would be something like ignoring all files and directories except a specific folder.
+
+However, it is worthy to note that it is impossible to "unignore" a file whose parent folder have been ignored.
+This is due to performance reasons.
+
+Therefore a gitignore would look something like this:
+
+```
+# ignore everything except /foo/bar
+/*
+!/foo
+/foo/*
+!/bar
+```
