@@ -7,3 +7,6 @@ Week | Achievements
 2 | Authored PR: [[#9480] Add frontend tests to session result component #10918](https://github.com/TEAMMATES/teammates/pull/10918)
 3 | Authored PR (Onboarding): [Time Series Statistics for Admin #29](https://github.com/t-cheepeng/teammates/pull/29)
 5 | Authored PR: [[#10920] Add frontend test for user join page component #10942](https://github.com/TEAMMATES/teammates/pull/10942)
+6 | Submitted Issue: [Instructor Audit Logs Frontend #10969](https://github.com/TEAMMATES/teammates/issues/10969)
+6 | Reviewed PR: [[#10941] Copying questions requires scrolling the whole list of current questions #10961](https://github.com/TEAMMATES/teammates/pull/10961)
+6 | Reviewed PR: [[#10920] Add front-end tests for instructor courses page #10967](https://github.com/TEAMMATES/teammates/pull/10967)

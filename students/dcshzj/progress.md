@@ -35,6 +35,32 @@ Opened issues:
 - [GitHub Actions conflict if multiple deployments are done in a short amount of time](https://github.com/reposense/RepoSense/issues/1429)
 - [Walk users through creating and deploying their first report](https://github.com/reposense/RepoSense/issues/1430)
 - [Expand integration testing to other environments](https://github.com/reposense/RepoSense/issues/1435)
+- [The markbind-action workflow should not always force push](https://github.com/MarkBind/markbind/issues/1461) (MarkBind)
+
+</td>
+</tr>
+<tr>
+<td>5</td>
+<td>
+
+Opened PRs:
+- [\[#442\] Replace CommandRunner with JGit for GitBranch](https://github.com/reposense/RepoSense/pull/1454)
+
+Reviewed PRs:
+- [Implement multi-threading](https://github.com/reposense/RepoSense/pull/1451)
+- [\[#1352\] Add highlight to selected authorship contribution icon](https://github.com/reposense/RepoSense/pull/1453)
+
+Expanded issues:
+- [Deprecate the CommandRunner class](https://github.com/reposense/RepoSense/issues/442)
+
+</td>
+</tr>
+<tr>
+<td>6</td>
+<td>
+
+Opened PRs:
+- [\[#1414\] Add message before closing a stale PR](https://github.com/reposense/RepoSense/pull/1456)
 
 </td>
 </tr>
