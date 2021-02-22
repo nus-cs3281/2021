@@ -15,8 +15,17 @@
 | 4    | Reviewed PR: [Add Tests for Phase Service Logic #560](https://github.com/CATcher-org/CATcher/pull/560) |
 | 5    | Merged PR: [Remove Automatic Profile Detection #583](https://github.com/CATcher-org/CATcher/pull/583) |
 | 5    | Merged PR: [E2E Bug Fix #591](https://github.com/CATcher-org/CATcher/pull/591) |
-| 5    | Authored PR (Pending Review): [Add E2E to GH Actions Workflow #588](https://github.com/CATcher-org/CATcher/pull/588) |
-| 5    | Authored PR (Pending Review): [Session Data Verification Bug Fix #586](https://github.com/CATcher-org/CATcher/pull/586) |
+| 5    | Merged PR: [Add E2E to GH Actions Workflow #588](https://github.com/CATcher-org/CATcher/pull/588) |
+| 5    | Merged PR: [Session Data Verification Bug Fix #586](https://github.com/CATcher-org/CATcher/pull/586) |
 | 5    | Reviewed PR: [Rename 'View on Github Button' #582](https://github.com/CATcher-org/CATcher/pull/582) |
 | 5    | Reviewed PR: [Phase Enum Abstraction #581](https://github.com/CATcher-org/CATcher/pull/581) |
 | 5    | Reviewed PR: [Mock Services Function Implementation #579](https://github.com/CATcher-org/CATcher/pull/579) |
+| 6    | Opened Issue: [Remove Current Phase Verification in storeSessionData #595](https://github.com/CATcher-org/CATcher/issues/595) |
+| 6    | Reviewed PR: [Restructuring Tests for syncLabel() #590](https://github.com/CATcher-org/CATcher/pull/590) |
+| 6    | Reviewed PR: [Logical Method Decompositon: IssuePendingComponent #592](https://github.com/CATcher-org/CATcher/pull/592) |
+| 6    | Reviewed PR: [Move Search Functions in IssueDataTable to Separate Module #593](https://github.com/CATcher-org/CATcher/pull/593) |
+| 6    | Reviewed PR: [Session Data Constant Abstraction #597](https://github.com/CATcher-org/CATcher/pull/597) |
+| 6    | Reviewed PR: [Logical Method Decompositon: IssueRespondedComponent #599](https://github.com/CATcher-org/CATcher/pull/599) |
+| 6    | Opened Issue: [Fix Asynchronous Test Expectation Bug #607](https://github.com/CATcher-org/CATcher/pull/607) |
+| 6    | Authored PR (Pending Review): [E2E Testing: New Bug Report #599](https://github.com/CATcher-org/CATcher/pull/596) |
+| 6    | Authored PR (Pending Review): [Updating Dev Notes with E2E Information #599](https://github.com/CATcher-org/CATcher/pull/610) |
