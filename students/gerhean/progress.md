@@ -53,5 +53,22 @@ Issues opened:
 </td>
 </tr>
 
+<tr>
+<td>6</td>
+<td>
+
+Branches opened:
+- [1430_feature_branch](https://github.com/reposense/RepoSense/pull/1443)
+
+PRs reviewed:
+- [\[#1352\] Add highlight to selected authorship contribution icon](https://github.com/reposense/RepoSense/pull/1453)
+- [\[#1414\] Add message before closing a stale PR](https://github.com/reposense/RepoSense/pull/1456)
+
+Merged PRs:
+- [\[#1426\] Zoom reloading not function properly](https://github.com/reposense/RepoSense/pull/1437)
+
+</td>
+</tr>
+
 </tbody>
 </table>
