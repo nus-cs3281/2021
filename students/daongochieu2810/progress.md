@@ -7,3 +7,6 @@ Week | Achievements
 4 | Authored PR: [Show explicit enroll errors](https://github.com/TEAMMATES/teammates/pull/10943)
 5 | Merged PR: [Add script to list active instructors within a period](https://github.com/TEAMMATES/teammates/pull/10947)
 5 | Authored PR: [Add endpoint to fetch pagination metadata](https://github.com/TEAMMATES/teammates/pull/10962)
+6 | Reviewed PR: [Paginate frontend call to webapi for large course](https://github.com/moziliar/teammates/pull/20)
+6 | Reviewed PR: [Refactor student validation logic in enrolment](https://github.com/TEAMMATES/teammates/pull/10971)
+6 | Authored PR: [Paginate enroll calls for large courses](https://github.com/TEAMMATES/teammates/pull/10968)
