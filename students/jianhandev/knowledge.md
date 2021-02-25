@@ -3,20 +3,21 @@
 Aspects: components, modules, routing, angular cli, rxjs, dependency injection
 
 Summary:
-- Learned to utilise the Angular CLI to create components, modules and tests.
-- Learned how to perform routing in angular.
-- Learned the Angular's way of state management.
-- Learned to work with Interfaces and integration from the backend.
+- Utilise the Angular CLI to create components, modules and tests.
+- Perform routing in angular.
+- Learn the Angular's way of state management.
+- Learn to work with Interfaces and integration from the backend.
 
 Resources: Angular's official documentation, DigitalOcean
 
 ### Tool/Jest
 
-Aspects: snapshot testing
+Aspects: snapshot testing, front-end testing
 
 Summary:
-- Learned to create application snapshots and updates.
-- Understood the importance of front-end testing.
+- Learn to create application snapshots and updates.
+- Understand the importance of front-end testing.
+- Mocking with spyOn and CallFake
 
 Resources: Jest documentation
 
