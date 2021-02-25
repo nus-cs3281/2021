@@ -64,5 +64,14 @@ Opened PRs:
 
 </td>
 </tr>
+<tr>
+<td>Recess</td>
+<td>
+
+Merged PRs:
+- [\[#1414\] Add message before closing a stale PR](https://github.com/reposense/RepoSense/pull/1456)
+
+</td>
+</tr>
 </tbody>
 </table>
