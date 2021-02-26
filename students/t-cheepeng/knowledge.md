@@ -30,3 +30,10 @@ Resource: [Google Analytics Documentation](https://developers.google.com/analyti
 Aspects: Logs API(GAE platform), Cloud Logging(GCP platform), differences between the two and how cloud logging on the upgraded GCP platform is more powerful than GAE, and logs-related quotas
 
 Resource: [Log API](https://cloud.google.com/appengine/docs/standard/java/javadoc/com/google/appengine/api/log/package-summary), [Cloud Logging](https://cloud.google.com/logging/docs)
+
+---
+
+### Cloud Logging Labels
+Aspects: Cloud logging labels that allow user-defined labels, their limitations and defaults
+
+Resource: [Using log-based metrics](https://cloud.google.com/logging/docs/logs-based-metrics/labels)
