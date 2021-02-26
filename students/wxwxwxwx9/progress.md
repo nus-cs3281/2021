@@ -20,3 +20,4 @@ Week | Achievements
 6 | Merged PR: [Remove shorthand slot syntax from documentation #1483](https://github.com/MarkBind/markbind/pull/1483)
 6 | Merged PR: [Update slot syntax for PageNavButton and SiteNavButton #1484](https://github.com/MarkBind/markbind/pull/1484)
 6 | Investigated Issue: [Special characters not rendered correctly in search results #1486](https://github.com/MarkBind/markbind/issues/1486)
+6 | Investigated Issue: [Support slots for box components #1492](https://github.com/MarkBind/markbind/issues/1492)
