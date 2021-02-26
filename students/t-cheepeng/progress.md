@@ -10,3 +10,4 @@ Week | Achievements
 6 | Submitted Issue: [Instructor Audit Logs Frontend #10969](https://github.com/TEAMMATES/teammates/issues/10969)
 6 | Reviewed PR: [[#10941] Copying questions requires scrolling the whole list of current questions #10961](https://github.com/TEAMMATES/teammates/pull/10961)
 6 | Reviewed PR: [[#10920] Add front-end tests for instructor courses page #10967](https://github.com/TEAMMATES/teammates/pull/10967)
+6 | Submitted Issue: [Instructor Audit Logs Frontend #10969](https://github.com/TEAMMATES/teammates/issues/10969)
