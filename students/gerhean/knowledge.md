@@ -9,6 +9,9 @@ Things I learned about Vue:
 Adding Pug to new Vue project:
 - https://dev.to/reiallenramos/vue-pug-and-scss-27pl
 
+Ensure Vue works in sub-paths by configuring publicPath:
+- https://forum.vuejs.org/t/publicpath-in-production/79698
+
 ### Vue Good Practices
 
 - Use async await instead of promises.
@@ -21,12 +24,17 @@ Adding Pug to new Vue project:
 
 ### Javascript Observations
 - Difference between `@change` and `@input` [link](https://stackoverflow.com/questions/17047497/difference-between-change-and-input-event-for-an-input-element)
+- Using `Buffer` to encode string to Base64 [link](https://stackoverflow.com/questions/6182315/how-to-do-base64-encoding-in-node-js)
 
 ### Node Libraries for Vue
 
 BootstrapVue
 - Useful for UI/UX design.
 - https://bootstrap-vue.org/docs
+
+dotenv
+- Useful for secrets.
+- https://www.robertcooper.me/front-end-javascript-environment-variables
 
 
 
@@ -36,4 +44,5 @@ Nicer commit messages are beneficial even to myself, as it helps me to remember 
 
 Using [octokit/core](https://www.npmjs.com/package/@octokit/core) for GitHub's REST & GraphQL APIs
 - How to fork a repository [link](https://docs.github.com/en/rest/reference/repos#forks)
-- Adding secrets [link](https://docs.github.com/en/rest/reference/actions#create-or-update-a-repository-secret)
+- Adding secrets (need to get public key first) [link](https://docs.github.com/en/rest/reference/actions#create-or-update-a-repository-secret)
+- Create or update file contents [link](https://docs.github.com/en/rest/reference/repos#create-or-update-file-contents)
