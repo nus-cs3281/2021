@@ -19,4 +19,7 @@ Week | Achievements
 5 | Authored PR: [[#10955] Add Datastore Emulator setup documentation #10958](https://github.com/TEAMMATES/teammates/pull/10958)
 5 | Merged PR: [[#10920] Add front-end tests for instructor home page component #10935](https://github.com/TEAMMATES/teammates/pull/10935)
 5 | Merged PR: [[#10955] Configure CI for 'objectify-v6-migration' branch #10957](https://github.com/TEAMMATES/teammates/pull/10957)
+6 | Reviewed PR: [[#10941] Copying questions requires scrolling the whole list of current questions #10961](https://github.com/TEAMMATES/teammates/pull/10961)
+6 | Reviewed PR: [[#10920] Improve Front-End Testing for Course Edit Page #10926](https://github.com/TEAMMATES/teammates/pull/10926)
+6 | Reviewed PR: [[#10944] Migrate Blobstore API to Google Cloud Storage #10945](https://github.com/TEAMMATES/teammates/pull/10945)
 

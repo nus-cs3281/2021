@@ -5,6 +5,7 @@ Source: Official Docs
 
 ### RxJs
 - Learnt about ```concat``` and ```merge``` to call paginated API requests
+- Learnt about ```catchError``` to handle errors without ending the stream of API requests allowing the FE to retry sending requests upon failures such as timeout
 
 ### Google App Engine
 

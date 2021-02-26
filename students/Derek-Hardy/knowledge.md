@@ -1,16 +1,31 @@
+### Cloud Storage
+* Understand various aspects of the Google Cloud Storage such as:
+  * Blob storage
+  * KeyFactory
+
+**Resource:**
+[Blob reference](https://googleapis.dev/java/google-cloud-storage/latest/index.html),
+[KeyFactory reference](https://cloud.google.com/appengine/docs/standard/java/javadoc/com/google/appengine/api/datastore/KeyFactory)
+
+### Cloud Logging
+* Understand the internal working of Google Cloud Logging.
+
+**Resource:** 
+[Logging v1 Doc](https://cloud.google.com/logging/docs/reference/v2/rpc/google.appengine.logging.v1),
+[Logging v2 Doc](https://cloud.google.com/logging/docs/reference/api-overview)
+
 ### Objectify v5, v6
 **Aspects:** 
 
 * Common operations on entity schema, queries and migration
-* Interactions with Google Cloud Datastore in different versions
-
-**Resource:** [Objectify wiki](https://github.com/objectify/objectify/wiki)
-
-**Aspects:**
-
+* Interactions with Google Cloud Datastore in different versions (v5, v6)
 * Objectify unit test environment setup
+* Cloud storage key update
 
-**Resource:** [Stackoverflow](https://stackoverflow.com/questions/32628124/how-to-use-objectifyservice-in-junit-testing) and relevant codebase
+**Resource:** 
+[Objectify wiki](https://github.com/objectify/objectify/wiki),
+[Stackoverflow](https://stackoverflow.com/questions/32628124/how-to-use-objectifyservice-in-junit-testing),
+[Update PR](https://github.com/Derek-Hardy/teammates/pull/9)
 
 ### GitHub Action
 **Aspects:** how to configure CI workflow to the existing project
