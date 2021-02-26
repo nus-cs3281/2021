@@ -15,5 +15,6 @@ Week | Achievements
 5 | Reviewed PR: [Toggle fixed header on scroll #1474](https://github.com/MarkBind/markbind/pull/1474)
 5 | Reviewed PR: [Code blocks: Support partial text highlighting #1478](https://github.com/MarkBind/markbind/pull/1478)
 6 | Authored PR: [Support Previewing PR using Surge.sh #1487](https://github.com/MarkBind/markbind/pull/1487)
-6 | Authored PR: [Reorganize deployingTheSite page #1489](https://github.com/MarkBind/markbind/pull/1489)
+6 | Merged PR: [Reorganize deployingTheSite page #1489](https://github.com/MarkBind/markbind/pull/1489)
 6 | Submitted Issue: [Auto link extension conversion not working when linking to specific section in .md file #1490](https://github.com/MarkBind/markbind/issues/1490)
+6 | Reviewed PR: [Update intralink auto-conversion to convert links with URL fragment #1493](https://github.com/MarkBind/markbind/pull/1493)
