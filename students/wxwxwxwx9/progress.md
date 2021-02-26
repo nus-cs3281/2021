@@ -21,3 +21,5 @@ Week | Achievements
 6 | Merged PR: [Update slot syntax for PageNavButton and SiteNavButton #1484](https://github.com/MarkBind/markbind/pull/1484)
 6 | Investigated Issue: [Special characters not rendered correctly in search results #1486](https://github.com/MarkBind/markbind/issues/1486)
 6 | Investigated Issue: [Support slots for box components #1492](https://github.com/MarkBind/markbind/issues/1492)
+6 | Authored PR: [Update intralink auto-conversion to convert links with URL fragment #1493](https://github.com/MarkBind/markbind/pull/1493)
+6 | Authored PR: [Fix no-conversion syntax for intralink in user guide #1494](https://github.com/MarkBind/markbind/pull/1494)
