@@ -13,4 +13,9 @@
 | 4    | Reviewed PR: [Setup code coverage reporting #575](https://github.com/CATcher-org/CATcher/pull/575) |
 | 4    | Reviewed PR: [IssueTablesComponent: Add tests for 'fitTitleText' function #561](https://github.com/CATcher-org/CATcher/pull/561) |
 | 5    | Drafted PR: [Add Component Tests using Testbed for AssigneeComponent #555](https://github.com/CATcher-org/CATcher/pull/555) |
-| 5    | Drafter PR: [Create RepositoryService and add Implementation and Tests for syncLabels() #590](https://github.com/CATcher-org/CATcher/pull/590) |
+| 5    | Drafter PR: [LabelService: create custom operator for label synchronisation #590](https://github.com/CATcher-org/CATcher/pull/590) |
+| 6    | Merged PR: [Add Component Tests using Testbed for AssigneeComponent #555](https://github.com/CATcher-org/CATcher/pull/555) |
+| 6    | Reviewed PR: [Default filters: Decompose logical expressions into methods #592](https://github.com/CATcher-org/CATcher/pull/592) |
+| 6    | Reviewed PR: [Default filters: Decompose logical expressions into methods #599](https://github.com/CATcher-org/CATcher/pull/599) |
+| 6    | Submitted Issue: [Add header comments in workflow files #598](https://github.com/CATcher-org/CATcher/issues/598) |
+| 6    | Submitted Issue: [ProfilesComponent: Add Component Tests #601](https://github.com/CATcher-org/CATcher/issues/601) |
