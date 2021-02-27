@@ -66,6 +66,7 @@ PRs reviewed:
 
 Merged PRs:
 - [\[#1426\] Zoom reloading not function properly](https://github.com/reposense/RepoSense/pull/1437)
+- [Use computed `filterSinceDate`](https://github.com/reposense/RepoSense/pull/1441)
 
 </td>
 </tr>

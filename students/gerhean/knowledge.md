@@ -46,3 +46,11 @@ Using [octokit/core](https://www.npmjs.com/package/@octokit/core) for GitHub's R
 - How to fork a repository [link](https://docs.github.com/en/rest/reference/repos#forks)
 - Adding secrets (need to get public key first) [link](https://docs.github.com/en/rest/reference/actions#create-or-update-a-repository-secret)
 - Create or update file contents [link](https://docs.github.com/en/rest/reference/repos#create-or-update-file-contents)
+
+Setting up oauth for github authentication
+- https://docs.github.com/en/developers/apps/authorizing-oauth-apps
+- Parameters are simply query string
+- First redirect users to https://github.com/login/oauth/authorize
+- Users will then be redirected back to your site with a `code` query string parameter
+- Getting the access token requires a client_secret which should not be stored anywhere in the frontend, hence we use [gatekeeper](https://github.com/prose/gatekeeper) as a backend to store the client_secret.
+- The token recieved from gatekeeper can be used to authenticate octokit.
