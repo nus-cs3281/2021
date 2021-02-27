@@ -8,6 +8,7 @@ Week | Achievements
 4 | Merged PR: [IssueTablesComponent: Add tests for 'fitTitleText' function #561](https://github.com/CATcher-org/CATcher/pull/561)
 4 | Merged PR: [AuthService: Abstract out logic for setting browser / window title #564](https://github.com/CATcher-org/CATcher/pull/564)
 4 | Merged PR: [Default filters: Decompose logical expressions into methods #563](https://github.com/CATcher-org/CATcher/pull/563)
+4 | Merged PR: [Rename 'View In Browser' to 'View on GitHub' #582](https://github.com/CATcher-org/CATcher/pull/582)
 4 | Reviewed PR: [PhaseService: retry session setup operation on first failed attempt #556](https://github.com/CATcher-org/CATcher/pull/556)
 4 | Reviewed PR: [Removal of Dev Build Instructions #557](https://github.com/CATcher-org/CATcher/pull/557)
 5 | Opened PR: [Default filters: Decompose logical expressions into methods #592](https://github.com/CATcher-org/CATcher/pull/592)
