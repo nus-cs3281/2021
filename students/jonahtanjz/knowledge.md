@@ -30,4 +30,21 @@ The **ResizeOberver** web API reports changes to the dimensions of an `Element`'
 
 [Implementation details of ResizeObserver can be found here](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
 
+### MarkBind's Retriever.vue for cloning reactive content
+
+I was introduced to this specific vue component while working on the site and page navigation menus for devices with smaller screens. As the menus for the smaller screens are different vue components from the original site and page navigations, I had to pull the content from the original menus to the newly created components. I was initially searching through the DOM to find the menus, and subsequently copying these nodes, using `appendChild`, into the new menus. However, this was not the best solution as reactive content will be lost if it was duplicated in this manner. To ensure consistency of the content of the navigation menus on both desktop and mobile version, content can be cloned using the `Retriever.vue` component to ensure the reactivity of the content.
+
+Refer to [Overlay.vue](https://github.com/MarkBind/markbind/blob/master/packages/vue-components/src/Overlay.vue) and [NestedPanel.vue](https://github.com/MarkBind/markbind/blob/master/packages/vue-components/src/panels/NestedPanel.vue) to see examples of how `Retriever.vue` can be implemented.
+
+Internal implemenentation of `Retriever.vue` can be found [here](https://github.com/MarkBind/markbind/blob/master/packages/vue-components/src/Retriever.vue)
+
+### HTMLElement: transitionend event
+
+This was brought to my attention while I was working on redesigning the navigation bar. As the navigation bar takes up a fair amount of space vertically, on smaller devices, this leaves lesser space for the main content. A solution to this issue was to hide the navigation bar when the user scrolls down so that they will have more space for the main content and unhide the navigation bar when the user scrolls up so that it can be easily accessed. This was acheived by toggling the `overflow` and `max-height` of the navigation bar. To maintain a consistent transition effect, I had to make sure that the `overflow` is only toggled when the transition has completed. I was initially using `setTimeout` to match the transition duration to toggle the `overflow`. This was generally not a good way to do this as the timing of events is not guaranteed, especially across browsers or devices. To ensure that the `overflow` is only toggled when the transition has ended, we could use the `transitionend` event.
+
+The `transitionend` event is fired in both directions - as it finishes transitioning to the transitioned state, and when it fully reverts to the default or non-transitioned state. If there is no transition delay or duration, if both are 0s or neither is declared, there is no transition, and none of the transition events are fired.
+
+Additionally, there are also similar `transition` events, `transitionrun`, `transitionstart`, `transitioncancel`, to track the different transition states.
+
+[Implementation details of transitionedend event can be found here](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/transitionend_event)
 ...
