@@ -15,5 +15,5 @@
 | 5    | Reviewed PR: [Add Cypress tests](https://github.com/reposense/RepoSense/pull/1443)                                                           |
 | 6    | Opened issue: [Reloading hides the display name in authorship contribution](https://github.com/reposense/RepoSense/issues/1455)              |
 | 6    | Reviewed PR: [[#1382] Avoid rerendering tabs unnecessarily](https://github.com/reposense/RepoSense/pull/1390)                                |
-| recess | Authored PR: [Summary chart: fix typo in summary chart methods](https://github.com/reposense/RepoSense/pull/1457)                          |
+| Recess | Authored PR: [Summary chart: fix typo in summary chart methods](https://github.com/reposense/RepoSense/pull/1457)                          |
 
