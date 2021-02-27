@@ -1,6 +1,6 @@
 ## Front-End Knowledge
-
-### 1. Angular
+ 
+### Angular
 
 #### Basics
 Components are the building blocks of the web application. 
