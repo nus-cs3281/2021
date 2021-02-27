@@ -54,3 +54,6 @@ Setting up oauth for github authentication
 - Users will then be redirected back to your site with a `code` query string parameter
 - Getting the access token requires a client_secret which should not be stored anywhere in the frontend, hence we use [gatekeeper](https://github.com/prose/gatekeeper) as a backend to store the client_secret.
 - The token recieved from gatekeeper can be used to authenticate octokit.
+
+Github pages shows 404 when refreshing due to how Single Page Applications like Vue works. Solution is to modify 404.html to redirect to index.html.
+- https://www.smashingmagazine.com/2016/08/sghpa-single-page-app-hack-github-pages/
