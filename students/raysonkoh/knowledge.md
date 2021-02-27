@@ -1,4 +1,4 @@
-### Github Actions
+### Tool 1: Github Actions
 
 #### Aspect 1: Exposing secrets to workflows triggered from a forked repo
 Due to security concerns, Github Actions does not expose repo secrets to workflows which are triggered from a forked repo. However, there may be actual use-cases where certain automated workflows, which require certain repo secrets, may be useful such as PR previews, automated labelling of PRs, generate code coverage report, etc.
@@ -18,7 +18,7 @@ Some useful resources:
 - [Github Actions Docs - About `GITHUB_TOKEN` secret](https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret)
 - [Github Docs - Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
-### Markbind
+### Tool 2: Markbind
 
 #### Aspect 1: Testing CI scripts during development
 There are not a lot of resources online regarding the testing CI scripts from a forked repo during development, especially for a mono-repo such as Markbind. The following is a general guideline for a CI build script that allows you to test your code changes:
