@@ -22,6 +22,8 @@ Source: Teammates code base, Official Docs
 ### Google Cloud Platform
 - Learnt that parallelism might cause mutiple instances to be created and thus increase the cost
 - Used Cloud Trace to find performance bottle-neck of API calls 
+- Used Cloud Profiler to identify and analyze performance bottlenecks
+- Used staging server to simulate a production environment for stress testing on performance bottlenecks
 
 ### Backend Techniques
 - Paginatied API calls: break a huge request down into smaller requests. This allows for more data to be sent at the cost of additional performance overhead

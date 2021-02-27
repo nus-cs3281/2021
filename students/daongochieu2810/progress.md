@@ -10,3 +10,4 @@ Week | Achievements
 6 | Reviewed PR: [Paginate frontend call to webapi for large course](https://github.com/moziliar/teammates/pull/20)
 6 | Reviewed PR: [Refactor student validation logic in enrolment](https://github.com/TEAMMATES/teammates/pull/10971)
 6 | Authored PR: [Paginate enroll calls for large courses](https://github.com/TEAMMATES/teammates/pull/10968)
+7 | Authored PR: [Highlight today date and add today button](https://github.com/TEAMMATES/teammates/pull/10980)
