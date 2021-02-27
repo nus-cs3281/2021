@@ -1,9 +1,9 @@
-### Github Actions
+### Tool 1: Github Actions
 
 #### Aspect 1: Exposing secrets to workflows triggered from a forked repo
 Due to security concerns, Github Actions does not expose repo secrets to workflows which are triggered from a forked repo. However, there may be actual use-cases where certain automated workflows, which require certain repo secrets, may be useful such as PR previews, automated labelling of PRs, generate code coverage report, etc.
 
-Github Actions provide the `pull_request_target` and `workflow_run` to cater for such use-cases. To summarize,  `pull_request_target` runs the trusted workflow code in **your** actual repo (not the forked repo), and as such, it is able to expose the repo secrets during the workflow run. On the other hand, `workflow_run` can be triggered after a prior workflow run has completed and it has access to the repo secrets. The ideal use-case that Github recommends for `workflow_run` is for the prior workflow to generate some artifacts, and for the privileged workflow to take the generated artifacts, do some analysis and post some comments on the pull request.
+Github Actions provide the `pull_request_target` and `workflow_run` to cater for such use-cases. To summarize,  `pull_request_target` runs the trusted workflow code in **your** actual repo (not the forked repo), and as such, it is able to expose the repo secrets during the workflow run. On the other hand, `workflow_run` can be triggered after a prior workflow run has completed and it has access to the repo secrets. The ideal use-case that Github recommends for `workflow_run` is for the prior workflow to generate some <tooltip content="A file or collection of files produced during a workflow run">artifacts</tooltip>, and for the privileged workflow to take the generated artifacts, do some analysis and post some comments on the pull request.
 
 Some useful resources:
 - [Github Actions Docs - secrets not passed to workflows triggered from forked repo ](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#pull-request-events-for-forked-repositories-1)
@@ -18,7 +18,7 @@ Some useful resources:
 - [Github Actions Docs - About `GITHUB_TOKEN` secret](https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret)
 - [Github Docs - Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
-### Markbind
+### Tool 2: Markbind
 
 #### Aspect 1: Testing CI scripts during development
 There are not a lot of resources online regarding the testing CI scripts from a forked repo during development, especially for a mono-repo such as Markbind. The following is a general guideline for a CI build script that allows you to test your code changes:
