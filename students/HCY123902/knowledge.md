@@ -24,13 +24,17 @@ Scss and Css
 
 Description of the tool: style sheet used by Vue User Interface Component.
 
-Aspect: Difference between the usage of class selector in css and scss style sheet, and the naming convention in css style sheet. 
+Aspect: Difference between the usage of class selector in css and scss style sheet.
+
+https://www.w3schools.com/cssref/css_selectors.asp
+
+https://stackoverflow.com/questions/11084757/sass-scss-nesting-and-multiple-classes
 
 https://stackoverflow.com/questions/30505225/how-to-reference-nested-classes-with-css
 
 https://stackoverflow.com/questions/13051721/inheriting-from-another-css-class
 
-https://stackoverflow.com/questions/11084757/sass-scss-nesting-and-multiple-classes
+The naming convention in css style sheet
 
 https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/
 
@@ -38,11 +42,21 @@ https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hour
 
 Vue LifeCycle Management
 
-Description of the tool: Vue component life cycle management tool
+Description of the tool: Vue component life cycle hook
 
 Aspect: Methods that can be used to create hook between Vue component and the template, enabling the pug file template to load information before rendering, and the Vue component to access information in the pug file template before and after its initial rendering.
 
+`created` is a useful method for loading the data and retrieving the window hashes that are needed for the vue component after the component is created.
+
+`beforeMount` is often used to access and modify the information of the component before the rendering.
+
+`mounted` is called after the rendering and it is also used to access or modify the information of the component.
+
+It is important to distinguish between `create` and `beforeMount` and `mounted`
+
 https://medium.com/@akgarg007/vuejs-created-vs-mounted-life-cycle-hooks-74c522b9ceee
+
+https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks
 
 ### Tool/Technology 5
 
@@ -50,7 +64,7 @@ Javascript Syntax for map
 
 Description of the tool: Javascript Syntax related to the retrival of map keys, conversion from map to array, and iteration of map.
 
-Aspect: Some instance methods of retriving key and entry in the Map class does not seem to work because of some reason. The corresponding class methods in the Object class can be used as an alternative option. 
+Aspect: Some instance methods of retriving key and entry in the Map class, such as `map.keys` and `map.entries`, do not seem to work in RepoSense frontend script. The corresponding class methods in the Object class, such as `Object.entries` and `Object.keys`, can be used as an alternative option. 
 
 https://stackoverflow.com/questions/35341696/how-to-convert-map-keys-to-array
 

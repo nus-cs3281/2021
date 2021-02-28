@@ -8,5 +8,7 @@ Week | Achievements
 3 | Merged PR: [Double-line graph #13](https://github.com/moziliar/teammates/pull/13)
 3 | Merged PR: [Front end enhancements #16](https://github.com/moziliar/teammates/pull/16)
 4 | Authored PR: [Add snapshot tests for admin search page #10949](https://github.com/TEAMMATES/teammates/pull/10949)
+5 | Reviewed PR: [Initial Objectify upgrade from v5 to v6 #10956](https://github.com/TEAMMATES/teammates/pull/10956)
 5 | Co-authored PR: [Initial Objectify upgrade from v5 to v6 #10956](https://github.com/TEAMMATES/teammates/pull/10956)
 6 | Merged PR: [Generate legacy key format consistent with the old appengine SDK #9](https://github.com/Derek-Hardy/teammates/pull/9)
+6 | Reviewed PR: [Instructor edit session page: Add scroll to top button #10848](https://github.com/TEAMMATES/teammates/pull/10848)
