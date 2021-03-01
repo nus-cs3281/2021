@@ -8,3 +8,6 @@ Week | Achievements
 2 | Submitted Issue: [Inquiry on PlantUML diagrams rendering with surge/netlify previews #1459](https://github.com/MarkBind/markbind/issues/1459)
 3 | Authored PR: [Minor UG documentation fixes #1439](https://github.com/reposense/RepoSense/pull/1439)
 4 | Authored PR: [Add Cypress tests #1443](https://github.com/reposense/RepoSense/pull/1443)
+5 | Reviewed PR: [Add highlight to selected authorship contribution icon #1453](https://github.com/reposense/RepoSense/pull/1453)
+6 | Reviewed PR (Trivial): [Implement multi-threading #1451](https://github.com/reposense/RepoSense/pull/1451)
+6 | Merged PR: [Replace images as puml diagrams #1406](https://github.com/reposense/RepoSense/pull/1406)
