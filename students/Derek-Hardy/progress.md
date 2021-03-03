@@ -26,3 +26,6 @@ Week | Achievements
 7 | Reviewed PR: [[#10917] Fix unexpected behaviour when reverting to template feedback path #10975](https://github.com/TEAMMATES/teammates/pull/10975)
 7 | Responded to contributor queries: [#10982](https://github.com/TEAMMATES/teammates/issues/10982)
 7 | Responded to contributor queries: [#10995](https://github.com/TEAMMATES/teammates/issues/10995)
+7 | Merged PR: [[#10955] Initial Objectify upgrade from v5 to v6 #10956](https://github.com/TEAMMATES/teammates/pull/10956)
+7 | Submitted Issue: [Remove appengine.api.datastore usage after Objectify v6 upgrade #11001](https://github.com/TEAMMATES/teammates/issues/11001)
+7 | Submitted Issue: [Separate emulator ports for component and E2E tests #11002](https://github.com/TEAMMATES/teammates/issues/11002)

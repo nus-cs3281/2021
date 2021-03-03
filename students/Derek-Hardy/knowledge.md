@@ -11,6 +11,14 @@
 [Query reference](https://cloud.google.com/appengine/docs/standard/java/datastore/queries),
 [Data consistency](https://cloud.google.com/appengine/docs/standard/java/datastore/data-consistency#data_consistency_levels)
 
+### Datastore emulator
+* understand the usage of local datastore emulator for testing
+* usage of LocalDatastoreHelper in Cloud Storage unit test setup
+
+**Resource:**
+[Datastore emulator doc](https://cloud.google.com/datastore/docs/tools/datastore-emulator),
+[LocalDatastoreHelper API](https://googleapis.dev/java/google-cloud-clients/0.89.0-alpha/com/google/cloud/datastore/testing/LocalDatastoreHelper.html)
+
 ### Cloud Logging
 * Understand the internal working of Google Cloud Logging.
 
