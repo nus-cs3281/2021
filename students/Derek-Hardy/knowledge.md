@@ -2,10 +2,14 @@
 * Understand various aspects of the Google Cloud Storage such as:
   * Blob storage
   * KeyFactory
+  * ancestor filter and non-ancestor query
+  * datastore query data consistency
 
 **Resource:**
 [Blob reference](https://googleapis.dev/java/google-cloud-storage/latest/index.html),
-[KeyFactory reference](https://cloud.google.com/appengine/docs/standard/java/javadoc/com/google/appengine/api/datastore/KeyFactory)
+[KeyFactory reference](https://cloud.google.com/appengine/docs/standard/java/javadoc/com/google/appengine/api/datastore/KeyFactory),
+[Query reference](https://cloud.google.com/appengine/docs/standard/java/datastore/queries),
+[Data consistency](https://cloud.google.com/appengine/docs/standard/java/datastore/data-consistency#data_consistency_levels)
 
 ### Cloud Logging
 * Understand the internal working of Google Cloud Logging.

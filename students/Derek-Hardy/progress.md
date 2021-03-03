@@ -25,3 +25,4 @@ Week | Achievements
 7 | Reviewed PR: [[#10819] Instructor edit session page: Add scroll to top button #10848](https://github.com/TEAMMATES/teammates/pull/10848)
 7 | Reviewed PR: [[#10917] Fix unexpected behaviour when reverting to template feedback path #10975](https://github.com/TEAMMATES/teammates/pull/10975)
 7 | Responded to contributor queries: [#10982](https://github.com/TEAMMATES/teammates/issues/10982)
+7 | Responded to contributor queries: [#10995](https://github.com/TEAMMATES/teammates/issues/10995)
