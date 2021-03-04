@@ -23,3 +23,6 @@ Week | Achievements
 6 | Investigated Issue: [Support slots for box components #1492](https://github.com/MarkBind/markbind/issues/1492)
 6 | Authored PR: [Update intralink auto-conversion to convert links with URL fragment #1493](https://github.com/MarkBind/markbind/pull/1493)
 6 | Authored PR: [Fix no-conversion syntax for intralink in user guide #1494](https://github.com/MarkBind/markbind/pull/1494)
+7 | Reviewed PR: [Show all tabs when printing #1498](https://github.com/MarkBind/markbind/pull/1498)
+7 | Opened Issue: [Tab selection "jumpy" render #1499](https://github.com/MarkBind/markbind/issues/1499)
+7 | Opened Issue: [markdown-it-attrs not parsing properly in user guide #1500](https://github.com/MarkBind/markbind/issues/1500)
