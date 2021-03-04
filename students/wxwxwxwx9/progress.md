@@ -26,3 +26,4 @@ Week | Achievements
 7 | Reviewed PR: [Show all tabs when printing #1498](https://github.com/MarkBind/markbind/pull/1498)
 7 | Opened Issue: [Tab selection "jumpy" render #1499](https://github.com/MarkBind/markbind/issues/1499)
 7 | Opened Issue: [markdown-it-attrs not parsing properly in user guide #1500](https://github.com/MarkBind/markbind/issues/1500)
+7 | Authored PR: [Fix escaped html characters in search result #1501](https://github.com/MarkBind/markbind/pull/1501)
