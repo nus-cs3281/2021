@@ -27,3 +27,6 @@ Week | Achievements
 7 | Opened Issue: [Tab selection "jumpy" render #1499](https://github.com/MarkBind/markbind/issues/1499)
 7 | Opened Issue: [markdown-it-attrs not parsing properly in user guide #1500](https://github.com/MarkBind/markbind/issues/1500)
 7 | Authored PR: [Fix escaped html characters in search result #1501](https://github.com/MarkBind/markbind/pull/1501)
+7 | Authored PR: [Update header slots for Vue components #1502](https://github.com/MarkBind/markbind/pull/1502)
+7 | Opened Issue: [Dropdown header color suspected to be incorrect #1503](https://github.com/MarkBind/markbind/issues/1503)
+7 | Opened Issue: [Fully deprecating 'text' attribute for dropdown #1504](https://github.com/MarkBind/markbind/issues/1504)
