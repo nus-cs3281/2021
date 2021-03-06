@@ -22,4 +22,10 @@ Week | Achievements
 6 | Reviewed PR: [[#10941] Copying questions requires scrolling the whole list of current questions #10961](https://github.com/TEAMMATES/teammates/pull/10961)
 6 | Reviewed PR: [[#10920] Improve Front-End Testing for Course Edit Page #10926](https://github.com/TEAMMATES/teammates/pull/10926)
 6 | Reviewed PR: [[#10944] Migrate Blobstore API to Google Cloud Storage #10945](https://github.com/TEAMMATES/teammates/pull/10945)
-
+7 | Reviewed PR: [[#10819] Instructor edit session page: Add scroll to top button #10848](https://github.com/TEAMMATES/teammates/pull/10848)
+7 | Reviewed PR: [[#10917] Fix unexpected behaviour when reverting to template feedback path #10975](https://github.com/TEAMMATES/teammates/pull/10975)
+7 | Responded to contributor queries: [#10982](https://github.com/TEAMMATES/teammates/issues/10982)
+7 | Responded to contributor queries: [#10995](https://github.com/TEAMMATES/teammates/issues/10995)
+7 | Merged PR: [[#10955] Initial Objectify upgrade from v5 to v6 #10956](https://github.com/TEAMMATES/teammates/pull/10956)
+7 | Submitted Issue: [Remove appengine.api.datastore usage after Objectify v6 upgrade #11001](https://github.com/TEAMMATES/teammates/issues/11001)
+7 | Submitted Issue: [Separate emulator ports for component and E2E tests #11002](https://github.com/TEAMMATES/teammates/issues/11002)

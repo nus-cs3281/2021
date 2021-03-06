@@ -1,14 +1,16 @@
-### DOM Traversal, Manipulation, and Things to Watch Out
+### `htmlparser2`: DOM Traversal, Manipulation, and Things to Watch Out
 
-MarkBind uses a combination of [`htmlparser2`]() and [`cheerio`]() for operations with the HTML representation before finalizing
-the page to be served, the former is for parsing HTML strings into pseudo-DOM nodes, and the latter is for manipulating those nodes, adding/removing new nodes, and selecting specific nodes, akin to [`jQuery`]().
+MarkBind uses a combination of [`htmlparser2`](https://github.com/fb55/htmlparser2) and [`cheerio`](https://cheerio.js.org/)
+for operations with the HTML representation before finalizing the page to be served, the former is for parsing HTML strings
+into pseudo-DOM nodes, and the latter is for manipulating those nodes, adding/removing new nodes, and selecting specific nodes,
+akin to [`jQuery`](https://jquery.com/).
 
-However, as cheerio does a lot of work behind the scenes, the library can be deemed as expensive to use in a
+However, as `cheerio` does a lot of work behind the scenes (especially in `cheerio.load`), the library can be deemed as expensive to use in a
 performance-sensitive environment. Thus, `cheerio` is used sparingly, and when the situation calls for it. With this in mind,
 I had to be creative in manipulating the DOM as best as I can without `cheerio`.
 
-After some research and manual look into the ones in MarkBind, I get some understanding of the DOM nodes are structured. \
-A DOM node provided by `htmlparser2` is generally structured like so:
+After some research and manual look into the DOM nodes in MarkBind, I get some understanding of the DOM nodes are structured. \
+A DOM node provided by `htmlparser2` is generally structured like this:
 
 ```js
 {
@@ -57,3 +59,28 @@ things on the references.
 - Set the `prev` value to be the node that is directly before this.
 - Set the `next` value to be the node that is directly after this.
 - After the two is finished, update the node's `parent` to the node's actual parent.
+
+This should address the referencing pretty well for the node to be rendered properly. However, I have to note that the
+references are better to be handled with `cheerio` whenever possible, and direct manipulation of references are to be done
+when under a constraint.
+
+### `highlight.js`: Tokens and HTML-Preserving Quirks
+
+In researching ways to partially highlight text in a syntax-highlighted code block, I ended up understanding part of the way
+[`highlight.js`](https://highlightjs.org/) applies syntax highlighting to a text.
+
+`highlight.js` breaks down the text to *tokens*, where each token will be wrapped as a `<span>` and has a specific styling
+prepared in the applied theme's CSS. These tokens may actually contain other tokens, in which it will be displayed as nested
+elements. The token names are useful if you want to target specific styling to specific types of tokens, such as adding stronger
+color for variables, muting down the color for comments, and so on. 
+
+Then there is a quirk to `highlight.js` highlighting method that it somehow preserves HTML in a code block when the text is
+being broken down to tokens. That is, the HTML code does not get parsed and are not considered a part of the code block. That
+means, one can add a custom styling HTML element wrapping a part of the text and the styling will still be displayed even though
+the element was parsed and styled by `highlight.js`.
+
+This was a good candidate for partial text highlighting. But unfortunately, this does not apply when the language being parsed
+is HTML and other variants (e.g. XML). So, partial text highlighting cannot be reliably done in this way across all languages.
+
+References:
+- https://github.com/highlightjs/highlight.js/issues/1561
