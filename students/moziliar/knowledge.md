@@ -28,6 +28,13 @@ It has a totally different need from the enterprise applications.
 * User centric decision making
 * Learnt to prioritize tasks, e.g. bugs that compromise agreement with users, over nice-to-have features
 
+### Frontend E2E Testing via Selenium
+
+TEAMMATES E2E testing is built on Selenium, which starts a browser driver (Chrome or Firefox so far) and emulate a user's workflow to test the input and the correctness of the webpage behaviour.
+
+* Configure local e2e testing environment by downloading chromedriver and connect to it in test.properties
+* Essentially, a browser is fired up and the test platform emulates the user input, read the resultant webpage, and check if the elements inside are expected.
+
 ### Java
 
 Some new Java knowledge learnt through experimentation
