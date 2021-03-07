@@ -12,6 +12,23 @@ RxJS supports `Observables` and `Observers`, allowing `Observers` to receive upd
 
 Pipes from the RxJS library are used very frequently in CATcher reduce clutter and improve readability of our codebase. It strings together operators in a sequence such that the operators can be applied to the given value in order.
 
+Example of custom operators using pipes in CATcher:
+```
+export function assertSessionDataIntegrity() {
+   return pipe(
+     throwIfFalse(sessionData => sessionData !== undefined,
+       () => new Error('Session Data Unavailable')),
+     throwIfFalse(isSessionDataCorrectlyDefined,
+       () => new Error('Session Data is Incorrectly Defined')),
+     throwIfFalse(hasOpenPhases,
+       () => new Error('There are no accessible phases.')));
+ }
+```
+##### Knowledge Gained:
+1. Enforcing separation of concerns in modules by splitting functions and logic into different components and services
+2. Using observables to enable asynchronous operations in our application
+3. Using pipes to efficiently transform data used in our application
+
 ### Resources Used & Summary
 
 1. [Angular Guide](https://angular.io/guide/architecture) : Official Angular developer guide and introduction to basic Angular topics
@@ -30,6 +47,10 @@ The very basics of Jasmine testing involves the test suite, which is started by 
 #### Spy
 One distinctive aspect of Jasmine testing (or other Javascript testing frameworks such as Jest) is the `Spy` object. It allows users to stub functions and keep track of useful information such as the number of calls to the function, parameters it has been called with, etc., which is very useful for testing different parts of a function under test thoroughly. For example, if function B is called within function A which is under test, the user is able to find out detailed information regarding how function B is called within A by creating a spy object of B. This allows testers to verify that B has indeed been called with the correct arguments correct number of times.
 
+##### Knowledge Gained:
+1. Writing unit tests for different components and functions in Typescript
+2. Using Spy objects in tests to stub functions and improve quality and efficiency of tests
+
 ### Resources Used & Summary
 
 1. [Official Jasmine documentation](https://jasmine.github.io/api/3.6/global) : This is the official Jasmine documentation for Jasmine 3.6
@@ -44,6 +65,18 @@ CATcher uses Electron for its Desktop application. Electron is a framework for b
 Electron uses the module `ipcMain` to communicate to renderer processes from the main process. As an Event Emimtter, it is able to send out and listen for events, allowing inter-process communication within the Electron application (as the name suggests).
 
 Because it is a desktop application, it is important that we account for different operating systems in our code, since different operating systems would behave differently to changes in our application.
+
+Example of adapting application logic to Linux O.S.
+```
+  if (isLinuxOs()) {
+    // app icon needs to be set manually on Linux platforms
+    windowOptions['icon'] = ICON_PATH;
+  }
+```
+
+##### Knowledge Gained:
+1. Understanding behaviours and characterisitics of different operating systems
+2. Adapting application logic to different operating systems
 
 ### Resources Used & Summary
 

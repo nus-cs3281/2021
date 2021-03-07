@@ -28,4 +28,13 @@
 | 6    | Reviewed PR: [Logical Method Decompositon: IssueRespondedComponent #599](https://github.com/CATcher-org/CATcher/pull/599) |
 | 6    | Opened Issue: [Fix Asynchronous Test Expectation Bug #607](https://github.com/CATcher-org/CATcher/pull/607) |
 | 6    | Authored PR (Pending Review): [E2E Testing: New Bug Report #599](https://github.com/CATcher-org/CATcher/pull/596) |
-| 6    | Authored PR (Pending Review): [Updating Dev Notes with E2E Information #599](https://github.com/CATcher-org/CATcher/pull/610) |
+| 6    | Merged PR: [Updating Dev Notes with E2E Information #599](https://github.com/CATcher-org/CATcher/pull/610) |
+| 7    | Opened Issue: [Logging to file #615](https://github.com/CATcher-org/CATcher/issues/615) |
+| 7    | Opened Issue: [Prettier Configuration #624](https://github.com/CATcher-org/CATcher/issues/624) |
+| 7    | Opened Issue: [IssueTable Bug: Open-In-Web Fail #619](https://github.com/CATcher-org/CATcher/issues/619) |
+| 7    | Authored PR (Pending Review): [TesterResponse: RadioButton to replace Checkboxes #618](https://github.com/CATcher-org/CATcher/pull/618) |
+| 7    | Authored PR (Pending Review): [Added Cached Logging Capability #616](https://github.com/CATcher-org/CATcher/pull/616) |
+| 7    | Merged PR: [IssueTable: View in Browser Fix #620](https://github.com/CATcher-org/CATcher/pull/620) |
+| 7    | Merged PR: [CI Faliure Bug Fix: Match Driver with Browser Version #622](https://github.com/CATcher-org/CATcher/pull/622) |
+| 7    | Reviewed PR: [RepoCreatorService: Create custom Repo Creation Operator #612](https://github.com/CATcher-org/CATcher/pull/612) |
+| 7    | Reviewed PR: [Add Next Handler for Observable Tests #608](https://github.com/CATcher-org/CATcher/pull/608) |
