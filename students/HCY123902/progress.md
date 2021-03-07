@@ -17,3 +17,4 @@
 | 6    | Reviewed PR: [[#1382] Avoid rerendering tabs unnecessarily](https://github.com/reposense/RepoSense/pull/1390)                                |
 | Recess | Authored PR: [Summary chart: fix typo in summary chart methods](https://github.com/reposense/RepoSense/pull/1457)                          |
 | 7    | Merged PR: [[#1352] Add highlight to selected authorship or commit tab](https://github.com/reposense/RepoSense/pull/1453)<br/>                                                      Add highlight for the selected authorship contribution or commit tab on the summary view, and the selected repository title                  |
+| 7    | Reviewed PR: [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)                  |
