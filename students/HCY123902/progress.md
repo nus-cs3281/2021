@@ -17,5 +17,5 @@
 | 6    | Reviewed PR: [[#1382] Avoid rerendering tabs unnecessarily](https://github.com/reposense/RepoSense/pull/1390)                                |
 | Recess | Authored PR: [Summary chart: fix typo in summary chart methods](https://github.com/reposense/RepoSense/pull/1457)                          |
 | 5    | Merged PR: [[#1352] Add highlight to selected authorship contribution icon](https://github.com/reposense/RepoSense/pull/1453)                |
-|      | *hello                                                                                                                                          |
+|      | * hello                                                                                                                                          |
 |------|-------------------------------------------------------------------------------------------------------------------------------------------|
