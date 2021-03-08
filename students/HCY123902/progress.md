@@ -16,6 +16,6 @@
 | 6    | Opened issue: [Reloading hides the display name in authorship contribution](https://github.com/reposense/RepoSense/issues/1455)              |
 | 6    | Reviewed PR: [[#1382] Avoid rerendering tabs unnecessarily](https://github.com/reposense/RepoSense/pull/1390)                                |
 | Recess | Authored PR: [Summary chart: fix typo in summary chart methods](https://github.com/reposense/RepoSense/pull/1457)                          |
-| 7    | Merged PR: [[#1352] Add highlight to selected authorship or commit tab](https://github.com/reposense/RepoSense/pull/1453)<br/>                                                      Add highlight for the selected authorship contribution or commit tab on the summary view, and the selected repository title                  |
+| 7    | Merged PR: [[#1352] Add highlight to selected authorship or commit tab](https://github.com/reposense/RepoSense/pull/1453)<br/>                                                      Add highlight for the selected tab as well as the selected group title on the summary view                                                   |
 | 7    | Merged PR: [v_summary_charts: fix typo of some arguments](https://github.com/reposense/RepoSense/pull/1457)                                  |
 | 7    | Reviewed PR: [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)                  |
