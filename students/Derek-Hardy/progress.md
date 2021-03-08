@@ -29,3 +29,5 @@ Week | Achievements
 7 | Merged PR: [[#10955] Initial Objectify upgrade from v5 to v6 #10956](https://github.com/TEAMMATES/teammates/pull/10956)
 7 | Submitted Issue: [Remove appengine.api.datastore usage after Objectify v6 upgrade #11001](https://github.com/TEAMMATES/teammates/issues/11001)
 7 | Submitted Issue: [Separate emulator ports for component and E2E tests #11002](https://github.com/TEAMMATES/teammates/issues/11002)
+7 | Reviewed PR: [[#10938] Support copying courses #11012](https://github.com/TEAMMATES/teammates/pull/11012)
+8 | Review PR: [[#11001] Migrate appengine datastore API usage #11019](https://github.com/TEAMMATES/teammates/pull/11019)
