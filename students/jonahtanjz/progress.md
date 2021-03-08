@@ -14,7 +14,7 @@ Week | Achievements
 6 | Merged PR: [Update Navbar.vue snapshot test #1488](https://github.com/MarkBind/markbind/pull/1488)
 6 | Investigated Issue: [Best-in-class support for code blocks #1496](https://github.com/MarkBind/markbind/issues/1496)
 7 | Reviewed PR: [Support Previewing PR using Surge.sh #1487](https://github.com/MarkBind/markbind/pull/1487)
-7 | Reviewed PR: [Fix no-conversion syntax for intralink in user guide #1494](https://github.com/MarkBind/markbind/pulls)
+7 | Reviewed PR: [Fix no-conversion syntax for intralink in user guide #1494](https://github.com/MarkBind/markbind/pull/1494)
 7 | Reviewed PR: [Add minor polishes to userGuide #1497](https://github.com/MarkBind/markbind/pull/1497)
 7 | Investigated Issue: [Tab selection "jumpy" render #1499](https://github.com/MarkBind/markbind/issues/1499)
 7 | Merged PR: [Show all tabs when printing #1498](https://github.com/MarkBind/markbind/pull/1498)
