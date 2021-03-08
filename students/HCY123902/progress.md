@@ -11,9 +11,11 @@
 | 4    | Merged PR: [[#1404] DG: edit the running from code part](https://github.com/reposense/RepoSense/pull/1405)                                   |
 | 4    | Merged PR: [[#1407] DG: add Gradle instructions to workflow](https://github.com/reposense/RepoSense/pull/1408)                               |
 | 4    | Merged PR: [[#1409] UG: fix typos in CLI documentation](https://github.com/reposense/RepoSense/pull/1410)                                    |
-| 5    | Authored PR: [[#1352] Add highlight to selected authorship contribution icon](https://github.com/reposense/RepoSense/pull/1453)              |
+| 5    | Authored PR: [[#1352] Add highlight to selected authorship or commit tab](https://github.com/reposense/RepoSense/pull/1453)                  |
 | 5    | Reviewed PR: [Add Cypress tests](https://github.com/reposense/RepoSense/pull/1443)                                                           |
 | 6    | Opened issue: [Reloading hides the display name in authorship contribution](https://github.com/reposense/RepoSense/issues/1455)              |
 | 6    | Reviewed PR: [[#1382] Avoid rerendering tabs unnecessarily](https://github.com/reposense/RepoSense/pull/1390)                                |
 | Recess | Authored PR: [Summary chart: fix typo in summary chart methods](https://github.com/reposense/RepoSense/pull/1457)                          |
-
+| 7    | Merged PR: [[#1352] Add highlight to selected authorship or commit tab](https://github.com/reposense/RepoSense/pull/1453)<br/>                                                      Add highlight to the selected tab as well as the selected group title on the summary view                                                   |
+| 7    | Merged PR: [v_summary_charts: fix typo of some arguments](https://github.com/reposense/RepoSense/pull/1457)                                  |
+| 7    | Reviewed PR: [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)                  |

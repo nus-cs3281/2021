@@ -19,3 +19,6 @@
 | 6    | Reviewed PR: [Default filters: Decompose logical expressions into methods #599](https://github.com/CATcher-org/CATcher/pull/599) |
 | 6    | Submitted Issue: [Add header comments in workflow files #598](https://github.com/CATcher-org/CATcher/issues/598) |
 | 6    | Submitted Issue: [ProfilesComponent: Add Component Tests #601](https://github.com/CATcher-org/CATcher/issues/601) |
+| 7    | Reviewed PR: [Assert 'profiles.json' to have required fields #623](https://github.com/CATcher-org/CATcher/pull/623) |
+| 7    | Drafted PR: [RepoCreatorService: Create custom operator for verifying the creation of repository #612](https://github.com/CATcher-org/CATcher/pull/612) | 
+| 7    | Merged PR: [Tests: Move mock SessionData into constants file #597](https://github.com/CATcher-org/CATcher/pull/597) | 

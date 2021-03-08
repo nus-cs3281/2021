@@ -8,3 +8,5 @@ Week | Achievements
 6 | Merged PR: [[#21] Fix failing tests for frontend components](https://github.com/moziliar/teammates/pull/21)
 6 | Merged PR: [[#22] Add transparent overlay for loading modal](https://github.com/moziliar/teammates/pull/22)
 Recess | Authored PR: [[#23] Fix remaining frontend issues for pagination ](https://github.com/moziliar/teammates/pull/23)
+7 | Reviewed PR: [[#10987] Open new tab for the contact page](https://github.com/TEAMMATES/teammates/pull/10991)
+7 | Merged PR: [[#24 Terminate download when X button is pressed](https://github.com/moziliar/teammates/pull/24)]
