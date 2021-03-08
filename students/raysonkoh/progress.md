@@ -18,3 +18,5 @@ Week | Achievements
 6 | Merged PR: [Reorganize deployingTheSite page #1489](https://github.com/MarkBind/markbind/pull/1489)
 6 | Submitted Issue: [Auto link extension conversion not working when linking to specific section in .md file #1490](https://github.com/MarkBind/markbind/issues/1490)
 6 | Reviewed PR: [Update intralink auto-conversion to convert links with URL fragment #1493](https://github.com/MarkBind/markbind/pull/1493)
+7 | Investigated Issue: [Best-in-class support for code blocks #1496](https://github.com/MarkBind/markbind/issues/1496)
+7 | Merged PR: [Add minor polishes to userGuide #1497](https://github.com/MarkBind/markbind/pull/1497)
