@@ -11,5 +11,6 @@ Week | Achievements
 6 | Reviewed PR: [Refactor student validation logic in enrolment](https://github.com/TEAMMATES/teammates/pull/10971)
 6 | Authored PR: [Paginate enroll calls for large courses (FE)](https://github.com/TEAMMATES/teammates/pull/10968)
 7 | Merged PR: [Highlight today date and add today button](https://github.com/TEAMMATES/teammates/pull/10980)
+8 | Reviewed PR: [Break down question result fetch by section for scalability](https://github.com/TEAMMATES/teammates/pull/11017)
 8 | Authored PR: [LnP tests for batch processing](https://github.com/TEAMMATES/teammates/pull/11027)
 8 | Authored PR: [Break course CRUD permission into edit, delete and restore permissions](https://github.com/TEAMMATES/teammates/pull/11029)
