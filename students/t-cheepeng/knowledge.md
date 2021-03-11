@@ -37,3 +37,10 @@ Resource: [Log API](https://cloud.google.com/appengine/docs/standard/java/javado
 Aspects: Cloud logging labels that allow user-defined labels, their limitations and defaults
 
 Resource: [Using log-based metrics](https://cloud.google.com/logging/docs/logs-based-metrics/labels)
+
+---
+
+### Angular testing for window object
+Aspects: window object is frequently used in the codebase of TEAMMATES, e.g., window.location.href. The usage of Angular as a framework with jest testing means that window object should usually not be accessed directly. Testing of the window object in unit tests then require some APIs and dependency injection techniques
+
+Resource: [InjectionToken](https://angular.io/api/core/InjectionToken), [Injecting Window to Angular](https://jasminexie.github.io/injecting-window-in-an-angular-application/)

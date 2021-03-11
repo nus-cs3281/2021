@@ -1,6 +1,9 @@
-Note: I will consolidate what I learnt about each topic into a blog post or slideshow! Feel free to edit them if you want!
+I have consolidated my learning into a blog here: https://teikjun.vercel.app/
 
-### Testing with Jest
+For easy reference, here are quick links to each of the blog posts. 
+Click on them to find out more ⬇
 
-Basic to advanced features of Jest.
-https://docs.google.com/presentation/d/1K5CjBQ2K0_vIeoNZFkKBfaFPO7eFv4AfIqm7zBkrxMo/edit?usp=sharing
+1. [Setting up TEAMMATES on WSL2](https://teikjun.vercel.app/testing-with-jest/)
+2. [Testing with Jest](https://teikjun.vercel.app/teammates-wsl2/)
+3. [Resources for learning Angular](https://teikjun.vercel.app/angular)
+4. [Reactive programming with RxJS](https://teikjun.vercel.app/rxjs)

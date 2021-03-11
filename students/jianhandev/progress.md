@@ -11,3 +11,6 @@ Week | Achievements
 5 | Reviewed PR: [Initial Objectify upgrade from v5 to v6 #10956](https://github.com/TEAMMATES/teammates/pull/10956)
 5 | Co-authored PR: [Initial Objectify upgrade from v5 to v6 #10956](https://github.com/TEAMMATES/teammates/pull/10956)
 6 | Merged PR: [Generate legacy key format consistent with the old appengine SDK #9](https://github.com/Derek-Hardy/teammates/pull/9)
+6 | Reviewed PR: [Instructor edit session page: Add scroll to top button #10848](https://github.com/TEAMMATES/teammates/pull/10848)
+7 | Co-authored PR: [Add Datastore Emulator setup documentation #10958](https://github.com/TEAMMATES/teammates/pull/10958)
+7 | Authored PR: [Migrate appengine datastore API usage #11019](https://github.com/TEAMMATES/teammates/pull/11019)

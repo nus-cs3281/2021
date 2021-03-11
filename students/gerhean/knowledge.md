@@ -36,7 +36,13 @@ dotenv
 - Useful for secrets.
 - https://www.robertcooper.me/front-end-javascript-environment-variables
 
+Vue Router
+- Easy to use router for Vue.
+- https://router.vuejs.org/installation.html
 
+Vuex
+- Global store for Vue, helps in debugging.
+- https://vuex.vuejs.org/
 
 ### Github
 
