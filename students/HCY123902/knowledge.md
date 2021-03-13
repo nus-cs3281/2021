@@ -76,5 +76,13 @@ https://devdocs.io/javascript-map/
 
 https://devdocs.io/javascript-object/
 
+### Tool/Technology 6
 
+Vue Computed Properties and Watchers
+
+Description of the tool: Respective usage of computed properties and watchers in Vue component
+
+Aspect: There is difference between the computed properties and watchers in Vue component. Computed property is often used to compute value based on declared variable, while watcher is often used to detect change in watched object and make the response respectively.
+
+https://vuejs.org/v2/guide/computed.html
 
