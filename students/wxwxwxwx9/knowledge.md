@@ -53,5 +53,9 @@ List the aspects you learned, and the resources you used to learn them, and a br
 
 https://developers.google.com/web/updates/2019/02/rendering-on-the-web
 
+https://snipcart.com/blog/vue-render-functions
+
 https://www.youtube.com/watch?v=wZN_FtZRYC8&ab_channel=LaraconEU
 
+// 'Templates should only be responsible for mapping the state to the UI.
+// Avoid placing tags with side-effects in your templates, such as script, as they will not be parsed.
