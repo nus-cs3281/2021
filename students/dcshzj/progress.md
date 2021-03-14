@@ -98,6 +98,9 @@ Opened PRs:
 Reviewed PRs:
 - [\[#1472\] Add release guide](https://github.com/reposense/RepoSense/pull/1474)
 
+Opened issues:
+- [Allow disabling of the code panel for private repositories](https://github.com/reposense/RepoSense/issues/1479)
+
 </td>
 </tr>
 </tbody>
