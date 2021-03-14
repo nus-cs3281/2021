@@ -11,7 +11,14 @@ Some useful resources:
 - [Github's research and recommendations on securing workflows from forked repo](https://securitylab.github.com/research/github-actions-preventing-pwn-requests)
 - [Github blog introducing `pull_request_target` and `workflow_run`](https://github.blog/2020-08-03-github-actions-improvements-for-fork-and-pull-request-workflows/)
 
-#### Aspect 2: Github Tokens
+#### Aspect 2: Sharing data across different steps
+Github actions provide the abilitiy for a task to communicate with the runner machine to set environmental variables and output values that other tasks can reference, via `workflow commands`. This might be useful for segmenting the workflow up into multiple steps, to improve code readability and maintainability.
+
+Some useful resources:
+- [Github Actions Docs - workflow commands](https://docs.github.com/en/actions/reference/workflow-commands-for-github-actions)
+- [Tech Blog - Output Multiline Strings in GitHub Actions](https://trstringer.com/github-actions-multiline-strings/)
+
+#### Aspect 3: Github Tokens
 For Github Actions, there is a default `GITHUB_TOKEN` secret that the user can use to authenticate in a workflow run. The token expires after the job is finished. With this, one doesn't need to explicitly generate Personal Access Token for workflows which require **write** repo permissions.
 
 Some useful resources:

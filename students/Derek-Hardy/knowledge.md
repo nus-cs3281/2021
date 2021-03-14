@@ -4,20 +4,26 @@
   * KeyFactory
   * ancestor filter and non-ancestor query
   * datastore query data consistency
+  * search API concepts and practices (document, index, query, cursor...)
+  * GCP data buckets import & export 
 
 **Resource:**
 [Blob reference](https://googleapis.dev/java/google-cloud-storage/latest/index.html),
 [KeyFactory reference](https://cloud.google.com/appengine/docs/standard/java/javadoc/com/google/appengine/api/datastore/KeyFactory),
 [Query reference](https://cloud.google.com/appengine/docs/standard/java/datastore/queries),
-[Data consistency](https://cloud.google.com/appengine/docs/standard/java/datastore/data-consistency#data_consistency_levels)
+[Data consistency](https://cloud.google.com/appengine/docs/standard/java/datastore/data-consistency#data_consistency_levels),
+[Search API documentation](https://cloud.google.com/appengine/docs/standard/java/search)
 
 ### Datastore emulator
 * understand the usage of local datastore emulator for testing
 * usage of LocalDatastoreHelper in Cloud Storage unit test setup
+* data import/export between the emulator and staging server
 
 **Resource:**
 [Datastore emulator doc](https://cloud.google.com/datastore/docs/tools/datastore-emulator),
-[LocalDatastoreHelper API](https://googleapis.dev/java/google-cloud-clients/0.89.0-alpha/com/google/cloud/datastore/testing/LocalDatastoreHelper.html)
+[LocalDatastoreHelper API](https://googleapis.dev/java/google-cloud-clients/0.89.0-alpha/com/google/cloud/datastore/testing/LocalDatastoreHelper.html),
+[Entity import/export](https://cloud.google.com/datastore/docs/export-import-entities),
+[Emulator import/export](https://cloud.google.com/datastore/docs/tools/emulator-export-import)
 
 ### Cloud Logging
 * Understand the internal working of Google Cloud Logging.
@@ -27,8 +33,6 @@
 [Logging v2 Doc](https://cloud.google.com/logging/docs/reference/api-overview)
 
 ### Objectify v5, v6
-**Aspects:** 
-
 * Common operations on entity schema, queries and migration
 * Interactions with Google Cloud Datastore in different versions (v5, v6)
 * Objectify unit test environment setup
@@ -39,24 +43,27 @@
 [Stackoverflow](https://stackoverflow.com/questions/32628124/how-to-use-objectifyservice-in-junit-testing),
 [Update PR](https://github.com/Derek-Hardy/teammates/pull/9)
 
+### Adaptive and responsive design
+* definition, use cases
+* tradeoff and how to make choice
+
+**Resource:** [Responsive Design vs. Adaptive Design: What’s the Best Choice for Designers?](https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/)
+
 ### GitHub Action
-**Aspects:** how to configure CI workflow to the existing project
+* how to configure CI workflow to the existing project
 
 **Resource:** [GitHub Action documentation](https://docs.github.com/en/actions/quickstart)
 
 ### Angular test framework
-**Aspects:** available components and best practices to test Angular components
+* available components and best practices to test Angular components
 
 **Resource:** [the official Angular documentation](https://angular.io/guide/testing)
 
----
-
 ### CSS
-**Aspects:** different use and functionalities of flexbox layout
+* different use and functionalities of flexbox layout
 
 **Resource:** [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
----
 ### Git
 **Problem:** permission denied when pushing to remote repo
 
@@ -79,8 +86,6 @@ Git reset --hard <SHA>
 
 **Resource:** Stackoverflow
 
----
-
 ### GitHub
 
 **Problem:** "refusing to allow an OAuth App to create or update workflow" on git push
@@ -89,8 +94,6 @@ Git reset --hard <SHA>
 Otherwise, the request will likely be declined.
 
 **Resource:** [Stackoverflow](https://stackoverflow.com/questions/64059610/how-to-resolve-refusing-to-allow-an-oauth-app-to-create-or-update-workflow-on)
-
----
 
 ### Java/OS
 How to switch between Java versions on the PC for working with different project environment?

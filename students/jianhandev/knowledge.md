@@ -80,9 +80,18 @@ the UI does not change unexpectedly.
 
 ### Google Cloud Datastore
 **Aspects Learned**
-* Running a Google Cloud Datastore Emulator
-* Exporting and importing data to emulate production Datastore environment 
+* Deploying to a staging server on GAE
+* Setting up, running and connecting a Datastore Emulator
+* Exporting data from a staging server 
+* Importing data into Datastore Emulator for backward compatibility testing
 
 **Resources:**
 [Running the Emulator](https://cloud.google.com/datastore/docs/tools/datastore-emulator),
 [Export and Import Data](https://cloud.google.com/datastore/docs/tools/emulator-export-import)
+
+### Backend Testing (E2E)
+**Aspects Learned**  
+* PageObject Design Pattern
+
+**Resources:**
+[PageObject Design Pattern](https://martinfowler.com/bliki/PageObject.html)
