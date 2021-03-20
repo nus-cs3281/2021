@@ -13,4 +13,5 @@ Week | Achievements
 6 | Merged PR: [Generate legacy key format consistent with the old appengine SDK #9](https://github.com/Derek-Hardy/teammates/pull/9)
 6 | Reviewed PR: [Instructor edit session page: Add scroll to top button #10848](https://github.com/TEAMMATES/teammates/pull/10848)
 7 | Co-authored PR: [Add Datastore Emulator setup documentation #10958](https://github.com/TEAMMATES/teammates/pull/10958)
-7 | Authored PR: [Migrate appengine datastore API usage #11019](https://github.com/TEAMMATES/teammates/pull/11019)
+7 | Merged PR: [Migrate App Engine Text datastore type #11019](https://github.com/TEAMMATES/teammates/pull/11019)
+8 | Authored PR: [Handle datastore exceptions using the new Google-provided SDK #11025](https://github.com/TEAMMATES/teammates/pull/11025)

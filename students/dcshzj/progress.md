@@ -71,6 +71,36 @@ Opened PRs:
 Merged PRs:
 - [\[#1414\] Add message before closing a stale PR](https://github.com/reposense/RepoSense/pull/1456)
 
+Reviewed PRs:
+- [v_summary_charts: fix typo of some arguments](https://github.com/reposense/RepoSense/pull/1457)
+
+</td>
+</tr>
+</tr>
+<tr>
+<td>7</td>
+<td>
+
+Opened PRs:
+- [\[#1448\] Update documentation to remove need for personal access token](https://github.com/reposense/RepoSense/pull/1465)
+- [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)
+
+</td>
+</tr>
+</tr>
+<tr>
+<td>8</td>
+<td>
+
+Opened PRs:
+- [\[#1349\] Clone test repositories only once when testing](https://github.com/reposense/RepoSense/pull/1478)
+
+Reviewed PRs:
+- [\[#1472\] Add release guide](https://github.com/reposense/RepoSense/pull/1474)
+
+Opened issues:
+- [Allow disabling of the code panel for private repositories](https://github.com/reposense/RepoSense/issues/1479)
+
 </td>
 </tr>
 </tbody>
