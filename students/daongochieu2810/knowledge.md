@@ -15,7 +15,7 @@ Source: Official Docs
 
 Aspects: Database access and modification, APIs, Cron jobs, Task Queue. 
 Source: Teammates code base, Official Docs
-- Learnt about GAE timeout and its 
+- Learnt about GAE timeout and its response to timed-out events which can be utilized to recover from such events
 
 ### Java
 - Learnt that high-level data structures should be prioritized over primitive ones to make the code more extendable e.g ArrayList should be used instead of array
