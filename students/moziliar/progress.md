@@ -23,5 +23,7 @@ Week | Achievements
 7 | Submitted Issue: [Optimize frontend result page fetching](https://github.com/TEAMMATES/teammates/issues/11015)
 7 | Authored PR: [[#11008] Add toJson with writer as input for JsonResult to reduce unnecessary](https://github.com/TEAMMATES/teammates/pull/11009)
 7 | Authored PR: [[#11015] Break down question result fetch by section for scalability](https://github.com/TEAMMATES/teammates/pull/11017)
-
+9 | Reviewed PR: [[#5704] first commit Standardize you vs I in UI](https://github.com/TEAMMATES/teammates/pull/11035)
+9 | Reviewed PR: [[#10651] Broken Link on Instructor Help Page](https://github.com/TEAMMATES/teammates/pull/11036)
+9 | Reviewed PR: [[#10651] Broken Link on Instructor Help Page](https://github.com/TEAMMATES/teammates/pull/11036)
 
