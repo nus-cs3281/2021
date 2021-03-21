@@ -36,3 +36,8 @@ Week | Achievements
 8 | Responded to contributor queries: [#11026](https://github.com/TEAMMATES/teammates/issues/11026)
 8 | Review PR: [[#11001] Handle datastore exceptions using the new Google-provided SDK #11025](https://github.com/TEAMMATES/teammates/pull/11025)
 8 | Authored PR: [[#11002] Separate emulator ports and include emulator into CI for tests #11028](https://github.com/TEAMMATES/teammates/pull/11028)
+9 | Merged PR: [[#11002] Separate emulator ports and include its setup into CI for tests #11028](https://github.com/TEAMMATES/teammates/pull/11028)
+9 | Review PR: [[#11001] Final cleanup for Objectify V6 migration #11034](https://github.com/TEAMMATES/teammates/pull/11034)
+9 | Submitted Issue: [Update staging server setup guide with Cloud API #20](https://github.com/TEAMMATES/teammates-ops/issues/20)
+9 | Review PR: [[#10955] Remove all references to internal Datastore API usage #11046](https://github.com/TEAMMATES/teammates/pull/11046)
+
