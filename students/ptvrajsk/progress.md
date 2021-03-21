@@ -38,3 +38,17 @@
 | 7    | Merged PR: [CI Faliure Bug Fix: Match Driver with Browser Version #622](https://github.com/CATcher-org/CATcher/pull/622) |
 | 7    | Reviewed PR: [RepoCreatorService: Create custom Repo Creation Operator #612](https://github.com/CATcher-org/CATcher/pull/612) |
 | 7    | Reviewed PR: [Add Next Handler for Observable Tests #608](https://github.com/CATcher-org/CATcher/pull/608) |
+| 8    | Project Management: [Introduce Version Milestones for Issue Management](https://github.com/CATcher-org/CATcher/milestone/2) |
+| 8    | Opened Issue: [Updated Dev Notes with Logging Process #644](https://github.com/CATcher-org/CATcher/issues/644) |
+| 8    | Opened Issue: [Read Profiles from External Repository #641](https://github.com/CATcher-org/CATcher/issues/641) |
+| 8    | Opened Issue: [Release Automation #639](https://github.com/CATcher-org/CATcher/issues/639) |
+| 8    | Opened Issue: [Centralized Error Handling #642](https://github.com/CATcher-org/CATcher/issues/642) |
+| 8    | Merged PR: [Update Production Profiles #638](https://github.com/CATcher-org/CATcher/pull/638) |
+| 8    | Merged PR: [Provide ErrorHandler using ErrorHandlingService #643](https://github.com/CATcher-org/CATcher/pull/643) |
+| 8    | Merged PR: [V3.3.7 Version Bump](https://github.com/CATcher-org/CATcher/pull/649) |
+| 8    | Reviewed PR: [Add More Logging to Authentication Process #640](https://github.com/CATcher-org/CATcher/pull/640) |
+| 8    | Reviewed PR: [Uploading Video Files #637](https://github.com/CATcher-org/CATcher/pull/637) |
+| 8    | Reviewed PR: [Usage Notes: Document Profiles.json usage #626](https://github.com/CATcher-org/CATcher/pull/626) |
+| 8    | Reviewed PR: [ProfilesComponent: Add validation for custom profiles #623](https://github.com/CATcher-org/CATcher/pull/623) |
+| 8    | Reviewed PR: [IssueRespondedComponent: Decompose Logical Expressions #614](https://github.com/CATcher-org/CATcher/pull/614) |
+| 8    | Release Management: [Handled Release for V3.3.7](https://github.com/CATcher-org/CATcher/releases/tag/V3.3.7) |
