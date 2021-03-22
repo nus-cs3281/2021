@@ -52,3 +52,11 @@
 | 8    | Reviewed PR: [ProfilesComponent: Add validation for custom profiles #623](https://github.com/CATcher-org/CATcher/pull/623) |
 | 8    | Reviewed PR: [IssueRespondedComponent: Decompose Logical Expressions #614](https://github.com/CATcher-org/CATcher/pull/614) |
 | 8    | Release Management: [Handled Release for V3.3.7](https://github.com/CATcher-org/CATcher/releases/tag/V3.3.7) |
+| 9    | Reviewed PR: [Karma Test Config Fix Timeout for Mac OS Tests #633](https://github.com/CATcher-org/CATcher/pull/633) |
+| 9    | Reviewed PR: [Include Version number in issues created #656](https://github.com/CATcher-org/CATcher/pull/656) |
+| 9    | Reviewed PR: [Include App Version Number in Header and Logs #659](https://github.com/CATcher-org/CATcher/pull/659) |
+| 9    | Authored PR: [Update Dev Notes about Logging Process #664](https://github.com/CATcher-org/CATcher/pull/664) |
+| 9    | Authored PR: [Update Dev Notes about Release Instructions #614](https://github.com/CATcher-org/CATcher/pull/662) |
+| 9    | Opened Issue: [App Version Indicator (App + Logs) #650](https://github.com/CATcher-org/CATcher/issues/650) |
+| 9    | Opened Issue: [Update Dev Notes with Release Procedure #651](https://github.com/CATcher-org/CATcher/issues/651) |
+
