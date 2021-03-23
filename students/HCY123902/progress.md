@@ -25,9 +25,7 @@
 | 8    | Opened issue: [Checkbox not working properly in break down by file type](https://github.com/reposense/RepoSense/issues/1473)                 |
 | 8    | Release: Made the release for [v1.13](https://github.com/reposense/RepoSense/releases/tag/v1.13)                                             |
 | 9    | Opened issue: [Restoring not working properly for zoom panel](https://github.com/reposense/RepoSense/issues/1486)                            |
-| 9    | Merged PR: [[#674] Include binary files touched in authorship panel](https://github.com/reposense/RepoSense/pull/1413)                                                            Include binary files in the authorship contribution panel.
-         Add binary file checkbox to separate binary file type from other file types
-         Change the documentation about how file formats argument works according to the changes introduced by binary file type                       |
+| 9    | Merged PR: [[#674] Include binary files touched in authorship panel](https://github.com/reposense/RepoSense/pull/1413) <br/>                                                       Include binary files in the authorship contribution panel<br/>                                                                                                                   Add binary file checkbox to separate binary file type from other file types<br/>                                                                                                 Change the documentation about how file formats argument works according to the changes introduced by binary file type                      |
 | 9    | Merged PR: [[#1446] Restore the name on authorship panel after reloading](https://github.com/reposense/RepoSense/pull/1458)                  |
 | 9    | Reviewd PR: [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)                   |
 | 9    | Reviewd PR: [[#1448] Update documentation to remove need for personal access token](https://github.com/reposense/RepoSense/pull/1465)        |
