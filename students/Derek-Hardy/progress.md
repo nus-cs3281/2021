@@ -41,3 +41,7 @@ Week | Achievements
 9 | Submitted Issue: [Update staging server setup guide with Cloud API #20](https://github.com/TEAMMATES/teammates-ops/issues/20)
 9 | Reviewed PR: [[#10955] Remove all references to internal Datastore API usage #11046](https://github.com/TEAMMATES/teammates/pull/11046)
 9 | Reviewed PR: [[#11038] Fix feedback question key format incompatibility #11045](https://github.com/TEAMMATES/teammates/pull/11045)
+10 | Reviewed PR: [[#8769] Instructor: help page: add questions #11049](https://github.com/TEAMMATES/teammates/pull/11049)
+10 | Reviewed PR: [[#10955] Wrap up Objectify V6 migration #11058](https://github.com/TEAMMATES/teammates/pull/11058)
+10 | Reviewed PR: [[#10433] Instructor view results: Use fixed-width floating numbers #11059](https://github.com/TEAMMATES/teammates/pull/11059)
+10 | Reviewed PR: [[#11020] Remove searching response comments related features and search box at home page #11060](https://github.com/TEAMMATES/teammates/pull/11060)
