@@ -8,7 +8,9 @@ Source: Official Docs
 
 ### RxJs
 - Learnt about `observable` to receive APIs responses
-- Learnt about ```concat``` and ```merge``` to call paginated API requests
+- Learnt about ```concat``` and ```merge``` to call paginated API requests:
+    - ```concat``` is used for synchronous API stream, which is useful where API calls need to be in order and slow performance is tolerable
+    - ```merge``` is used for asynchronous API stream, which is useful where performance is important and a burst of instances (due to a large number of asyn calls) is guaranteed to not happen
 - Learnt about ```catchError``` to handle errors without ending the stream of API requests allowing the FE to retry sending requests upon failures such as timeout
 
 ### Google App Engine
@@ -22,6 +24,7 @@ Source: Teammates code base, Official Docs
 - Revised best programming practices and OOP principles in Java 
 
 ### Objectify
+- Learnt about CRUD actions on the datastore
 - Learnt about server-side filtering feature
 
 ### Google Cloud Platform

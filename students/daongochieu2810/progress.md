@@ -8,7 +8,7 @@ Week | Achievements
 5 | Merged PR: [Add script to list active instructors within a period](https://github.com/TEAMMATES/teammates/pull/10947)
 6 | Reviewed PR: [Paginate frontend call to webapi for large course](https://github.com/moziliar/teammates/pull/20)
 6 | Reviewed PR: [Refactor student validation logic in enrolment](https://github.com/TEAMMATES/teammates/pull/10971)
-6 | Authored PR: [Paginate enroll calls for large courses (FE)](https://github.com/TEAMMATES/teammates/pull/10968)
+6 | Approved PR: [Paginate enroll calls for large courses (FE)](https://github.com/TEAMMATES/teammates/pull/10968)
 7 | Merged PR: [Highlight today date and add today button](https://github.com/TEAMMATES/teammates/pull/10980)
 8 | Reviewed PR: [Break down question result fetch by section for scalability](https://github.com/TEAMMATES/teammates/pull/11017)
 8 | Approved PR: [LnP tests for batch processing](https://github.com/TEAMMATES/teammates/pull/11027)
