@@ -5,13 +5,15 @@ Source: Official Docs
 
 - Learnt about `ngTemplate` to make reusable widgets
 - Learnt about specificity of CSS to change component styles without directives or Typescripts code changes
+- Learnt about ```@Input``` and ```@Output``` decorators for communication among the UI components
 
 ### RxJs
 - Learnt about `observable` to receive APIs responses
 - Learnt about ```concat``` and ```merge``` to call paginated API requests:
     - ```concat``` is used for synchronous API stream, which is useful where API calls need to be in order and slow performance is tolerable
     - ```merge``` is used for asynchronous API stream, which is useful where performance is important and a burst of instances (due to a large number of asyn calls) is guaranteed to not happen
-- Learnt about ```catchError``` to handle errors without ending the stream of API requests allowing the FE to retry sending requests upon failures such as timeout
+- Learnt about ```catchError``` to handle errors without ending the stream of API requests allowing the FE to retry sending requests upon failures such as timeout:
+    - ```catchError``` returns a new stream when an error is encountered. The stream can be ended by returning an empty stream or continue by reconstructing the original stream
 
 ### Google App Engine
 
