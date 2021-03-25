@@ -34,6 +34,7 @@ TEAMMATES E2E testing is built on Selenium, which starts a browser driver (Chrom
 
 * Configure local e2e testing environment by downloading chromedriver and connect to it in test.properties
 * Essentially, a browser is fired up and the test platform emulates the user input, read the resultant webpage, and check if the elements inside are expected.
+* In E2E testing, the webapp must be built as only the backend server running will be tested, which also serves the webpage.
 
 ### Java
 

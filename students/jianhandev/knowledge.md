@@ -69,27 +69,31 @@ the UI does not change unexpectedly.
 * Understanding the key format and how it has changed from Objectify v5 to v6
 * Understand the usage of `key.toUrlSafe()` and `key.toLegacyUrlSafe()`
 * Understanding Query cursors
+* Configuring `OfyHelper` for development and production environments
+* Understanding how `LocalServiceTestHelper` and `LocalServiceTestConfig` are used in testing against local app engine services
 
 **Resources:**
 [Objectify Concepts](https://github.com/objectify/objectify/wiki/Concepts),
 [Entities](https://github.com/objectify/objectify/wiki/Entities),
 [Objectify v6](https://github.com/objectify/objectify/wiki/UpgradeVersion5ToVersion6),
 [Query Cursor](https://cloud.google.com/appengine/docs/standard/java/datastore/query-cursors)
+[LocalServiceTestHelper](https://cloud.google.com/appengine/docs/standard/java/tools/localunittesting/javadoc/com/google/appengine/tools/development/testing/LocalServiceTestHelper)
 
 ---
 
 ### Google Cloud Datastore
 **Aspects Learned**
 * Deploying to a staging server on GAE
-* Setting up, running and connecting a Datastore Emulator
+* Setting up, running and connecting to a Datastore Emulator
 * Exporting data from a staging server 
 * Importing data into Datastore Emulator for backward compatibility testing
+* Testing different versions against staging server
 
 **Resources:**
 [Running the Emulator](https://cloud.google.com/datastore/docs/tools/datastore-emulator),
 [Export and Import Data](https://cloud.google.com/datastore/docs/tools/emulator-export-import)
 
-### Backend Testing (E2E)
+### E2E Testing
 **Aspects Learned**  
 * PageObject Design Pattern
 

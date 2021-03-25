@@ -16,7 +16,7 @@ Github actions provide the abilitiy for a task to communicate with the runner ma
 
 Some useful resources:
 - [Github Actions Docs - workflow commands](https://docs.github.com/en/actions/reference/workflow-commands-for-github-actions)
-- [Tech Blog - Output Multiline Strings in GitHub Actions](https://trstringer.com/github-actions-multiline-strings/)
+- [Blog Post - Output Multiline Strings in GitHub Actions](https://trstringer.com/github-actions-multiline-strings/)
 
 #### Aspect 3: Github Tokens
 For Github Actions, there is a default `GITHUB_TOKEN` secret that the user can use to authenticate in a workflow run. The token expires after the job is finished. With this, one doesn't need to explicitly generate Personal Access Token for workflows which require **write** repo permissions.
@@ -25,7 +25,38 @@ Some useful resources:
 - [Github Actions Docs - About `GITHUB_TOKEN` secret](https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret)
 - [Github Docs - Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
-### Tool 2: Markbind
+
+### Tool 2: Jest
+
+#### Aspect 1: Testing using data that are structurally similar
+
+It may be quite repetitive to write tests for data which have a similar structure. One example is unit testing an `add(x, y)` function. You may wish to use the following testcases: `{0,0}, {-1,-3}, {1000000000,1000000000}`. Jest offers a feature to simplify testing for such cases where the data share a similar structure using the `.each` operator. In the same example, the tests can be simplified to as follows:
+
+```javascript {.no-line-numbers}
+test.each([
+  [0, 0, 0],
+  [-1, -3, -4],
+  [1000000000, 1000000000, 2000000000],
+])('.add(%i, %i)', (a, b, expected) => {
+  expect(a + b).toBe(expected);
+});
+```
+
+Some useful resources:
+- [Blog Post - Reduce boilerplate test code with Jest it.each](https://elfi-y.medium.com/reduce-boilerplate-test-code-with-jest-it-each-30a0eec9776d)
+- [Jest Docs - `test.each`](https://jestjs.io/docs/api#testeachtablename-fn-timeout)
+
+#### Aspect 2: Testing specific files or functions
+
+For testing purposes, sometimes it might be more efficient to drill down to a single test-file, rather than running the whole test-suite. Jest offers this feature where you can simply type `npm test -- <PATH_TO_FILE>` and it will run the test only on that specific file.
+
+To test a specific method in the test file, you have to set a flag so that Jest knows to skip all other unrelated functions. This can be done using the `.only` operator.
+
+Some useful resources:
+- [Stackoverflow - How to test a single file using jest](https://stackoverflow.com/questions/28725955/how-do-i-test-a-single-file-using-jest)
+- [Jest Docs - `test.only`](https://jestjs.io/docs/api#testonlyname-fn-timeout)
+
+### Tool 3: Markbind
 
 #### Aspect 1: Testing CI scripts during development
 There are not a lot of resources online regarding the testing CI scripts from a forked repo during development, especially for a mono-repo such as Markbind. The following is a general guideline for a CI build script that allows you to test your code changes:
@@ -37,7 +68,7 @@ There are not a lot of resources online regarding the testing CI scripts from a 
 
 Some useful resources:
 - [Atlassian Tutorial - What is a monorepo?](https://www.atlassian.com/git/tutorials/monorepos)
-- [stackoverflow - How to install NPM package from Github directly](https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly) - A far simpler method that works for npm package repos which are not a monorepo
+- [Stackoverflow - How to install NPM package from Github directly](https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly) - A far simpler method that works for npm package repos which are not a monorepo
 
 #### Aspect 2: Useful CI environmental variables
 Implementation of `markbind deploy --ci` uses some useful CI environmental envariables to extract information such as:

@@ -26,3 +26,5 @@
 | 8    | Merged PR: [Usage Notes: Document format of profiles.json #626](https://github.com/CATcher-org/CATcher/pull/626) | 
 | 8    | Drafted PR: [Karma Test Config: Fix Timeout for Mac OS Tests #633](https://github.com/CATcher-org/CATcher/pull/633) | 
 | 8    | Drafted PR: [RepoCreatorService: Create custom operator for attempting repo creation #634](https://github.com/CATcher-org/CATcher/pull/634) | 
+| 9    | Drafted PR: [Include App Version Number in Header and Logs: #659](https://github.com/CATcher-org/CATcher/pull/659) |
+| 9    | Drafter PR: [Read Profiles From External Repository #661](https://github.com/CATcher-org/CATcher/pull/661) |
