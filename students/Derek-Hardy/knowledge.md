@@ -10,6 +10,8 @@
 - [Solr vs ES](https://solr-vs-elasticsearch.com/)
 - [SolrJ documentation](https://solr.apache.org/guide/8_1/using-solrj.html)
 - [Search engine vs Relational database](https://dzone.com/articles/search-engine-solr-vs-relational-database)
+- [Solr and RDBMS](https://lucidworks.com/post/solr-and-rdbms-the-basics-of-designing-your-application-for-the-best-of-both/)
+- [Bulk indexing optimisation](https://lucene.472066.n3.nabble.com/SolrJ-bulk-indexing-documents-HttpSolrClient-vs-ConcurrentUpdateSolrClient-td4306446.html)
 
 ### Cloud Storage
 * Understand various aspects of the Google Cloud Storage such as:

@@ -45,3 +45,4 @@ Week | Achievements
 10 | Reviewed PR: [[#10955] Wrap up Objectify V6 migration #11058](https://github.com/TEAMMATES/teammates/pull/11058)
 10 | Reviewed PR: [[#10433] Instructor view results: Use fixed-width floating numbers #11059](https://github.com/TEAMMATES/teammates/pull/11059)
 10 | Reviewed PR: [[#11020] Remove searching response comments related features and search box at home page #11060](https://github.com/TEAMMATES/teammates/pull/11060)
+10 | Co-authored PR: [[#11020] Initial Search API migration to Solr #11064](https://github.com/TEAMMATES/teammates/pull/11064)
