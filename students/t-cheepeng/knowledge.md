@@ -51,3 +51,10 @@ Resource: [InjectionToken](https://angular.io/api/core/InjectionToken), [Injecti
 Aspects: Structural design pattern that allows a placeholder for another object type. Mainly used for controlling access to the original object, allowing actions before requesting original object. Used in TEAMMATES backend as a layer over Google Cloud Task API and CLoud Logging API. Allows for mocking of 3rd party API services that we do not have direct control over for unit testing.
 
 Resource: [PR for Proxy Pattern](https://github.com/TEAMMATES/teammates/pull/11021)
+
+---
+
+### Data Warehouse
+Aspects: Uses of a data warehouse, purpose of a warehouse and architecture of it. Differences between a data warehouse and a database.
+
+Resource: [AWS Data Warehouse Concepts](https://aws.amazon.com/data-warehouse/)
