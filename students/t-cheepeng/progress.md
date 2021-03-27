@@ -20,3 +20,8 @@ Week | Achievements
 9 | Submitted Issue: [Incorrect label values being logged #11042](https://github.com/TEAMMATES/teammates/issues/11042)
 9 | Reviewed PR: [[#10986] Show loading message below response loading spinner #11037](https://github.com/TEAMMATES/teammates/pull/11037)
 9 | Responded to contributor queries: [Show loading message below response loading spinner #10986](https://github.com/TEAMMATES/teammates/issues/10986)
+10 | Authored PR: [[#10969] Instructor Audit Logs Frontend #11047](https://github.com/TEAMMATES/teammates/pull/11047)
+10 | Reviewed PR: [[#10950] Refactor getting of error log entries #11050](https://github.com/TEAMMATES/teammates/pull/11050)
+10 | Reviewed PR: [[#10950] Add backend tests for audit logs #11048](https://github.com/TEAMMATES/teammates/pull/11048)
+10 | Reviewed PR: [[#11039] Wrap instructor creation in promise and provide blocking addAll workflow #11063](https://github.com/TEAMMATES/teammates/pull/11063)
+10 | Submitted Issue: [Refactor ngbDatePicker to have 'today' button #11053](https://github.com/TEAMMATES/teammates/issues/11053)
