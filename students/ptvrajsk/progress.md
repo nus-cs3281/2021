@@ -59,4 +59,9 @@
 | 9    | Authored PR: [Update Dev Notes about Release Instructions #614](https://github.com/CATcher-org/CATcher/pull/662) |
 | 9    | Opened Issue: [App Version Indicator (App + Logs) #650](https://github.com/CATcher-org/CATcher/issues/650) |
 | 9    | Opened Issue: [Update Dev Notes with Release Procedure #651](https://github.com/CATcher-org/CATcher/issues/651) |
+| 10    | Authored PR: [Maintain Session ID through Phase Change #672](https://github.com/CATcher-org/CATcher/pull/672) |
+| 10    | Reviewed PR: [RepoCreatorService: Create custom operators for Permissions Request #671](https://github.com/CATcher-org/CATcher/pull/671) |
+| 10    | Reviewed PR: [Enforcing prettier on commits #669](https://github.com/CATcher-org/CATcher/pull/669) |
+| 10    | Reviewed PR: [Enforcing prettier on commits #669](https://github.com/CATcher-org/CATcher/pull/669) |
+| 10    | Reviewed PR: [Read Profiles From External Repository #661](https://github.com/CATcher-org/CATcher/pull/661) |
 
