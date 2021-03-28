@@ -16,3 +16,4 @@ Week | Achievements
 9 | Authored PR: [Add team members as an option to generate values](https://github.com/TEAMMATES/teammates/pull/11043)
 10 | Reviewed PR: [Improve Student Creation Performance.](https://github.com/TEAMMATES/teammates/pull/11061)
 11 | Reviewed PR: [Batch download for session-table component](https://github.com/TEAMMATES/teammates/pull/11066)
+11 | Reviewed PR: [Wrap instructor creation in promise and provide blocking addAll workflow](https://github.com/TEAMMATES/teammates/pull/11063)
