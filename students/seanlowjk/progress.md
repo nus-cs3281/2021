@@ -24,7 +24,12 @@
 | 7    | Merged PR: [Tests: Move mock SessionData into constants file #597](https://github.com/CATcher-org/CATcher/pull/597) | 
 | 8    | Merged PR: [RepoCreatorService: Create custom operator for verifying the creation of repository #612](https://github.com/CATcher-org/CATcher/pull/612) | 
 | 8    | Merged PR: [Usage Notes: Document format of profiles.json #626](https://github.com/CATcher-org/CATcher/pull/626) | 
-| 8    | Drafted PR: [Karma Test Config: Fix Timeout for Mac OS Tests #633](https://github.com/CATcher-org/CATcher/pull/633) | 
+| 8    | Drafted PR: [GH Actions: Add retry for tests on Mac OS #633](https://github.com/CATcher-org/CATcher/pull/633) | 
 | 8    | Drafted PR: [RepoCreatorService: Create custom operator for attempting repo creation #634](https://github.com/CATcher-org/CATcher/pull/634) | 
 | 9    | Drafted PR: [Include App Version Number in Header and Logs: #659](https://github.com/CATcher-org/CATcher/pull/659) |
 | 9    | Drafter PR: [Read Profiles From External Repository #661](https://github.com/CATcher-org/CATcher/pull/661) |
+| 10   | Merged PR: [RepoCreatorService: Create custom operator for attempting repo creation #634](https://github.com/CATcher-org/CATcher/pull/634) | 
+| 10   | Merged PR: [GH Actions: Add retry for tests on Mac OS #633](https://github.com/CATcher-org/CATcher/pull/633) | 
+| 10   | Drafted PR: [Markdown Links: Fix redirection href values #666](https://github.com/CATcher-org/CATcher/pull/666) |
+| 10   | Drafted PR: [RepoCreatorService: Create custom operators for Permissions Request #671](https://github.com/CATcher-org/CATcher/pull/671) |
+| 10   | Reviewed PR: [IssuesDataTable: Move pagination logic into separate module, add tests #668](https://github.com/CATcher-org/CATcher/pull/668) |

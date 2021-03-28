@@ -52,7 +52,7 @@ the UI does not change unexpectedly.
 * Perform async operations via `Observable`
 * Understanding RxJS operators
 
-**Resources:** 
+**Resources:**
 [RxJS Observables](https://angular.io/guide/rx-library), 
 [Subscription](https://rxjs-dev.firebaseapp.com/guide/subscription),
 [RxJS Operators](https://rxjs-dev.firebaseapp.com/guide/operators)
@@ -99,3 +99,25 @@ the UI does not change unexpectedly.
 
 **Resources:**
 [PageObject Design Pattern](https://martinfowler.com/bliki/PageObject.html)
+
+### Solr 
+Solr is an open source enterprise search platform built on Apache Lucene. One major feature of Solr that TEAMMATES tries to leverage on is full-text search.  
+
+**What is full text search?**  
+Full text search
+* is a more advanced way to search a database
+* finds all instances of a term (word) in a table without having to scan rows and without having to know which column a term is stored in
+* works by using text indexes, which stores positional information for all terms found in the columns you create the text index on
+* is term-based, not pattern-based
+
+**Resources:**
+[Full Text Search](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.help.sqlanywhere.12.0.1/dbusage/full-text-search-what-is-it.html)
+
+**Aspects Learned**
+* Running and configuring Solr as a local search service
+* Providing Solr as a service to the backend using SolrJ Java Client
+* Indexing search documents in Solr
+* Understanding Collections, Sharding, Cores, Replicas
+
+**Resources:**
+[Solr Local Setup](https://solr.apache.org/guide/8_8/solr-tutorial.html#exercise-1), [Basics of Apache Solr](https://www.infoworld.com/article/3209685/why-you-should-use-apache-solr.html#:~:text=Apache%20Solr%20is%20both%20a,document%20database%20with%20SQL%20support.&text=Solr%20is%20a%20search%20engine,NoSQL%20database%20with%20transactional%20support), [Terminologies](https://solr.apache.org/guide/8_8/solr-glossary.html)
