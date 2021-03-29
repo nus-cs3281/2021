@@ -13,7 +13,7 @@ Week | Achievements
 8 | Reviewed PR: [Break down question result fetch by section for scalability](https://github.com/TEAMMATES/teammates/pull/11017)
 8 | Approved PR: [LnP tests for batch processing](https://github.com/TEAMMATES/teammates/pull/11027)
 8 | Approved PR: [Break course CRUD permission into edit, delete and restore permissions](https://github.com/TEAMMATES/teammates/pull/11029)
-9 | Authored PR: [Add team members as an option to generate values](https://github.com/TEAMMATES/teammates/pull/11043)
+9 | Merged PR: [Add team members as an option to generate values](https://github.com/TEAMMATES/teammates/pull/11043)
 10 | Reviewed PR: [Improve Student Creation Performance.](https://github.com/TEAMMATES/teammates/pull/11061)
 11 | Reviewed PR: [Batch download for session-table component](https://github.com/TEAMMATES/teammates/pull/11066)
 11 | Reviewed PR: [Wrap instructor creation in promise and provide blocking addAll workflow](https://github.com/TEAMMATES/teammates/pull/11063)
