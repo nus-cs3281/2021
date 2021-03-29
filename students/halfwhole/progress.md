@@ -15,3 +15,7 @@ Week | Achievements
 9 | Authored PR: [Add session submission page tests](https://github.com/TEAMMATES/teammates/pull/11044)
 10 | Reviewed PR: [Instructor Audit Logs Frontend](https://github.com/TEAMMATES/teammates/pull/11047)
 10 | Authored PR: [Add backend tests for audit logs](https://github.com/TEAMMATES/teammates/pull/11048)
+10 | Merged PR: [Refactor getting of error log entries](https://github.com/TEAMMATES/teammates/pull/11050)
+10 | Merged PR: [Update snapshots to fix component tests](https://github.com/TEAMMATES/teammates/pull/11052)
+10 | Merged PR: [Mock timezones in new course form of instructor courses page](https://github.com/TEAMMATES/teammates/pull/11057)
+10 | Reviewed PR: [Instructor Audit Logs Frontend](https://github.com/TEAMMATES/teammates/pull/11047)
