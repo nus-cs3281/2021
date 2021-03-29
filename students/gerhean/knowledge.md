@@ -26,6 +26,8 @@ Ensure Vue works in sub-paths by configuring publicPath:
 - Difference between `@change` and `@input` [link](https://stackoverflow.com/questions/17047497/difference-between-change-and-input-event-for-an-input-element)
 - Using `Buffer` to encode string to Base64 [link](https://stackoverflow.com/questions/6182315/how-to-do-base64-encoding-in-node-js)
 
+- Importing ES6 modules in HTML is quite the challenge. Turns out that I can import them directly from [Skypack](https://www.skypack.dev/) as seen [here](https://medium.com/@m4jp6tp6/using-esm-syntax-to-import-js-packages-from-a-cdn-skypack-52d3344c07a0) by using `<script type="module">` 
+
 ### Node Libraries for Vue
 
 BootstrapVue
@@ -63,3 +65,20 @@ Setting up oauth for github authentication
 
 Github pages shows 404 when refreshing due to how Single Page Applications like Vue works. Solution is to modify 404.html to redirect to index.html.
 - https://www.smashingmagazine.com/2016/08/sghpa-single-page-app-hack-github-pages/
+
+Cherry pick commits to merge (In case work on the wrong branch by accident)
+- https://mattstauffer.com/blog/how-to-merge-only-specific-commits-from-a-pull-request/
+
+Splitting a subfolder out into a new repository
+- https://docs.github.com/en/github/using-git/splitting-a-subfolder-out-into-a-new-repository
+
+Autodeploy to gh-pages:
+- Run on cmd: `yarn add gh-pages`
+- Add to `package.json`:
+```
+"scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+}
+```
+- To autodeploy: yarn run deploy
