@@ -28,4 +28,40 @@
 | 6    | Reviewed PR: [Logical Method Decompositon: IssueRespondedComponent #599](https://github.com/CATcher-org/CATcher/pull/599) |
 | 6    | Opened Issue: [Fix Asynchronous Test Expectation Bug #607](https://github.com/CATcher-org/CATcher/pull/607) |
 | 6    | Authored PR (Pending Review): [E2E Testing: New Bug Report #599](https://github.com/CATcher-org/CATcher/pull/596) |
-| 6    | Authored PR (Pending Review): [Updating Dev Notes with E2E Information #599](https://github.com/CATcher-org/CATcher/pull/610) |
+| 6    | Merged PR: [Updating Dev Notes with E2E Information #599](https://github.com/CATcher-org/CATcher/pull/610) |
+| 7    | Opened Issue: [Logging to file #615](https://github.com/CATcher-org/CATcher/issues/615) |
+| 7    | Opened Issue: [Prettier Configuration #624](https://github.com/CATcher-org/CATcher/issues/624) |
+| 7    | Opened Issue: [IssueTable Bug: Open-In-Web Fail #619](https://github.com/CATcher-org/CATcher/issues/619) |
+| 7    | Authored PR (Pending Review): [TesterResponse: RadioButton to replace Checkboxes #618](https://github.com/CATcher-org/CATcher/pull/618) |
+| 7    | Authored PR (Pending Review): [Added Cached Logging Capability #616](https://github.com/CATcher-org/CATcher/pull/616) |
+| 7    | Merged PR: [IssueTable: View in Browser Fix #620](https://github.com/CATcher-org/CATcher/pull/620) |
+| 7    | Merged PR: [CI Faliure Bug Fix: Match Driver with Browser Version #622](https://github.com/CATcher-org/CATcher/pull/622) |
+| 7    | Reviewed PR: [RepoCreatorService: Create custom Repo Creation Operator #612](https://github.com/CATcher-org/CATcher/pull/612) |
+| 7    | Reviewed PR: [Add Next Handler for Observable Tests #608](https://github.com/CATcher-org/CATcher/pull/608) |
+| 8    | Project Management: [Introduce Version Milestones for Issue Management](https://github.com/CATcher-org/CATcher/milestone/2) |
+| 8    | Opened Issue: [Updated Dev Notes with Logging Process #644](https://github.com/CATcher-org/CATcher/issues/644) |
+| 8    | Opened Issue: [Read Profiles from External Repository #641](https://github.com/CATcher-org/CATcher/issues/641) |
+| 8    | Opened Issue: [Release Automation #639](https://github.com/CATcher-org/CATcher/issues/639) |
+| 8    | Opened Issue: [Centralized Error Handling #642](https://github.com/CATcher-org/CATcher/issues/642) |
+| 8    | Merged PR: [Update Production Profiles #638](https://github.com/CATcher-org/CATcher/pull/638) |
+| 8    | Merged PR: [Provide ErrorHandler using ErrorHandlingService #643](https://github.com/CATcher-org/CATcher/pull/643) |
+| 8    | Merged PR: [V3.3.7 Version Bump](https://github.com/CATcher-org/CATcher/pull/649) |
+| 8    | Reviewed PR: [Add More Logging to Authentication Process #640](https://github.com/CATcher-org/CATcher/pull/640) |
+| 8    | Reviewed PR: [Uploading Video Files #637](https://github.com/CATcher-org/CATcher/pull/637) |
+| 8    | Reviewed PR: [Usage Notes: Document Profiles.json usage #626](https://github.com/CATcher-org/CATcher/pull/626) |
+| 8    | Reviewed PR: [ProfilesComponent: Add validation for custom profiles #623](https://github.com/CATcher-org/CATcher/pull/623) |
+| 8    | Reviewed PR: [IssueRespondedComponent: Decompose Logical Expressions #614](https://github.com/CATcher-org/CATcher/pull/614) |
+| 8    | Release Management: [Handled Release for V3.3.7](https://github.com/CATcher-org/CATcher/releases/tag/V3.3.7) |
+| 9    | Reviewed PR: [Karma Test Config Fix Timeout for Mac OS Tests #633](https://github.com/CATcher-org/CATcher/pull/633) |
+| 9    | Reviewed PR: [Include Version number in issues created #656](https://github.com/CATcher-org/CATcher/pull/656) |
+| 9    | Reviewed PR: [Include App Version Number in Header and Logs #659](https://github.com/CATcher-org/CATcher/pull/659) |
+| 9    | Authored PR: [Update Dev Notes about Logging Process #664](https://github.com/CATcher-org/CATcher/pull/664) |
+| 9    | Authored PR: [Update Dev Notes about Release Instructions #614](https://github.com/CATcher-org/CATcher/pull/662) |
+| 9    | Opened Issue: [App Version Indicator (App + Logs) #650](https://github.com/CATcher-org/CATcher/issues/650) |
+| 9    | Opened Issue: [Update Dev Notes with Release Procedure #651](https://github.com/CATcher-org/CATcher/issues/651) |
+| 10    | Authored PR: [Maintain Session ID through Phase Change #672](https://github.com/CATcher-org/CATcher/pull/672) |
+| 10    | Reviewed PR: [RepoCreatorService: Create custom operators for Permissions Request #671](https://github.com/CATcher-org/CATcher/pull/671) |
+| 10    | Reviewed PR: [Enforcing prettier on commits #669](https://github.com/CATcher-org/CATcher/pull/669) |
+| 10    | Reviewed PR: [Enforcing prettier on commits #669](https://github.com/CATcher-org/CATcher/pull/669) |
+| 10    | Reviewed PR: [Read Profiles From External Repository #661](https://github.com/CATcher-org/CATcher/pull/661) |
+

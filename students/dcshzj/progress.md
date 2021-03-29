@@ -47,7 +47,7 @@ Opened PRs:
 - [\[#442\] Replace CommandRunner with JGit for GitBranch](https://github.com/reposense/RepoSense/pull/1454)
 
 Reviewed PRs:
-- [Implement multi-threading](https://github.com/reposense/RepoSense/pull/1451)
+- [Implement multi-threading](https://github.com/reposense/RepoSense/pull/1451) (first review)
 - [\[#1352\] Add highlight to selected authorship contribution icon](https://github.com/reposense/RepoSense/pull/1453)
 
 Expanded issues:
@@ -70,6 +70,67 @@ Opened PRs:
 
 Merged PRs:
 - [\[#1414\] Add message before closing a stale PR](https://github.com/reposense/RepoSense/pull/1456)
+
+Reviewed PRs:
+- [v_summary_charts: fix typo of some arguments](https://github.com/reposense/RepoSense/pull/1457)
+
+</td>
+</tr>
+</tr>
+<tr>
+<td>7</td>
+<td>
+
+Opened PRs:
+- [\[#1448\] Update documentation to remove need for personal access token](https://github.com/reposense/RepoSense/pull/1465)
+- [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)
+
+</td>
+</tr>
+</tr>
+<tr>
+<td>8</td>
+<td>
+
+Opened PRs:
+- [\[#1349\] Clone test repositories only once when testing](https://github.com/reposense/RepoSense/pull/1478)
+
+Reviewed PRs:
+- [\[#1472\] Add release guide](https://github.com/reposense/RepoSense/pull/1474)
+
+Opened issues:
+- [Allow disabling of the code panel for private repositories](https://github.com/reposense/RepoSense/issues/1479)
+
+</td>
+</tr>
+<tr>
+<td>9</td>
+<td>
+
+Reviewed PRs:
+- [\[#1473\] Checkbox not working properly in break down by file type](https://github.com/reposense/RepoSense/pull/1475)
+
+</td>
+</tr>
+<tr>
+<td>10</td>
+<td>
+
+Opened PRs:
+- [\[#634\] Support defining sinceDate, untilDate and period in report config](https://github.com/reposense/RepoSense/pull/1501)
+- [\[#1435\] Expand continuous integration testing to Ubuntu 18.04 and 20.04](https://github.com/reposense/RepoSense/pull/1503)
+
+Reviewed PRs:
+- [v-ramp render on visible](https://github.com/reposense/RepoSense/pull/1477)
+- [Implement multi-threading](https://github.com/reposense/RepoSense/pull/1451) (second review)
+- [Check column headers when parsing config CSV files](https://github.com/reposense/RepoSense/pull/1459)
+
+Opened issues:
+- [Move DevOps guide in the wiki to the developer guide](https://github.com/reposense/RepoSense/issues/1493)
+
+Other tasks completed:
+- Wrote [DevOps guide](https://github.com/reposense/RepoSense/wiki/DevOps-guide) to share knowledge on the DevOps infrastructure used by RepoSense
+- Traiged and identified some issues for first timers to work on
 
 </td>
 </tr>
