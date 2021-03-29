@@ -22,5 +22,7 @@ Week | Achievements
 7 | Merged PR: [Add minor polishes to userGuide #1497](https://github.com/MarkBind/markbind/pull/1497)
 8 | Reviewed PR: [Fix incorrect dropdown color #1511](https://github.com/MarkBind/markbind/pull/1511)
 9 | Investigated Issue: [Explore different services for previewing PR #1466](https://github.com/MarkBind/markbind/issues/1466#issuecomment-801578039)
-9 | Authored PR: [NodeProcessor refactor: split into separate files #1515](https://github.com/MarkBind/markbind/pull/1515)
+9 | Merged PR: [NodeProcessor refactor: split into separate files #1515](https://github.com/MarkBind/markbind/pull/1515)
 9 | Submitted Issue: [Display problems with codeAndOutput.md #1517](https://github.com/MarkBind/markbind/issues/1517)
+10 | Submitted Issue: [Fix deprecation warnings for highlight.js v10.7 #1518](https://github.com/MarkBind/markbind/issues/1518)
+10 | Authored PR: [Fix highlightjs warnings #1521](https://github.com/MarkBind/markbind/pull/1521)
