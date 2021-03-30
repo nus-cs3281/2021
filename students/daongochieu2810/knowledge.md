@@ -5,7 +5,10 @@ Source: Official Docs
 
 - Learnt about `ngTemplate` to make reusable widgets
 - Learnt about specificity of CSS to change component styles without directives or Typescripts code changes
-- Learnt about ```@Input``` and ```@Output``` decorators for communication among the UI components
+- Learnt about ```@Input``` and ```@Output``` decorators for communication among the UI components:
+    - ```@Input``` is usually used for the parent component to pass data to the child component.
+    - ```@Output``` is useful when a child component wants to communicate witht the parent component. An EventEmitter is usually decorated with this decorator to act as a callback for changes in the child component.
+- Learnt about modules in Angular: a component can be treated as a standalone module or as a part of a parent module
 
 ### RxJs
 - Learnt about `observable` to receive APIs responses
