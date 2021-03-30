@@ -18,3 +18,5 @@ Week | Achievements
 11 | Reviewed PR: [Batch download for session-table component](https://github.com/TEAMMATES/teammates/pull/11066)
 11 | Reviewed PR: [Wrap instructor creation in promise and provide blocking addAll workflow](https://github.com/TEAMMATES/teammates/pull/11063)
 11 | Reviewed PR: [Filter logs by feedback session name](https://github.com/TEAMMATES/teammates/pull/11069)
+11 | Submitted Issue: [Burst of concurrent requests causing high amount of instance uptime](https://github.com/TEAMMATES/teammates/issues/11071)
+11 | Authored PR: [Refactor datepicker with today button as a component](https://github.com/TEAMMATES/teammates/pull/11072)
