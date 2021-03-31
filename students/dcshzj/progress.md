@@ -47,7 +47,7 @@ Opened PRs:
 - [\[#442\] Replace CommandRunner with JGit for GitBranch](https://github.com/reposense/RepoSense/pull/1454)
 
 Reviewed PRs:
-- [Implement multi-threading](https://github.com/reposense/RepoSense/pull/1451) (first review)
+- [\[#1452\] Implement multi-threading](https://github.com/reposense/RepoSense/pull/1451) (first review)
 - [\[#1352\] Add highlight to selected authorship contribution icon](https://github.com/reposense/RepoSense/pull/1453)
 
 Expanded issues:
@@ -122,8 +122,8 @@ Opened PRs:
 
 Reviewed PRs:
 - [v-ramp render on visible](https://github.com/reposense/RepoSense/pull/1477)
-- [Implement multi-threading](https://github.com/reposense/RepoSense/pull/1451) (second review)
-- [Check column headers when parsing config CSV files](https://github.com/reposense/RepoSense/pull/1459)
+- [\[#1452\] Implement multi-threading](https://github.com/reposense/RepoSense/pull/1451) (second review)
+- [CSVParser: check column headers when parsing config CSV files](https://github.com/reposense/RepoSense/pull/1459)
 
 Opened issues:
 - [Move DevOps guide in the wiki to the developer guide](https://github.com/reposense/RepoSense/issues/1493)
@@ -131,6 +131,25 @@ Opened issues:
 Other tasks completed:
 - Wrote [DevOps guide](https://github.com/reposense/RepoSense/wiki/DevOps-guide) to share knowledge on the DevOps infrastructure used by RepoSense
 - Traiged and identified some issues for first timers to work on
+
+</td>
+</tr>
+<tr>
+<td>11</td>
+<td>
+
+Merged PRs:
+- [\[#1448\] Update documentation to remove need for personal access token](https://github.com/reposense/RepoSense/pull/1465)
+- [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)
+
+Opened PRs:
+- [Support using RepoSense of a specific commit](https://github.com/reposense/publish-RepoSense/pull/10)
+- [\[#1515\] UG: Update documentation on using RepoSense at a specific commit](https://github.com/reposense/RepoSense/pull/1516)
+
+Reviewed PRs:
+- [\[#1500\] Add a Learn basics section to the DG](https://github.com/reposense/RepoSense/pull/1507)
+- [Add message for invalid repository link on the summary view](https://github.com/reposense/RepoSense/pull/1509)
+- [Upgrade minimatch version](https://github.com/reposense/RepoSense/pull/1511)
 
 </td>
 </tr>
