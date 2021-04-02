@@ -21,7 +21,6 @@ Week | Achievements
 6 | Merged PR: [Update slot syntax for PageNavButton and SiteNavButton #1484](https://github.com/MarkBind/markbind/pull/1484)
 6 | Investigated Issue: [Special characters not rendered correctly in search results #1486](https://github.com/MarkBind/markbind/issues/1486)
 6 | Investigated Issue: [Support slots for box components #1492](https://github.com/MarkBind/markbind/issues/1492)
-6 | Authored PR: [Fix no-conversion syntax for intralink in user guide #1494](https://github.com/MarkBind/markbind/pull/1494)
 7 | Reviewed PR: [Show all tabs when printing #1498](https://github.com/MarkBind/markbind/pull/1498)
 7 | Opened Issue: [Tab selection "jumpy" render #1499](https://github.com/MarkBind/markbind/issues/1499)
 7 | Opened Issue: [markdown-it-attrs not parsing properly in user guide #1500](https://github.com/MarkBind/markbind/issues/1500)
@@ -33,6 +32,9 @@ Week | Achievements
 8 | Merged PR: [Update intralink auto-conversion to convert links with URL fragment #1493](https://github.com/MarkBind/markbind/pull/1493)
 8 | Merged PR: [Update underline syntax from $$ to !! #1509](https://github.com/MarkBind/markbind/pull/1509)
 8 | Merged PR: [Add new Markdown underline rule for !! syntax #1510](https://github.com/MarkBind/markbind/pull/1510)
-8 | Authored PR: [Compile Vue Page at build time to alleviate FOUC #1512](https://github.com/MarkBind/markbind/pull/1512)
 8 | Reviewed PR: [Lazy serve: Track recently viewed pages for dependency changes #1513](https://github.com/MarkBind/markbind/pull/1513)
+9 | Merged PR: [Compile Vue Page at build time to alleviate FOUC #1512](https://github.com/MarkBind/markbind/pull/1512)
+9 | Reviewed PR: [NodeProcessor refactor: split into separate files #1515](https://github.com/MarkBind/markbind/pull/1515)
+9 | Investigated Issue: [Support showing .md links #1516](https://github.com/MarkBind/markbind/issues/1516)
+9 | Merged PR: [Fix no-conversion syntax for intralink in user guide #1494](https://github.com/MarkBind/markbind/pull/1494)
 
