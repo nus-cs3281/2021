@@ -5,23 +5,31 @@ Source: Official Docs
 
 - Learnt about `ngTemplate` to make reusable widgets
 - Learnt about specificity of CSS to change component styles without directives or Typescripts code changes
+- Learnt about ```@Input``` and ```@Output``` decorators for communication among the UI components:
+    - ```@Input``` is usually used for the parent component to pass data to the child component.
+    - ```@Output``` is useful when a child component wants to communicate witht the parent component. An EventEmitter is usually decorated with this decorator to act as a callback for changes in the child component.
+- Learnt about modules in Angular: a component can be treated as a standalone module or as a part of a parent module
 
 ### RxJs
 - Learnt about `observable` to receive APIs responses
-- Learnt about ```concat``` and ```merge``` to call paginated API requests
-- Learnt about ```catchError``` to handle errors without ending the stream of API requests allowing the FE to retry sending requests upon failures such as timeout
+- Learnt about ```concat``` and ```merge``` to call paginated API requests:
+    - ```concat``` is used for synchronous API stream, which is useful where API calls need to be in order and slow performance is tolerable
+    - ```merge``` is used for asynchronous API stream, which is useful where performance is important and a burst of instances (due to a large number of asyn calls) is guaranteed to not happen
+- Learnt about ```catchError``` to handle errors without ending the stream of API requests allowing the FE to retry sending requests upon failures such as timeout:
+    - ```catchError``` returns a new stream when an error is encountered. The stream can be ended by returning an empty stream or continue by reconstructing the original stream
 
 ### Google App Engine
 
 Aspects: Database access and modification, APIs, Cron jobs, Task Queue. 
 Source: Teammates code base, Official Docs
-- Learnt about GAE timeout and its 
+- Learnt about GAE timeout and its response to timed-out events which can be utilized to recover from such events
 
 ### Java
 - Learnt that high-level data structures should be prioritized over primitive ones to make the code more extendable e.g ArrayList should be used instead of array
 - Revised best programming practices and OOP principles in Java 
 
 ### Objectify
+- Learnt about CRUD actions on the datastore
 - Learnt about server-side filtering feature
 
 ### Google Cloud Platform

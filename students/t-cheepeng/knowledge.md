@@ -44,3 +44,17 @@ Resource: [Using log-based metrics](https://cloud.google.com/logging/docs/logs-b
 Aspects: window object is frequently used in the codebase of TEAMMATES, e.g., window.location.href. The usage of Angular as a framework with jest testing means that window object should usually not be accessed directly. Testing of the window object in unit tests then require some APIs and dependency injection techniques
 
 Resource: [InjectionToken](https://angular.io/api/core/InjectionToken), [Injecting Window to Angular](https://jasminexie.github.io/injecting-window-in-an-angular-application/)
+
+---
+
+### Proxy Pattern
+Aspects: Structural design pattern that allows a placeholder for another object type. Mainly used for controlling access to the original object, allowing actions before requesting original object. Used in TEAMMATES backend as a layer over Google Cloud Task API and CLoud Logging API. Allows for mocking of 3rd party API services that we do not have direct control over for unit testing.
+
+Resource: [PR for Proxy Pattern](https://github.com/TEAMMATES/teammates/pull/11021)
+
+---
+
+### Data Warehouse
+Aspects: Uses of a data warehouse, purpose of a warehouse and architecture of it. Differences between a data warehouse and a database.
+
+Resource: [AWS Data Warehouse Concepts](https://aws.amazon.com/data-warehouse/)

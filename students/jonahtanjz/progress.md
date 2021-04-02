@@ -21,4 +21,7 @@ Week | Achievements
 7 | Reviewed PR: [Fix escaped html characters in search result #1501](https://github.com/MarkBind/markbind/pull/1501)
 7 | Investigated Issue: [Dropdown header color suspected to be incorrect #1503](https://github.com/MarkBind/markbind/issues/1503)
 7 | Reviewed PR: [Update header slots for Vue components #1502](https://github.com/MarkBind/markbind/pull/1502)
-8 | Authored PR: [Remove transition wrapper for tabs #1508](https://github.com/MarkBind/markbind/pull/1508)
+8 | Merged PR: [Remove transition wrapper for tabs #1508](https://github.com/MarkBind/markbind/pull/1508)
+8 | Reviewed PR: [Compile Vue Page at build time to alleviate FOUC #1512](https://github.com/MarkBind/markbind/pull/1512)
+8 | Merged PR: [Fix incorrect dropdown color #1511](https://github.com/MarkBind/markbind/pull/1511)
+9 | Merged PR: [Implement live preview for pages in site.json #1514](https://github.com/MarkBind/markbind/pull/1514)

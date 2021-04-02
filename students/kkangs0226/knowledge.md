@@ -6,7 +6,7 @@ CATcher is an Angular web application.
 #### Angular Structure
 Components, services, corresponding html and css files work together to form a cohesive application. While a component is a direct representation of visible parts of an application, a service is more subtle in the sense that it runs in the background to provide services to components where needed. By defining the service in the constructor of a component or another service, the component or service is able to access the methods defined in the service freely. The separation of components and services increases modularity and reusability, as through dependency injection (DI), the service class can provide services to different parts of the application.
 
-RxJS stands for Reactive Extensions for Javascript. It supports reactive programming for Javascript, which allows changes in data to be propagated through the application instantly. Angular makes use of the RxJS library to support asynchronous programming and improve reactivity of an Angular application.
+RxJS stands for Reactive Extensions for Javascript. It supports reactive programming for Javascript, which allows changes in data to be propagated through the application instantly. Angular makes use of tShe RxJS library to support asynchronous programming and improve reactivity of an Angular application.
 
 RxJS supports `Observables` and `Observers`, allowing `Observers` to receive updates on changes to the `Observable` it subscribes to. This implementation is similar to `Observables` and `Observers` in other programming langugages such as Java.
 
@@ -81,3 +81,37 @@ Example of adapting application logic to Linux O.S.
 ### Resources Used & Summary
 
 1. [Official Electron Guide](https://www.electronjs.org/docs/tutorial) : This is the official Electron documentation
+
+
+## Github Authentication
+
+### Aspects learnt
+CATcher uses OAuth 2.0 Protocol to authenticate users. Users are required to log into their Github accounts before they can start using CATcher.
+
+#### Web Application Authorization Flow
+
+The basic flow is as follows:
+
+1. CATcher opens a separate window that navigates to GitHub for login.
+2. Once Github verifies the user's identity, the user is redirected to CATcher with a temporary authorization code.
+3. CATcher exchanges the code for the access token, which allows CATcher to access Github API within CATcher.
+
+The above authorization process works perfectly fine when it comes to verifying a user's identity and accessing Github API, however there is a security flaw.
+
+This authentication process is vulnerable to cross-site request forgery (CSRF) attacks, which compromises users' privacy and security.
+
+CSRF attack as a broad term refers to an attack that tricks a victim into doing things on a website in which they are currently authenticated by causing the victim to send a malicious request to the website server.
+
+In the case of CATcher specifically, during the authentication process of a user, an attacker can send their own authentication session ID to CATcher before CATcher can receive the actual response for the user from Github. This tricks CATcher into thinking that the user has been authenticated, and allows the user into CATcher, using the attacker's Github account. This means that whatever information the user uploads onto Github through CATcher would instead be uploaded to the attacker's Github account, instead of the user's.
+
+What we can do to prevent this attack is to add the `state` parameter in our authentication process. In our first step, before navigating to Github, CATcher can generate a random string called `state` (high entropy needs to be ensured for security) and send it to Github together with other details. Upon authenticating the user, Github will then send back the `state` parameter to CATcher, and this allows CATcher to check the returned `state` parameter against the sent `state`. If the `state` parameters do not match, it might point at a potential CSRF attack, as Github will definitely return us the correct state. CATcher will then ignore the response and wait until the correct `state` is received.
+
+##### Knowledge Gained:
+1. Understanding the authentication process for OAuth 2.0
+2. Improving security of an authentication process by adding `state` parameter
+
+### Resources Used & Summary
+
+1. [Github Docs](https://docs.github.com/en/developers/apps/authorizing-oauth-apps) : Github Documentation on authorizing OAuth applications
+2. [OAuth CSRF & the 'state' parameter](https://www.youtube.com/watch?v=_xrhWLqX1j0) : A short video on how CSRF attacks can diminish security of an application and how state paramters can prevent CSRF attacks
+3. [Cross-site request forgery (CSRF)](https://owasp.org/www-community/attacks/csrf) : An article on how CSRF attacks occur

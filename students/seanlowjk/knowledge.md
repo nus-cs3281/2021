@@ -79,3 +79,78 @@ The Following PRs can serve as a starting point to how to use the
 `TestBed` Utility in your Angular application. 
 
 1. [Assignee Component: Add Tests](https://github.com/CATcher-org/CATcher/pull/555)
+
+# Angular RxJS Custom Operators 
+
+## Aspects 
+
+1. Functional Programming 
+2. Code Quality 
+
+### Summary 
+
+In RxJS, we can make use of **operators** to make our code more readable 
+given multiple steps in a pipeline. 
+
+```typescript
+this.getData().pipe(
+    map(...), 
+    map(...), 
+    map(...), 
+    map(...)
+);
+```
+
+With Reference to the example above, we are actually exposing too many 
+details with regards to this pipeline. This not only makes to code way 
+too lengthy, but also exposes too many details to the user reading 
+this function.
+
+As a result, we can consider the usage of **custom operator**
+
+```typescript
+function transformToData() {
+    return pipe(
+        map(rawData => parse(rawData))
+    );
+}
+```
+
+For example, we can just keep the logic or mapping raw data to 
+actual data within a **pipeable operator**, which is a pure functiom. 
+
+Not only does this help to abstract away implementation details, 
+it helps with regards to **testing** as we are able to test these
+individual **custom operators**.  As a result, our final pipeline
+would look more readable:
+
+```typescript
+this.getData().pipe(
+    this.trimSpaces(), 
+    this.trimNewLines(),
+    this.transformToData(),
+    this.transformToNumbers()
+);
+```
+
+#### Knowledge Gained 
+
+1. Learning how to use the **custom operators** to make certain 
+pipelines more readable. 
+2. Learning how use Angular `Testbed` to test out the various 
+**custom operators** created. 
+
+## Resources 
+
+The resources below are to familiarize yourself with how you can use 
+**custom operators** and **pipeline operators**
+
+1. [RxJS Operators Documentation](https://rxjs-dev.firebaseapp.com/guide/operators)
+2. [Guide to Custom Operators](https://netbasal.com/creating-custom-operators-in-rxjs-32f052d69457)
+
+The Following PRs can serve as a starting point to how to use and 
+test **custom operators** in the form of **pipeable operators**. 
+
+1. [LabelService: create custom operator for label synchronisation](https://github.com/CATcher-org/CATcher/pull/590)
+2. [RepoCreatorService: Create custom operator for verifying repo creation](https://github.com/CATcher-org/CATcher/pull/612)
+ 
