@@ -59,3 +59,13 @@ https://www.youtube.com/watch?v=wZN_FtZRYC8&ab_channel=LaraconEU
 
 // 'Templates should only be responsible for mapping the state to the UI.
 // Avoid placing tags with side-effects in your templates, such as script, as they will not be parsed.
+
+using dev vue vs prod vue
+
+hydration gotchas (pros and cons of ssr) -- ensuring universal
+
+setting up ssr in dev mode
+
+requiring modules from string
+
+webpack
