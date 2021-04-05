@@ -43,6 +43,8 @@ Source: Teammates code base, Official Docs
 - Created sripts to generate mock data and retrieve information about the database for the admin
 - Created LnP test scripts to assess performance of heavily used APIs such as student enrolment
 - Configured `test.properties` and `JMeterElements.java` for running LnP scripts against staging server by adding domain and port of the staging server as target point
+- E2E testing with Selenium:
+    - Learnt about the usage of `id`, `xpath` and `css selector` to identify web components for testing purposes
 - Learnt about `JMeter` as an application for LnP testing:
     - Create test data
     - Create csv test data to be send with APIs to BE
