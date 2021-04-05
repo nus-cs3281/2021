@@ -32,8 +32,8 @@
 | 7    | Opened Issue: [Logging to file #615](https://github.com/CATcher-org/CATcher/issues/615) |
 | 7    | Opened Issue: [Prettier Configuration #624](https://github.com/CATcher-org/CATcher/issues/624) |
 | 7    | Opened Issue: [IssueTable Bug: Open-In-Web Fail #619](https://github.com/CATcher-org/CATcher/issues/619) |
-| 7    | Authored PR (Pending Review): [TesterResponse: RadioButton to replace Checkboxes #618](https://github.com/CATcher-org/CATcher/pull/618) |
-| 7    | Authored PR (Pending Review): [Added Cached Logging Capability #616](https://github.com/CATcher-org/CATcher/pull/616) |
+| 7    | Merged PR: [TesterResponse: RadioButton to replace Checkboxes #618](https://github.com/CATcher-org/CATcher/pull/618) |
+| 7    | Merged PR: [Added Cached Logging Capability #616](https://github.com/CATcher-org/CATcher/pull/616) |
 | 7    | Merged PR: [IssueTable: View in Browser Fix #620](https://github.com/CATcher-org/CATcher/pull/620) |
 | 7    | Merged PR: [CI Faliure Bug Fix: Match Driver with Browser Version #622](https://github.com/CATcher-org/CATcher/pull/622) |
 | 7    | Reviewed PR: [RepoCreatorService: Create custom Repo Creation Operator #612](https://github.com/CATcher-org/CATcher/pull/612) |
@@ -55,13 +55,17 @@
 | 9    | Reviewed PR: [Karma Test Config Fix Timeout for Mac OS Tests #633](https://github.com/CATcher-org/CATcher/pull/633) |
 | 9    | Reviewed PR: [Include Version number in issues created #656](https://github.com/CATcher-org/CATcher/pull/656) |
 | 9    | Reviewed PR: [Include App Version Number in Header and Logs #659](https://github.com/CATcher-org/CATcher/pull/659) |
-| 9    | Authored PR: [Update Dev Notes about Logging Process #664](https://github.com/CATcher-org/CATcher/pull/664) |
-| 9    | Authored PR: [Update Dev Notes about Release Instructions #614](https://github.com/CATcher-org/CATcher/pull/662) |
+| 9    | Merged PR: [Update Dev Notes about Logging Process #664](https://github.com/CATcher-org/CATcher/pull/664) |
+| 9    | Merged PR: [Update Dev Notes about Release Instructions #614](https://github.com/CATcher-org/CATcher/pull/662) |
 | 9    | Opened Issue: [App Version Indicator (App + Logs) #650](https://github.com/CATcher-org/CATcher/issues/650) |
 | 9    | Opened Issue: [Update Dev Notes with Release Procedure #651](https://github.com/CATcher-org/CATcher/issues/651) |
 | 10    | Authored PR: [Maintain Session ID through Phase Change #672](https://github.com/CATcher-org/CATcher/pull/672) |
 | 10    | Reviewed PR: [RepoCreatorService: Create custom operators for Permissions Request #671](https://github.com/CATcher-org/CATcher/pull/671) |
 | 10    | Reviewed PR: [Enforcing prettier on commits #669](https://github.com/CATcher-org/CATcher/pull/669) |
-| 10    | Reviewed PR: [Enforcing prettier on commits #669](https://github.com/CATcher-org/CATcher/pull/669) |
 | 10    | Reviewed PR: [Read Profiles From External Repository #661](https://github.com/CATcher-org/CATcher/pull/661) |
-
+| 11    | Authored PR: [Markbind Transition #1](https://github.com/CATcher-org/catcher-org.github.io/pull/1) |
+| 11    | Authored PR: [Automated Deployment #2](https://github.com/CATcher-org/catcher-org.github.io/pull/2) |
+| 11    | Authored PR: [Added Logging to Issue Table Actions #78](https://github.com/CATcher-org/CATcher/pull/678) |
+| 11    | Reviewed PR: [Setup Notes: Update section on setting up access rights #677](https://github.com/CATcher-org/CATcher/pull/677) |
+| 11    | Reviewed PR: [Issues Faulty Component: Decompose logical expressions into methods #683](https://github.com/CATcher-org/CATcher/pull/683) |
+| 11    | Reviewed PR: [Clicking 'No thanks' in permission prompt does not prevent repo creation #676](https://github.com/CATcher-org/CATcher/pull/676) |
