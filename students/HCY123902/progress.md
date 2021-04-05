@@ -32,3 +32,11 @@
 | 10    | Reviewd PR: [[#1349] Clone test repositories only once when testing](https://github.com/reposense/RepoSense/pull/1478)                      |
 | 10    | Reviewd PR: [Watch tab info directly](https://github.com/reposense/RepoSense/pull/1490)                                                     |
 | 10    | Release: Made the release for [v1.13.1](https://github.com/reposense/RepoSense/releases/tag/v1.13.1)                                        |
+| 11    | Merged PR: [[#1229] Select a consistent group name when grouped by author](https://github.com/reposense/RepoSense/pull/1461)                |
+| 11    | Merged PR: [[#1464] Remove group highlight when merging group](https://github.com/reposense/RepoSense/pull/1466)                            |
+| 11    | Merged PR: [[#1472] DG: add release guide](https://github.com/reposense/RepoSense/pull/1474)                                                |
+| 11    | Merged PR: [[#1517] Restore binary repository in deployment preview](https://github.com/reposense/RepoSense/pull/1522)                      |
+| 11    | Reviewd PR: [[#1515] UG: Update documentation on using RepoSense at a specific commit](https://github.com/reposense/RepoSense/pull/1516)    |
+| 11    | Reviewd PR: [Remove duplicate initiate in v_zoom](https://github.com/reposense/RepoSense/pull/1489)                                         |
+| 11    | Reviewd PR: [[#1184] Improve assertion of authors for file analysis](https://github.com/reposense/RepoSense/pull/1518)                      |
+| 11    | Reviewd PR: [[#1354] Allow disowning of code by using empty author tags](https://github.com/reposense/RepoSense/pull/1520)                  |

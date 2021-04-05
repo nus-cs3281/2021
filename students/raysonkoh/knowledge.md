@@ -77,3 +77,10 @@ Implementation of `markbind deploy --ci` uses some useful CI environmental envar
 
 Some useful resources:
 - [Snippet of Codecov's bash script which leverages heavily on CI environmental variables](https://github.com/codecov/codecov-bash/blob/master/codecov#L499-L951) - Credit to HSU ZHONG JUN for suggesting the resource in [Support more CI platforms for markbind deploy #1432](https://github.com/MarkBind/markbind/issues/1432).
+
+#### Aspect 3: Regex
+Markbind relies on some regex expressions for parsing. It would be good to have a basic understanding of regex to understand some of the parsing-related functions.
+
+Some useful resources:
+- [Youtube - Regular Expressions (Regex) in JavaScript - tutorial](https://www.youtube.com/watch?v=909NfO1St0A)
+- [Youtube - Regular Expressions (Regex) Tutorial: How to Match Any Pattern of Text](https://www.youtube.com/watch?v=sa-TUpSx1JA)
