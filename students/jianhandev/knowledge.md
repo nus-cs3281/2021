@@ -1,5 +1,6 @@
 ## Front-End Knowledge
- 
+---
+
 ### Angular
 
 #### Basics
@@ -57,9 +58,8 @@ the UI does not change unexpectedly.
 [Subscription](https://rxjs-dev.firebaseapp.com/guide/subscription),
 [RxJS Operators](https://rxjs-dev.firebaseapp.com/guide/operators)
 
----
-
 ## Back-End Knowledge
+---
 
 ### Objectify
 **Aspects Learned**
@@ -78,8 +78,6 @@ the UI does not change unexpectedly.
 [Objectify v6](https://github.com/objectify/objectify/wiki/UpgradeVersion5ToVersion6),
 [Query Cursor](https://cloud.google.com/appengine/docs/standard/java/datastore/query-cursors)
 [LocalServiceTestHelper](https://cloud.google.com/appengine/docs/standard/java/tools/localunittesting/javadoc/com/google/appengine/tools/development/testing/LocalServiceTestHelper)
-
----
 
 ### Google Cloud Datastore
 **Aspects Learned**
@@ -118,6 +116,15 @@ Full text search
 * Providing Solr as a service to the backend using SolrJ Java Client
 * Indexing search documents in Solr
 * Understanding Collections, Sharding, Cores, Replicas
+* Running search service in docker
 
 **Resources:**
-[Solr Local Setup](https://solr.apache.org/guide/8_8/solr-tutorial.html#exercise-1), [Basics of Apache Solr](https://www.infoworld.com/article/3209685/why-you-should-use-apache-solr.html#:~:text=Apache%20Solr%20is%20both%20a,document%20database%20with%20SQL%20support.&text=Solr%20is%20a%20search%20engine,NoSQL%20database%20with%20transactional%20support), [Terminologies](https://solr.apache.org/guide/8_8/solr-glossary.html)
+[Solr Local Setup](https://solr.apache.org/guide/8_8/solr-tutorial.html#exercise-1), [Basics of Apache Solr](https://www.infoworld.com/article/3209685/why-you-should-use-apache-solr.html#:~:text=Apache%20Solr%20is%20both%20a,document%20database%20with%20SQL%20support.&text=Solr%20is%20a%20search%20engine,NoSQL%20database%20with%20transactional%20support), [Terminologies](https://solr.apache.org/guide/8_8/solr-glossary.html), [Docker/Solr](https://lucidworks.com/post/solr-on-docker-2/)
+
+### Github Actions
+**Aspects Learned**
+* Github actions and changing the workflow for CI
+* Learning YAML (e.g block scalars, variables, syntax etc)
+
+**Resources:**
+[Github Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions), [YAML](https://www.yaml.info/learn/index.html)
