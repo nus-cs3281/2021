@@ -33,3 +33,4 @@
 | 10   | Drafted PR: [Markdown Links: Fix redirection href values #666](https://github.com/CATcher-org/CATcher/pull/666) |
 | 10   | Drafted PR: [RepoCreatorService: Create custom operators for Permissions Request #671](https://github.com/CATcher-org/CATcher/pull/671) |
 | 10   | Reviewed PR: [IssuesDataTable: Move pagination logic into separate module, add tests #668](https://github.com/CATcher-org/CATcher/pull/668) |
+| 11   | Merged PR: [Include App Version Number in Header and Logs: #659](https://github.com/CATcher-org/CATcher/pull/659) | 
