@@ -26,3 +26,6 @@ Week | Achievements
 9 | Submitted Issue: [Display problems with codeAndOutput.md #1517](https://github.com/MarkBind/markbind/issues/1517)
 10 | Submitted Issue: [Fix deprecation warnings for highlight.js v10.7 #1518](https://github.com/MarkBind/markbind/issues/1518)
 10 | Authored PR: [Fix highlightjs warnings #1521](https://github.com/MarkBind/markbind/pull/1521)
+11 | Responded to Issue: [Syntax highlighting not working when it is contained #1523](https://github.com/MarkBind/markbind/issues/1523)
+11 | Reviewed PR: [Fix intrasiteLinkValidation code block #1527](https://github.com/MarkBind/markbind/pull/1527)
+11 | Reviewed PR: [Implement live preview for site.json #1529](https://github.com/MarkBind/markbind/pull/1529)
