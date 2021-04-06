@@ -21,4 +21,5 @@ Week | Achievements
 11 | Submitted Issue: [Burst of concurrent requests causing high amount of instance uptime](https://github.com/TEAMMATES/teammates/issues/11071)
 11 | Approved PR: [Refactor datepicker with today button as a component](https://github.com/TEAMMATES/teammates/pull/11072)
 12 | Reviewed PR: [Return HasResponses for all sessions in a course to reduce QPS](https://github.com/TEAMMATES/teammates/pull/11077)
-12 | Authored PR: [Remove error highlighting on a new enrollment](https://github.com/TEAMMATES/teammates/pull/11089)
+12 | Approved PR: [Remove error highlighting on a new enrollment](https://github.com/TEAMMATES/teammates/pull/11089)
+12 | Reviewed PR: [Add frontend tests for audit logs page](https://github.com/TEAMMATES/teammates/pull/11090)
