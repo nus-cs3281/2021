@@ -23,3 +23,4 @@ Week | Achievements
 12 | Reviewed PR: [Return HasResponses for all sessions in a course to reduce QPS](https://github.com/TEAMMATES/teammates/pull/11077)
 12 | Approved PR: [Remove error highlighting on a new enrollment](https://github.com/TEAMMATES/teammates/pull/11089)
 12 | Reviewed PR: [Add frontend tests for audit logs page](https://github.com/TEAMMATES/teammates/pull/11090)
+12 | Reviewed PR: [Instructor edit questions: tweak option order for generating answers from teams](https://github.com/TEAMMATES/teammates/pull/11092)
