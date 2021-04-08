@@ -50,3 +50,5 @@ Week | Achievements
 11 | Reviewed PR: [[#11065] Remove usage of App Engine Mail API #11068](https://github.com/TEAMMATES/teammates/pull/11068)
 11 | Reviewed PR: [[#10950] Filter logs by feedback session name #11069](https://github.com/TEAMMATES/teammates/pull/11069/files)
 11 | Reviewed PR: [[#11020] Initial Search API migration to Solr #11064](https://github.com/TEAMMATES/teammates/pull/11064)
+12 | Reviewed PR: [[#10917] Fix unexpected behaviour when reverting to template feedback path #10975](https://github.com/TEAMMATES/teammates/pull/10975)
+12 | Reviewed PR: [[#11079] Migrate remaining usages of internal App Engine APIs #11081](https://github.com/TEAMMATES/teammates/pull/11081)
