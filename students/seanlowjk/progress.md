@@ -34,3 +34,5 @@
 | 10   | Drafted PR: [RepoCreatorService: Create custom operators for Permissions Request #671](https://github.com/CATcher-org/CATcher/pull/671) |
 | 10   | Reviewed PR: [IssuesDataTable: Move pagination logic into separate module, add tests #668](https://github.com/CATcher-org/CATcher/pull/668) |
 | 11   | Merged PR: [Include App Version Number in Header and Logs: #659](https://github.com/CATcher-org/CATcher/pull/659) | 
+| 12   | Reviewed PR: [DuplicatedIssuesComponent: Add tests #675](https://github.com/CATcher-org/CATcher/pull/675) |
+| 12   | Drafted PR: [Add Headers, Navs and User Guide Boilerplate Pages #3](https://github.com/CATcher-org/catcher-org.github.io/pull/3) |
