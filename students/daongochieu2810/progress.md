@@ -24,3 +24,8 @@ Week | Achievements
 12 | Approved PR: [Remove error highlighting on a new enrollment](https://github.com/TEAMMATES/teammates/pull/11089)
 12 | Reviewed PR: [Add frontend tests for audit logs page](https://github.com/TEAMMATES/teammates/pull/11090)
 12 | Reviewed PR: [Instructor edit questions: tweak option order for generating answers from teams](https://github.com/TEAMMATES/teammates/pull/11092)
+12 | Reviewed PR: [Change design diagrams from Powerpoint to PlantUML](https://github.com/TEAMMATES/teammates/pull/10876)
+13 | Reviewed PR: [Add session submission page tests](https://github.com/TEAMMATES/teammates/pull/11044)
+13 | Authored PR: [Return a better message for conflicting course ids](https://github.com/TEAMMATES/teammates/pull/11098)
+13 | Reviewed PR: [E2E tests for Audit Logs](https://github.com/TEAMMATES/teammates/pull/11095)
+13 | Reviewed PR: [Support copying courses](https://github.com/TEAMMATES/teammates/pull/11012)

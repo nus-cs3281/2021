@@ -45,6 +45,8 @@ Source: Teammates code base, Official Docs
 - Configured `test.properties` and `JMeterElements.java` for running LnP scripts against staging server by adding domain and port of the staging server as target point
 - E2E testing with Selenium:
     - Learnt about the usage of `id`, `xpath` and `css selector` to identify web components for testing purposes
+    - Learnt about the usage of page objects to simulate user actions
+    - Learnt about the usage of service stubs to simulate http responses
 - Learnt about `JMeter` as an application for LnP testing:
     - Create test data
     - Create csv test data to be send with APIs to BE
