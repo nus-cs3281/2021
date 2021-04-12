@@ -1,6 +1,8 @@
 ### Tool/Technology 1
 
-Vuex
+Vue.Js
+
+--------------------------------------------------------------------------------------------------------------------------
 
 Description of the tool: State management tool for Vue applications
 
