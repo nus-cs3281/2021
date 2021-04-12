@@ -52,29 +52,7 @@ https://vuejs.org/v2/guide/computed.html
 
 ### Tool/Technology 2
 
-Javascript Syntax for map
-
-Description of the tool: Javascript Syntax related to the retrival of map keys, conversion from map to array, and iteration of map.
-
-Aspect: Some instance methods of retriving key and entry in the Map class, such as `map.keys` and `map.entries`, do not seem to work in RepoSense frontend script. The corresponding class methods in the Object class, such as `Object.entries` and `Object.keys`, can be used as an alternative option. 
-
-Related post:
-
-https://stackoverflow.com/questions/35341696/how-to-convert-map-keys-to-array
-
-https://stackoverflow.com/questions/16507866/iterate-through-a-map-in-javascript/54550693
-
-https://stackoverflow.com/questions/42196853/convert-a-map-object-to-array-of-objects-in-java-script
-
-Documentation:
-
-https://devdocs.io/javascript-map/
-
-https://devdocs.io/javascript-object/
-
-### Tool/Technology 3
-
-Scss and Css
+SCSS and CSS
 
 Description of the tool: style sheet used by Vue User Interface Component.
 
@@ -96,7 +74,7 @@ Related article about the naming convention in css style sheet:
 
 https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/
 
-### Tool/Technology 4
+### Tool/Technology 3
 
 Pug
 
@@ -112,7 +90,7 @@ Introduction tutorial:
 
 https://www.youtube.com/watch?v=kt3cEjjkCZA
 
-### Tool/Technology 5
+### Tool/Technology 4
 
 Figma 
 
@@ -123,3 +101,25 @@ Aspect: Introduction to the usage of Figma
 Introduction tutorial:
 
 https://www.youtube.com/watch?v=3q3FV65ZrUs
+
+### Tool/Technology 5
+
+JavaScript Syntax for map
+
+Description of the tool: JavaScript Syntax related to the retrival of map keys, conversion from map to array, and iteration of map.
+
+Aspect: Some instance methods of retriving key and entry in the Map class, such as `map.keys` and `map.entries`, do not seem to work in RepoSense frontend script. The corresponding class methods in the Object class, such as `Object.entries` and `Object.keys`, can be used as an alternative option. 
+
+Related post:
+
+https://stackoverflow.com/questions/35341696/how-to-convert-map-keys-to-array
+
+https://stackoverflow.com/questions/16507866/iterate-through-a-map-in-javascript/54550693
+
+https://stackoverflow.com/questions/42196853/convert-a-map-object-to-array-of-objects-in-java-script
+
+Documentation:
+
+https://devdocs.io/javascript-map/
+
+https://devdocs.io/javascript-object/
