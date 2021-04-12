@@ -31,7 +31,16 @@ Source: Teammates code base, Official Docs
 ### Objectify
 - Learnt about CRUD actions on the datastore
 - Learnt about server-side filtering feature
-
+- Other basic operations:
+    - Defining entities
+    - Loading/Deleting/Updating entities
+    - Key-only queries
+- Transactions:
+    - Entity groups: to allow atomic transactions to be carried out. The groups are defined based on each entity's parent
+    - Optimistic concurrency: Objectify allows concurrent transactions, and any conflicts in timestamps of entities will cause the transaction to be rolled back. Optimistic concurrency generally has a higher throughput than pessimistic concurrency
+- Indexing:
+    - To index an entity with an attribute, use the tag `@Index`
+    - Appengine indexing rules enforce the use of efficient queries,  and make it almost impossible to write slow queries
 ### Google Cloud Platform
 - Learnt that parallelism might cause mutiple instances to be created and thus increase the cost
 - Used Cloud Trace to find performance bottle-neck of API calls 

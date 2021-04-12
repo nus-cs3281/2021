@@ -29,3 +29,4 @@ Week | Achievements
 13 | Merged PR: [Return a better message for conflicting course ids](https://github.com/TEAMMATES/teammates/pull/11098)
 13 | Reviewed PR: [E2E tests for Audit Logs](https://github.com/TEAMMATES/teammates/pull/11095)
 13 | Reviewed PR: [Support copying courses](https://github.com/TEAMMATES/teammates/pull/11012)
+13 | Merged PR: [Navigate to today date on click](https://github.com/TEAMMATES/teammates/pull/11104)
