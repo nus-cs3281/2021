@@ -2,6 +2,14 @@
 
 Vue.Js
 
+Documentation:
+
+https://vuejs.org/v2/guide/index.html
+
+Introduction tutorial:
+
+https://www.vuemastery.com/courses/intro-to-vue-js/
+
 --------------------------------------------------------------------------------------------------------------------------
 
 Vuex
@@ -9,6 +17,10 @@ Vuex
 Description of the tool: State management tool for Vue applications
 
 Aspect: Introduction to Vuex
+
+Documentation:
+
+https://vuex.vuejs.org/guide/
 
 Introduction tutorial:
 
