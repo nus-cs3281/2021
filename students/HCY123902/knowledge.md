@@ -92,7 +92,7 @@ https://stackoverflow.com/questions/30505225/how-to-reference-nested-classes-wit
 
 https://stackoverflow.com/questions/13051721/inheriting-from-another-css-class
 
-The naming convention in css style sheet
+Related article about the naming convention in css style sheet:
 
 https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/
 
