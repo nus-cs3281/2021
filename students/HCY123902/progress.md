@@ -26,10 +26,15 @@
 | 8    | Release: Made the release for [v1.13](https://github.com/reposense/RepoSense/releases/tag/v1.13)                                             |
 | 9    | Opened issue: [Restoring not working properly for zoom panel](https://github.com/reposense/RepoSense/issues/1486)                            |
 | 9    | Merged PR: [[#674] Include binary files touched in authorship panel](https://github.com/reposense/RepoSense/pull/1413) <br/>                                                       Include binary files in the authorship contribution panel<br/>                                                                                                                   Add binary file checkbox to separate binary file type from other file types<br/>                                                                                                 Change the documentation about how file formats argument works according to the changes introduced by binary file type                      |
+| 9    | Authored PR(put on hold by request): [Make file types selection consistent across panel](https://github.com/reposense/RepoSense/pull/1488)   |
+| 9    | Authored PR: [[#1486] Rename zIsMerge to zIsMerged](https://github.com/reposense/RepoSense/pull/1487)                                        |
+| 9    | Authored PR: [[#1476] Remove the highlighting when the panel is closed](https://github.com/reposense/RepoSense/pull/1480)                    |
 | 9    | Merged PR: [[#1446] Restore the name on authorship panel after reloading](https://github.com/reposense/RepoSense/pull/1458)                  |
 | 9    | Reviewd PR: [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)                   |
 | 9    | Reviewd PR: [[#1448] Update documentation to remove need for personal access token](https://github.com/reposense/RepoSense/pull/1465)        |
 | 10    | Authored PR: [Add message for invalid repository link on the summary view](https://github.com/reposense/RepoSense/pull/1509)                |
+| 10    | Authored PR: [[#1500] Add a Learn basics section to the DG](https://github.com/reposense/RepoSense/pull/1507)                               |
+| 10    | Authored PR: [Add link to first timer issues in the Developer Guide](https://github.com/reposense/RepoSense/pull/1492)                      |
 | 10    | Reviewd PR: [[#1349] Clone test repositories only once when testing](https://github.com/reposense/RepoSense/pull/1478)                      |
 | 10    | Reviewd PR: [Watch tab info directly](https://github.com/reposense/RepoSense/pull/1490)                                                     |
 | 10    | Release: Made the release for [v1.13.1](https://github.com/reposense/RepoSense/releases/tag/v1.13.1)                                        |
