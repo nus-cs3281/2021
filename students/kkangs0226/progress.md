@@ -33,3 +33,8 @@ Week | Achievements
 9 | Reviewed PR: [Dev Notes: Document release procedure](https://github.com/CATcher-org/CATcher/pull/662)
 10 | Submitted Issue: [Add Onboarding Guide for new developers](https://github.com/CATcher-org/CATcher/issues/667)
 10 | Authored PR: [IssuesDataTable: Move pagination logic into separate module, add tests](https://github.com/CATcher-org/CATcher/pull/668)
+11 | Authored PR: [Setup Notes: Update section on setting up access rights](https://github.com/CATcher-org/CATcher/pull/677)
+11 | Authored PR: [DuplicatedIssuesComponent: Add tests](https://github.com/CATcher-org/CATcher/pull/675)
+11 | Reviewed PR: [Add stack trace for errors](https://github.com/CATcher-org/CATcher/pull/682)
+11 | Reviewed PR: [Added Logging to Issue Table Actions](https://github.com/CATcher-org/CATcher/pull/678)
+12 | Merged Issue: [SessionFixConfirmationComponent: Fix bug in permission prompt](https://github.com/CATcher-org/CATcher/issues/676)
