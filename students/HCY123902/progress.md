@@ -29,6 +29,7 @@
 | 9    | Merged PR: [[#1446] Restore the name on authorship panel after reloading](https://github.com/reposense/RepoSense/pull/1458)                  |
 | 9    | Reviewd PR: [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)                   |
 | 9    | Reviewd PR: [[#1448] Update documentation to remove need for personal access token](https://github.com/reposense/RepoSense/pull/1465)        |
+| 10    | Authored PR: [Add message for invalid repository link on the summary view](https://github.com/reposense/RepoSense/pull/1509)                |
 | 10    | Reviewd PR: [[#1349] Clone test repositories only once when testing](https://github.com/reposense/RepoSense/pull/1478)                      |
 | 10    | Reviewd PR: [Watch tab info directly](https://github.com/reposense/RepoSense/pull/1490)                                                     |
 | 10    | Release: Made the release for [v1.13.1](https://github.com/reposense/RepoSense/releases/tag/v1.13.1)                                        |
@@ -40,3 +41,6 @@
 | 11    | Reviewd PR: [Remove duplicate initiate in v_zoom](https://github.com/reposense/RepoSense/pull/1489)                                         |
 | 11    | Reviewd PR: [[#1184] Improve assertion of authors for file analysis](https://github.com/reposense/RepoSense/pull/1518)                      |
 | 11    | Reviewd PR: [[#1354] Allow disowning of code by using empty author tags](https://github.com/reposense/RepoSense/pull/1520)                  |
+| 12    | Authored PR: [[#1234] Move relevant test cases in ArgsParserTest to RepoSenseTest class](https://github.com/reposense/RepoSense/pull/1530)  |
+| 12    | Authored PR: [[#435] Convert special character in path to the corresponding white space](https://github.com/reposense/RepoSense/pull/1531)  |
+| 12    | Authored PR: [Add link to path glob syntax in the User Guide](https://github.com/reposense/RepoSense/pull/1541)                             |
