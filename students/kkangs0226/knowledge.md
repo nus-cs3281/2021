@@ -6,7 +6,7 @@ CATcher is an Angular web application.
 #### Angular Structure
 Components, services, corresponding html and css files work together to form a cohesive application. While a component is a direct representation of visible parts of an application, a service is more subtle in the sense that it runs in the background to provide services to components where needed. By defining the service in the constructor of a component or another service, the component or service is able to access the methods defined in the service freely. The separation of components and services increases modularity and reusability, as through dependency injection (DI), the service class can provide services to different parts of the application.
 
-RxJS stands for Reactive Extensions for Javascript. It supports reactive programming for Javascript, which allows changes in data to be propagated through the application instantly. Angular makes use of tShe RxJS library to support asynchronous programming and improve reactivity of an Angular application.
+RxJS stands for Reactive Extensions for Javascript. It supports reactive programming for Javascript, which allows changes in data to be propagated through the application instantly. Angular makes use of the RxJS library to support asynchronous programming and improve reactivity of an Angular application.
 
 RxJS supports `Observables` and `Observers`, allowing `Observers` to receive updates on changes to the `Observable` it subscribes to. This implementation is similar to `Observables` and `Observers` in other programming langugages such as Java.
 
