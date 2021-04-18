@@ -12,7 +12,7 @@ https://www.vuemastery.com/courses/intro-to-vue-js/
 
 --------------------------------------------------------------------------------------------------------------------------
 
-#### Vuex
+##### Vuex
 
 Description of the tool: State management tool for Vue applications
 
@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=5lVQgZzLMHc
 
 --------------------------------------------------------------------------------------------------------------------------
 
-#### Vue LifeCycle Management
+##### Vue LifeCycle Management
 
 Description of the tool: Vue component life cycle hook
 
@@ -52,7 +52,7 @@ https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks
 
 --------------------------------------------------------------------------------------------------------------------------
 
-#### Vue Computed Properties and Watchers
+##### Vue Computed Properties and Watchers
 
 Description of the tool: Respective usage of computed properties and watchers in Vue component
 
@@ -66,9 +66,9 @@ https://vuejs.org/v2/guide/computed.html
 
 #### SCSS and CSS
 
-Description of the tool: style sheet used by Vue User Interface Component.
+Description of the tool: style sheet used by Vue User Interface Component
 
-Aspect: Difference between the usage of class selector in css and scss style sheet.
+Aspect: Difference between the usage of class selector in css and scss style sheet
 
 Documentation:
 
@@ -106,7 +106,7 @@ https://www.youtube.com/watch?v=kt3cEjjkCZA
 
 #### Figma 
 
-Description of the tool: Grapgical User interface design tool that allows automatic generation of css style sheet. This can save time for writing css according to the User Interface Design.
+Description of the tool: Grapgical User interface design tool that allows automatic generation of css style sheet. This can save time for writing css according to the User Interface Design
 
 Aspect: Introduction to the usage of Figma
 
@@ -116,9 +116,9 @@ https://www.youtube.com/watch?v=3q3FV65ZrUs
 
 ### Tool/Technology 5
 
-#### JavaScript Syntax for map
+#### JavaScript Syntax
 
-Description of the tool: JavaScript Syntax related to the retrival of map keys, conversion from map to array, and iteration of map.
+Description of the tool: JavaScript Syntax related to the retrival of map keys, conversion from map to array, and iteration of map
 
 Aspect: Some instance methods of retriving key and entry in the Map class, such as `map.keys` and `map.entries`, do not seem to work in RepoSense frontend script. The corresponding class methods in the Object class, such as `Object.entries` and `Object.keys`, can be used as an alternative option. 
 
@@ -135,3 +135,53 @@ Documentation:
 https://devdocs.io/javascript-map/
 
 https://devdocs.io/javascript-object/
+
+### Tool/Technology 6
+
+##### Java URL decoder
+
+Description of the tool: The Java URL decoder to decode string
+
+Aspect: The Java URL decode can convert hexadecimal value in the string to the corresponding character, which is helpful in path string conversion.
+
+Documentation:
+
+https://docs.oracle.com/javase/8/docs/api/java/net/URLDecoder.html
+
+### Tool/Technology 7
+
+##### Git command for squashing commit
+
+Description of the tool: The git command to squash multiple commits
+
+Aspect: It is necessary to squash multiple commits together when working on pull request, which can make the commit history look concise and clear to the reviewer.
+
+Related post:
+
+https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git
+
+Documentation:
+
+http://git-scm.com/docs/git-rebase#_interactive_mode
+
+http://git-scm.com/docs/git-reset#Documentation/git-reset.txt-emgitresetemltmodegtltcommitgt
+
+### Tool/Technology 8
+
+#### Cloning of Github repositories
+
+Description of the tool: Cloning of GitHub repositories with SSH
+
+Aspect: The steps to take to connect to GitHub with SSH and clone repository with SSH protocol URL. It is a potential direction to explore for RepoSense to allow the usage of SSH protocol URL when specifying the repository to clone.
+
+Related post
+
+https://stackoverflow.com/questions/6167905/git-clone-through-ssh/16134428
+
+Steps to take to connect to Github using SSH:
+
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+
+Cloning of repository with SSH:
+
+https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories#cloning-with-ssh-urls
