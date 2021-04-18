@@ -152,6 +152,7 @@ Reviewed PRs:
 - [\[#1500\] Add a Learn basics section to the DG](https://github.com/reposense/RepoSense/pull/1507)
 - [Add message for invalid repository link on the summary view](https://github.com/reposense/RepoSense/pull/1509)
 - [Upgrade minimatch version](https://github.com/reposense/RepoSense/pull/1511)
+- [\[#1517\] Restore binary repository in deployment preview](https://github.com/reposense/RepoSense/pull/1522)
 
 </td>
 </tr>
