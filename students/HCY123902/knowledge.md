@@ -138,7 +138,7 @@ https://devdocs.io/javascript-object/
 
 ### Tool/Technology 6
 
-##### Java URL decoder
+#### Java URL decoder
 
 Description of the tool: The Java URL decoder to decode string
 
@@ -150,7 +150,7 @@ https://docs.oracle.com/javase/8/docs/api/java/net/URLDecoder.html
 
 ### Tool/Technology 7
 
-##### Git command for squashing commit
+#### Git command for squashing commit
 
 Description of the tool: The git command to squash multiple commits
 
