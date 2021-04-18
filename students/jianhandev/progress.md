@@ -25,3 +25,4 @@ Week | Achievements
 10| Reviewed PR: [Remove usage of App Engine Mail API #11068](https://github.com/TEAMMATES/teammates/pull/11068)
 10| Authored PR: [Initial Search API migration to Solr #11064](https://github.com/TEAMMATES/teammates/pull/11064)
 11| Reviewed PR: [UnauthorizedAccessException should be a checked exception #11094](https://github.com/TEAMMATES/teammates/pull/11094)
+12| Merged PR: [Initial Search API migration to Solr #11064](https://github.com/TEAMMATES/teammates/pull/11064)
