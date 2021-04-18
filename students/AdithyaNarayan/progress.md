@@ -11,5 +11,5 @@ Week | Achievements
 8 | Merged PR: [Fix label to record student email](https://github.com/TEAMMATES/teammates/pull/11062)
 10 | Authored PR: [Filter logs by feedback session name](https://github.com/TEAMMATES/teammates/pull/11069)
 11 | Reviwed PR: [Filter logs by student name and change default behaviour of form](https://github.com/TEAMMATES/teammates/pull/11076)
-10 | Reviewed PR: [Add Audit Logs for Instructors](https://github.com/TEAMMATES/teammates/pull/11074)
+12 | Reviewed PR: [Add Audit Logs for Instructors](https://github.com/TEAMMATES/teammates/pull/11074)
 12 | Authored PR: [E2E tests for Audit Logs](https://github.com/TEAMMATES/teammates/pull/11095)
