@@ -1,6 +1,6 @@
 ### Tool/Technology 1
 
-Vue.Js
+#### Vue.Js
 
 Documentation:
 
@@ -12,7 +12,7 @@ https://www.vuemastery.com/courses/intro-to-vue-js/
 
 --------------------------------------------------------------------------------------------------------------------------
 
-Vuex
+#### Vuex
 
 Description of the tool: State management tool for Vue applications
 
@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=5lVQgZzLMHc
 
 --------------------------------------------------------------------------------------------------------------------------
 
-Vue LifeCycle Management
+#### Vue LifeCycle Management
 
 Description of the tool: Vue component life cycle hook
 
@@ -52,7 +52,7 @@ https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks
 
 --------------------------------------------------------------------------------------------------------------------------
 
-Vue Computed Properties and Watchers
+#### Vue Computed Properties and Watchers
 
 Description of the tool: Respective usage of computed properties and watchers in Vue component
 
@@ -64,7 +64,7 @@ https://vuejs.org/v2/guide/computed.html
 
 ### Tool/Technology 2
 
-SCSS and CSS
+#### SCSS and CSS
 
 Description of the tool: style sheet used by Vue User Interface Component.
 
@@ -88,7 +88,7 @@ https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hour
 
 ### Tool/Technology 3
 
-Pug
+#### Pug
 
 Description of the tool: template used to render the Vue component
 
@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=kt3cEjjkCZA
 
 ### Tool/Technology 4
 
-Figma 
+#### Figma 
 
 Description of the tool: Grapgical User interface design tool that allows automatic generation of css style sheet. This can save time for writing css according to the User Interface Design.
 
@@ -116,7 +116,7 @@ https://www.youtube.com/watch?v=3q3FV65ZrUs
 
 ### Tool/Technology 5
 
-JavaScript Syntax for map
+#### JavaScript Syntax for map
 
 Description of the tool: JavaScript Syntax related to the retrival of map keys, conversion from map to array, and iteration of map.
 
