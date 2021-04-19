@@ -117,9 +117,11 @@ Full text search
 * Indexing search documents in Solr
 * Understanding Collections, Sharding, Cores, Replicas
 * Running search service in docker
+* Query paramters and Filter Queries in Solr
+* Adding Copy Field rules to schema
 
 **Resources:**
-[Solr Local Setup](https://solr.apache.org/guide/8_8/solr-tutorial.html#exercise-1), [Basics of Apache Solr](https://www.infoworld.com/article/3209685/why-you-should-use-apache-solr.html#:~:text=Apache%20Solr%20is%20both%20a,document%20database%20with%20SQL%20support.&text=Solr%20is%20a%20search%20engine,NoSQL%20database%20with%20transactional%20support), [Terminologies](https://solr.apache.org/guide/8_8/solr-glossary.html), [Docker/Solr](https://lucidworks.com/post/solr-on-docker-2/)
+[Solr Local Setup](https://solr.apache.org/guide/8_8/solr-tutorial.html#exercise-1), [Basics of Apache Solr](https://www.infoworld.com/article/3209685/why-you-should-use-apache-solr.html#:~:text=Apache%20Solr%20is%20both%20a,document%20database%20with%20SQL%20support.&text=Solr%20is%20a%20search%20engine,NoSQL%20database%20with%20transactional%20support), [Terminologies](https://solr.apache.org/guide/8_8/solr-glossary.html), [Docker/Solr](https://lucidworks.com/post/solr-on-docker-2/), [Filter query](https://solr.apache.org/guide/7_3/common-query-parameters.html), [Copy Field](https://solr.apache.org/guide/8_8/schema-api.html#add-a-new-copy-field-rule)
 
 ### Github Actions
 **Aspects Learned**
@@ -128,3 +130,11 @@ Full text search
 
 **Resources:**
 [Github Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions), [YAML](https://www.yaml.info/learn/index.html)
+
+
+### Regex
+**Aspects Learned**
+* Filtering query strings with regex
+
+**Resources:**  
+[Regex hands-on/cheatsheet](https://regexr.com/)

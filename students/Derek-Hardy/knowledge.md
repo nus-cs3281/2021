@@ -1,3 +1,21 @@
+### GAE First/Second generation runtime
+* Differences between Java 8 and 11 runtime
+* Necessity to separate third-party services such as search and storage services
+* Changes in the deployment workflow using .yaml
+* Changes in testing/CI setup: LocalDatastoreHelper and Solr service instance
+
+### Apache Solr search
+* How to translate GAE search API schema into Solr schema
+* Variations of HTTPClient that Solr supports for different situations (update-centric/query-centric)
+* Full text search across fields by enabling "Copy Field"
+* Differences between schema-less and schema mode in Solr entity
+* Various tokenization policies and their nuances in parsing query string
+
+**Resources:**
+- [Solr fields and schema design](https://solr.apache.org/guide/8_1/documents-fields-and-schema-design.html)
+- [Solr tokenizers](https://solr.apache.org/guide/8_1/about-tokenizers.html)
+- [Solr admin UI](https://solr.apache.org/guide/8_1/overview-of-the-solr-admin-ui.html)
+
 ### Full-text search
 * Definition
 * Application in modern search engine

@@ -82,5 +82,6 @@ Some useful resources:
 Markbind relies on some regex expressions for parsing. It would be good to have a basic understanding of regex to understand some of the parsing-related functions.
 
 Some useful resources:
+- [Regex101 (useful and convenient for testing regex expressions)](https://regex101.com/)
 - [Youtube - Regular Expressions (Regex) in JavaScript - tutorial](https://www.youtube.com/watch?v=909NfO1St0A)
 - [Youtube - Regular Expressions (Regex) Tutorial: How to Match Any Pattern of Text](https://www.youtube.com/watch?v=sa-TUpSx1JA)

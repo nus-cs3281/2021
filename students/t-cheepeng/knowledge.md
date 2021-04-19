@@ -58,3 +58,10 @@ Resource: [PR for Proxy Pattern](https://github.com/TEAMMATES/teammates/pull/110
 Aspects: Uses of a data warehouse, purpose of a warehouse and architecture of it. Differences between a data warehouse and a database.
 
 Resource: [AWS Data Warehouse Concepts](https://aws.amazon.com/data-warehouse/)
+
+---
+
+### New HTML Tags
+Aspects: The `<datalist>` tag and how it is used to support autocomplete as well as combining text inputs with select dropdowns
+
+Resource: [HTML datalist Tag](https://www.w3schools.com/tags/tag_datalist.asp)
