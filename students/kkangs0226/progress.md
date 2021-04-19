@@ -41,4 +41,5 @@ Week | Achievements
 13 | Authored PR: [Onboarding Guide: Add onboarding guide for new developers](https://github.com/CATcher-org/catcher-org.github.io/pull/5)
 13 | Merged PR: [IssuesDataTable: Move pagination logic into separate module, add tests](https://github.com/CATcher-org/CATcher/pull/668)
 13 | Responded to Issue: [Unable to create PE repo with CATcher web version](https://github.com/CATcher-org/CATcher/issues/684)
+13 | Responsded to Issue: [Glitching of "Issues Responded" List](https://github.com/CATcher-org/CATcher/issues/694)
 13 | Reviewd PR: [README draft setup](https://github.com/CATcher-org/catcher-org.github.io/pull/4)
