@@ -63,9 +63,13 @@
 | 10    | Reviewed PR: [RepoCreatorService: Create custom operators for Permissions Request #671](https://github.com/CATcher-org/CATcher/pull/671) |
 | 10    | Reviewed PR: [Enforcing prettier on commits #669](https://github.com/CATcher-org/CATcher/pull/669) |
 | 10    | Reviewed PR: [Read Profiles From External Repository #661](https://github.com/CATcher-org/CATcher/pull/661) |
-| 11    | Authored PR: [Markbind Transition #1](https://github.com/CATcher-org/catcher-org.github.io/pull/1) |
-| 11    | Authored PR: [Automated Deployment #2](https://github.com/CATcher-org/catcher-org.github.io/pull/2) |
+| 11    | Merged PR: [Markbind Transition #1](https://github.com/CATcher-org/catcher-org.github.io/pull/1) |
+| 11    | Merged PR: [Automated Deployment #2](https://github.com/CATcher-org/catcher-org.github.io/pull/2) |
 | 11    | Authored PR: [Added Logging to Issue Table Actions #78](https://github.com/CATcher-org/CATcher/pull/678) |
 | 11    | Reviewed PR: [Setup Notes: Update section on setting up access rights #677](https://github.com/CATcher-org/CATcher/pull/677) |
 | 11    | Reviewed PR: [Issues Faulty Component: Decompose logical expressions into methods #683](https://github.com/CATcher-org/CATcher/pull/683) |
 | 11    | Reviewed PR: [Clicking 'No thanks' in permission prompt does not prevent repo creation #676](https://github.com/CATcher-org/CATcher/pull/676) |
+| 12    | Reviewed PR: [Add Headers, Navs and User Guide Boilerplate Pages #3](https://github.com/CATcher-org/catcher-org.github.io/pull/3) |
+| 12    | Authored PR: [https://github.com/CATcher-org/catcher-org.github.io/pull/4](https://github.com/CATcher-org/catcher-org.github.io/pull/4) |
+| 12    | Issues Management: [Worked through Backlog of Issues to prepare 'good-first-issue'(s) for upcoming developers](https://github.com/CATcher-org/CATcher/issues) |
+| 12    | Issues Management: [Worked through Backlog of Issues to highlight outdated issues](https://github.com/CATcher-org/CATcher/issues) |
