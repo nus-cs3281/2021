@@ -1,12 +1,12 @@
 ## Angular
 
-### Aspects learnt
 CATcher is an Angular web application.
 
+### Aspects learnt
 #### Angular Structure
 Components, services, corresponding html and css files work together to form a cohesive application. While a component is a direct representation of visible parts of an application, a service is more subtle in the sense that it runs in the background to provide services to components where needed. By defining the service in the constructor of a component or another service, the component or service is able to access the methods defined in the service freely. The separation of components and services increases modularity and reusability, as through dependency injection (DI), the service class can provide services to different parts of the application.
 
-RxJS stands for Reactive Extensions for Javascript. It supports reactive programming for Javascript, which allows changes in data to be propagated through the application instantly. Angular makes use of tShe RxJS library to support asynchronous programming and improve reactivity of an Angular application.
+RxJS stands for Reactive Extensions for Javascript. It supports reactive programming for Javascript, which allows changes in data to be propagated through the application instantly. Angular makes use of the RxJS library to support asynchronous programming and improve reactivity of an Angular application.
 
 RxJS supports `Observables` and `Observers`, allowing `Observers` to receive updates on changes to the `Observable` it subscribes to. This implementation is similar to `Observables` and `Observers` in other programming langugages such as Java.
 
@@ -24,6 +24,7 @@ export function assertSessionDataIntegrity() {
        () => new Error('There are no accessible phases.')));
  }
 ```
+
 ##### Knowledge Gained:
 1. Enforcing separation of concerns in modules by splitting functions and logic into different components and services
 2. Using observables to enable asynchronous operations in our application
@@ -35,12 +36,30 @@ export function assertSessionDataIntegrity() {
 2. [RxJS Guide](https://rxjs-dev.firebaseapp.com/guide/observable) : Official RxJS guide on Observables, Observers, Operators, Subscription, etc.
 3. [Angular Guide on Navigation of Component Tree](https://angular.io/guide/dependency-injection-navtree) : Guide on how to navigate the component tree with Dependency Injection
 
+#### Angular TestBed Utility - Component DOM Testing
+Angular's TestBed Utility allows us to set up component tests for different components used in CATcher.
+
+As opposed to our existing tests for testing individual functions within comoponents and services, these component tests allow us to inspect changes in the view of the component (which are caused by HTML changes). Hence, it gives us a way to look into UI-related problems users might face, something that our existing tests have not been able to achieve.
+
+Steps to set up component tests:
+1. Configure the testing module through `TestBed` function with the corresponding component's settings
+2. Use `TestBed` function to create the component (fixture) to be tested
+3. Observe HTML changes in the fixture during testing of functions by querying HTML elements of the fixture
+
+##### Knowledge Gained:
+1. Setting up component tests using Angular TestBed Utility
+2. Inspecting HTML changes using Angular TestBed Utility
+
+### Resources Used & Summary
+1. [Angular Guide - Basics of testing components](https://angular.io/guide/testing-components-basics) : Official Angular developer guide for the basics of component tests
+2. [Angular Guide - Component Fixture](https://angular.io/api/core/testing/ComponentFixture) : Official Angular developer guide on `ComponentFixture`
+3. [Introduction to Unit Testing in Angular](https://www.digitalocean.com/community/tutorials/angular-introduction-unit-testing#:~:text=Fixtures%20have%20access%20to%20a,Angular%20to%20run%20change%20detection.) : Useful article on how to test component fixtures
+
 ## Jasmine (Javascript Testing)
 
 CATcher follows the Jasmine Style for writing tests.
 
 ### Aspects learnt
-
 #### Test Suite
 The very basics of Jasmine testing involves the test suite, which is started by calling the global Jasmine function `describe`. The test suite may consist of several tests(specs) within itself, which is done by calling `it`. Coming from Java background, one thing I learnt about Javascript testing was that it is descriptive (as the name `describe` suggests), which makes it easier to understand the tests.
 
@@ -84,9 +103,9 @@ Example of adapting application logic to Linux O.S.
 
 
 ## Github Authentication
+CATcher uses OAuth 2.0 Protocol to authenticate users. Users are required to log into their Github accounts before they can start using CATcher.
 
 ### Aspects learnt
-CATcher uses OAuth 2.0 Protocol to authenticate users. Users are required to log into their Github accounts before they can start using CATcher.
 
 #### Web Application Authorization Flow
 

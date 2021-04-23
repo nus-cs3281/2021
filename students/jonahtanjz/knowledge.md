@@ -47,4 +47,52 @@ The `transitionend` event is fired in both directions - as it finishes transitio
 Additionally, there are also similar `transition` events, `transitionrun`, `transitionstart`, `transitioncancel`, to track the different transition states.
 
 [Implementation details of transitionedend event can be found here](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/transitionend_event)
-...
+
+### Bootstrap: Display property
+
+This was introduced to me while I was working on a PR related to the `tab` component. Prior to this PR, when a MarkBind page was printed/saved as PDF, only the active tab was displayed. The purpose of this PR was to show all the tabs when a page is being printed/saved as PDF. This requires setting certain elements of the `tab` to be displayed (the inactive tabs etc) and some to hidden (the original headers etc). I decided to use the `@media print` CSS rule to set those elements to `display: block` and `display: none` respectively.
+
+However, MarkBind uses Bootstrap which comes with a built-in display property feature which allows users to quickly and responsively toggle the display value of components. This includes support for some of the more common values, as well as some extras for controlling display when printing. This can be done by using the display utility classes.
+
+The classes are named using the format:
+* `.d-{value}` for xs
+* `.d-{breakpoint}-{value}` for sm, md, lg, and xl.
+
+For the PR's use-case, elements can be assigned the classes `.d-print-{value}` to change the display value of elements when printing. For instance, `.d-print-none` can be used to hide elements when printing and `.d-print-block` can be used to show elements when printing. Classes can be combined for various effects as you need.
+
+More examples:
+```html {.no-line-numbers}
+<div class="d-print-none">Screen Only (Hide on print only)</div>
+<div class="d-none d-print-block">Print Only (Hide on screen only)</div>
+<div class="d-none d-lg-block d-print-block">Hide up to large on screen, but always show on print</div>
+```
+
+[Full implementation details of display property can be found here](https://getbootstrap.com/docs/4.0/utilities/display/)
+
+### Lodash: `_.differenceWith` method
+
+This was discovered when I was working on a PR related to the live preview of the `pages` attribute in `site.json`. I needed to check if the `pages` attribute has been modified, and if so, which are the modified pages (including pages that are added and removed). Since the `pages` attribute is read in as an array of objects, I needed a way to check each individual object to see if one or more of their properties have changed. I was initially aware of lodash's `_.difference` method which returns an array of array values not included in the other given arrays. However, this is not sufficient to detect changes to specific properties of an object. After looking around, I found another lodash's method, `_.differenceWith`, which is similar to  `_.difference` except that it accepts comparator which is invoked to compare elements of array to another array. With the comparator, this method can now look for changes to specific properties of objects.
+
+For instance, the below code block will show how `_.differenceWith` can be used to track the added and removed pages using a single comparator, `isNewPage`.
+```js {.no-line-numbers}
+const isNewPage = (newPage, oldPage) => _.isEqual(newPage, oldPage) || newPage.src === oldPage.src;
+
+const addedPages = _.differenceWith(this.addressablePages, oldAddressablePages, isNewPage);
+const removedPages = _.differenceWith(oldAddressablePages, this.addressablePages, isNewPage)
+```
+
+Another example to show how `_.differenceWith` can be used with a more specific comparator to find edited pages.
+```js {.no-line-numbers}
+const editedPages = _.differenceWith(this.addressablePages, oldAddressablePages, (newPage, oldPage) => {
+    if (!_.isEqual(newPage, oldPage)) {
+        return !oldPagesSrc.includes(newPage.src);
+    }
+    return true;
+});
+```
+
+With this method, I am able to quickly identify differences in any objects in an array. This method is also flexible as I can declare my own comparator.
+
+Current implementation of `_.differenceWith` can be found in the [`handlePageReload`](https://github.com/MarkBind/markbind/blob/master/packages/core/src/Site/index.js#L867) method in `index.js` of `Site`.
+
+[Full documentation of Lodash's `_.differenceWith` can be found here](https://lodash.com/docs/#differenceWith)

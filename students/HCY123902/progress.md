@@ -5,13 +5,11 @@
 | 0    | Merged PR: [[#1252] Add front-end tests reminder on Developer Guide](https://github.com/reposense/RepoSense/pull/1384)                       |
 | 0    | Merged PR: [[#1369]Make enhancement to DG workflow guideline](https://github.com/reposense/RepoSense/pull/1378)                              |
 | 0    | Authored PR(put on hold by request): [[#1284] Adjust the design documentation](https://github.com/reposense/RepoSense/pull/1388)             |
-| 2    | Authored PR: [[#674] Include binary files edited](https://github.com/reposense/RepoSense/pull/1413)                                          |
 | 3    | Merged PR: [Handle CLI documentation bug](https://github.com/reposense/RepoSense/pull/1432)                                                  |
 | 3    | Opened issue: [Some backend unit test cannot pass on Windows](https://github.com/reposense/RepoSense/issues/1444)                            |
 | 4    | Merged PR: [[#1404] DG: edit the running from code part](https://github.com/reposense/RepoSense/pull/1405)                                   |
 | 4    | Merged PR: [[#1407] DG: add Gradle instructions to workflow](https://github.com/reposense/RepoSense/pull/1408)                               |
 | 4    | Merged PR: [[#1409] UG: fix typos in CLI documentation](https://github.com/reposense/RepoSense/pull/1410)                                    |
-| 5    | Authored PR: [[#1352] Add highlight to selected authorship or commit tab](https://github.com/reposense/RepoSense/pull/1453)                  |
 | 5    | Reviewed PR: [Add Cypress tests](https://github.com/reposense/RepoSense/pull/1443)                                                           |
 | 6    | Opened issue: [Reloading hides the display name in authorship contribution](https://github.com/reposense/RepoSense/issues/1455)              |
 | 6    | Reviewed PR: [[#1382] Avoid rerendering tabs unnecessarily](https://github.com/reposense/RepoSense/pull/1390)                                |
@@ -19,17 +17,18 @@
 | 7    | Merged PR: [[#1352] Add highlight to selected authorship or commit tab](https://github.com/reposense/RepoSense/pull/1453)<br/>                                                      Add highlight to the selected tab as well as the selected group title on the summary view                                                  |
 | 7    | Merged PR: [v_summary_charts: fix typo of some arguments](https://github.com/reposense/RepoSense/pull/1457)                                  |
 | 7    | Reviewed PR: [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)                  |
-| 8    | Authored PR: [[#1472] Add release guide](https://github.com/reposense/RepoSense/pull/1474)                                                   |
 | 8    | Opened issue: [Release for v1.13](https://github.com/reposense/RepoSense/issues/1470)                                                        |
 | 8    | Opened issue: [Add release guide](https://github.com/reposense/RepoSense/issues/1472)                                                        |
 | 8    | Opened issue: [Checkbox not working properly in break down by file type](https://github.com/reposense/RepoSense/issues/1473)                 |
 | 8    | Release: Made the release for [v1.13](https://github.com/reposense/RepoSense/releases/tag/v1.13)                                             |
 | 9    | Opened issue: [Restoring not working properly for zoom panel](https://github.com/reposense/RepoSense/issues/1486)                            |
 | 9    | Merged PR: [[#674] Include binary files touched in authorship panel](https://github.com/reposense/RepoSense/pull/1413) <br/>                                                       Include binary files in the authorship contribution panel<br/>                                                                                                                   Add binary file checkbox to separate binary file type from other file types<br/>                                                                                                 Change the documentation about how file formats argument works according to the changes introduced by binary file type                      |
+| 9    | Authored PR(put on hold by request): [Make file types selection consistent across panel](https://github.com/reposense/RepoSense/pull/1488)   |
 | 9    | Merged PR: [[#1446] Restore the name on authorship panel after reloading](https://github.com/reposense/RepoSense/pull/1458)                  |
 | 9    | Reviewd PR: [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)                   |
 | 9    | Reviewd PR: [[#1448] Update documentation to remove need for personal access token](https://github.com/reposense/RepoSense/pull/1465)        |
 | 10    | Authored PR: [Add message for invalid repository link on the summary view](https://github.com/reposense/RepoSense/pull/1509)                |
+| 10    | Authored PR: [[#1500] Add a Learn basics section to the DG](https://github.com/reposense/RepoSense/pull/1507)                               |
 | 10    | Reviewd PR: [[#1349] Clone test repositories only once when testing](https://github.com/reposense/RepoSense/pull/1478)                      |
 | 10    | Reviewd PR: [Watch tab info directly](https://github.com/reposense/RepoSense/pull/1490)                                                     |
 | 10    | Release: Made the release for [v1.13.1](https://github.com/reposense/RepoSense/releases/tag/v1.13.1)                                        |
@@ -44,3 +43,7 @@
 | 12    | Authored PR: [[#1234] Move relevant test cases in ArgsParserTest to RepoSenseTest class](https://github.com/reposense/RepoSense/pull/1530)  |
 | 12    | Authored PR: [[#435] Convert special character in path to the corresponding white space](https://github.com/reposense/RepoSense/pull/1531)  |
 | 12    | Authored PR: [Add link to path glob syntax in the User Guide](https://github.com/reposense/RepoSense/pull/1541)                             |
+| 13    | Merged PR: [[#1486] Rename zIsMerge to zIsMerged](https://github.com/reposense/RepoSense/pull/1487)                                         |
+| Reading | Merged PR: [Add link to first timer issues in the Developer Guide](https://github.com/reposense/RepoSense/pull/1492)                      |
+| Reading | Merged PR: [[#1476] Remove the highlighting when the panel is closed](https://github.com/reposense/RepoSense/pull/1480)                   |
+
