@@ -9,6 +9,10 @@ Week | Achievements
 6 | Merged PR: [[#22] Add transparent overlay for loading modal](https://github.com/moziliar/teammates/pull/22)
 Recess | Authored PR: [[#23] Fix remaining frontend issues for pagination ](https://github.com/moziliar/teammates/pull/23)
 7 | Reviewed PR: [[#10987] Open new tab for the contact page](https://github.com/TEAMMATES/teammates/pull/10991)
-8 | Merged PR: [[#24 Terminate download when X button is pressed](https://github.com/moziliar/teammates/pull/24)]
+8 | Merged PR: [[#24 Terminate download when X button is pressed](https://github.com/moziliar/teammates/pull/24)
 9 | Reviewed PR: [[#11015] Break down question result fetch by section for scalability](https://github.com/TEAMMATES/teammates/pull/11017)
-10 | Merged PR: [[#11030 Batch download for session-table component](https://github.com/TEAMMATES/teammates/pull/11066)]
+10 | Reviewed PR: [[#11084] Remove error highlighting on a new enrollment](https://github.com/TEAMMATES/teammates/pull/11089)
+11 | Merged PR: [[#11030 Batch download for session-table component](https://github.com/TEAMMATES/teammates/pull/11066)]
+11 | Reviewed PR: [[#11071] Return HasResponses for all sessions in a course to reduce QPS](https://github.com/TEAMMATES/teammates/pull/11077)
+12 | Reviewed PR: [[#11097] Return a better message for conflicting course ids]https://github.com/TEAMMATES/teammates/pull/11098
+13 | Reviewed PR: [[#11087] Instructor deleting all students: show a spinner]](https://github.com/TEAMMATES/teammates/pull/11114)
