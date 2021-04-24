@@ -13,3 +13,5 @@ Week | Achievements
 11 | Reviwed PR: [Filter logs by student name and change default behaviour of form](https://github.com/TEAMMATES/teammates/pull/11076)
 12 | Reviewed PR: [Add Audit Logs for Instructors](https://github.com/TEAMMATES/teammates/pull/11074)
 12 | Authored PR: [E2E tests for Audit Logs](https://github.com/TEAMMATES/teammates/pull/11095)
+Reading | Authored PR: [Audit logs: restrict viewing and searching permissions to course owners](https://github.com/TEAMMATES/teammates/pull/11112)
+Reading | Reviewed PR: [Add student email to dropdown in audit logs](https://github.com/TEAMMATES/teammates/pull/11113)
