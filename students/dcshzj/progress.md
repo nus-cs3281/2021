@@ -145,11 +145,29 @@ Merged PRs:
 Opened PRs:
 - [Support using RepoSense of a specific commit](https://github.com/reposense/publish-RepoSense/pull/10)
 - [\[#1515\] UG: Update documentation on using RepoSense at a specific commit](https://github.com/reposense/RepoSense/pull/1516)
+- [\[#1184\] Improve assertion of authors for file analysis](https://github.com/reposense/RepoSense/pull/1518)
+- [\[#1354\] Allow disowning of code by using empty author tags](https://github.com/reposense/RepoSense/pull/1520)
 
 Reviewed PRs:
 - [\[#1500\] Add a Learn basics section to the DG](https://github.com/reposense/RepoSense/pull/1507)
 - [Add message for invalid repository link on the summary view](https://github.com/reposense/RepoSense/pull/1509)
 - [Upgrade minimatch version](https://github.com/reposense/RepoSense/pull/1511)
+- [\[#1517\] Restore binary repository in deployment preview](https://github.com/reposense/RepoSense/pull/1522)
+
+</td>
+</tr>
+<tr>
+<td>12</td>
+<td>
+
+Opened PRs:
+- [\[#634\] Move logic for getting ReportConfiguration to ArgsParser](https://github.com/reposense/RepoSense/pull/1534)
+- [\[#634\] Extract time-based functionalities to TimeUtil](https://github.com/reposense/RepoSense/pull/1535)
+
+Reviewed PRs:
+- [Fix User Guide to reflect new method of CSV parsing](https://github.com/reposense/RepoSense/pull/1523)
+- [Add warning when there are a large number of files to be analyzed](https://github.com/reposense/RepoSense/pull/1524)
+- [\[#1234\] Move relevant test cases in ArgsParserTest to a new RepoSenseTest class](https://github.com/reposense/RepoSense/pull/1530)
 
 </td>
 </tr>

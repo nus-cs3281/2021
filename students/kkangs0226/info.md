@@ -3,4 +3,4 @@
 <span id="github">https://www.github.com/kkangs0226</span>
 
 <!-- Give your internal and external projects related to the module -->
-<span id="projects">[CATcher](https://github.com/CATcher-org/CATcher), [TBA]()</span>
+<span id="projects">[CATcher](https://github.com/CATcher-org/CATcher)</span>

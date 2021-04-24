@@ -54,3 +54,19 @@ My contributions to the CI/CD pipeline was the implementation of E2E testing car
 ## Sources
 - StackOverflow (Primarily)
 - [actions/virtual-environments Repo](https://github.com/actions/virtual-environments)
+
+
+# Probot (Github Bot)
+
+---
+
+## Summary
+
+Probot is a node tool built in `Typescript` and the `Octokit` framework to create a customizable Github Bot that can manage repositories and perform complex tasks with minimal lines of code when compared to plain Github Actions. Probot uses a webhook based response where the application receives prompts from the Github API when any action takes place in the repository and reacts to different types of hooks differently.
+
+## Aspects 
+- Configuring a custom Github App to listen to repository webhook
+- Setting up automated labelling, PR commit message verification, etc...
+
+## Sources
+- [Probot Github](https://probot.github.io)
