@@ -43,10 +43,10 @@ Week | Achievements
 11 | Investigated Issue: [Modal content disppearing after reopening #1519](https://github.com/MarkBind/markbind/pull/1519)
 11 | Opened Issue: [Change $scopedSlots back to $slots when Vue is upgraded to v3.0 #1536](https://github.com/MarkBind/markbind/pull/1536)
 12 | Merged PR: [Change all $slots to $scopedSlots #1535](https://github.com/MarkBind/markbind/pull/1535)
-12 | Approved & Merged PR: [Fix missing return termination #1541](https://github.com/MarkBind/markbind/pull/1541)
+12 | Approved & Merged PR (into master): [Fix missing return termination #1541](https://github.com/MarkBind/markbind/pull/1541)
 12 | Responded to Issue: [User Guide: Next button skips a few chapters #1542](https://github.com/MarkBind/markbind/pull/1542)
 12 | Reviewed PR: [Add background build option to one-page serve #1539](https://github.com/MarkBind/markbind/pull/1539)
-13 | Approved & Merged PR: [Fix live-server to keep client on CSS refresh #1545](https://github.com/MarkBind/markbind/pull/1545)
+13 | Approved & Merged PR (into master): [Fix live-server to keep client on CSS refresh #1545](https://github.com/MarkBind/markbind/pull/1545)
 13 | Investigated Issue: [Unexpected behaviour of components when immediately prepended by GFMD #958](https://github.com/MarkBind/markbind/issues/958)
 Reading | Merged PR: [Fix custom components markdown parsing #1548](https://github.com/MarkBind/markbind/pull/1548)
 
