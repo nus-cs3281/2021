@@ -279,9 +279,29 @@ This is because only **development Vue** can report the exact mismatching nodes 
 
 Furthermore, when I was dealing with hydration issues, I even noticed that there are cases where [production Vue did not warn about hydration issues](https://github.com/vuejs/vue/issues/5907#issuecomment-439072836) even when they occured (silent failures). Thus, remember to always use development Vue when trying to deal with hydration issues.
 
-#### <ins>Short-Circuiting Nature of Hydration Issues</ins>
+#### <ins>Short-Circuiting Nature of Hydration Process</ins>
 
 Note that the hydration process is "short-circuiting" in nature. The assertion process of hydration will go in a top-down manner. Once it encounters a mismatch of nodes, it will immediately bail hydration and execute client-side rendering. This also means that there can be potentially more hydration issues in the later part of the document. 
+
+#### <ins>Understanding the Hydration Error Log</ins>
+
+Here is an example of how the hydration error log may look like in development Vue:
+
+```
+! Parent: >div
+
+! Mismatching childNodes vs VNodes:
+  NodeList(62) [...]
+  VNodes(58) [...]
+
+! [Vue Warn]: The client-side rendered virtual DOM tree is not matching server-rendered content. This is likely caused by incorrect HTML markup, for example nesting block-level elements inside <p>, or missing <tbody>. Bailing hydration and performing full client-side render.
+```
+
+When you first look at the numbers, it may come across as alarming that there are 62 nodes that are mismatching. However, that is not exactly the case. It simply means that in the parent node `<div>`, the SSR HTML markup has 62 child nodes and the in the virtual DOM of the client-side, there are 58 VNode children.
+
+From my experience, most, if not all, of the hydration issues I faced in MarkBind are similar to this particular error log, where the problem is due to `nesting block-level elements inside <p>`. And this problem stems from an existing bug [#958](https://github.com/MarkBind/markbind/issues/958#issuecomment-821011663).  
+
+Going forward, there should not be such hydration issues anymore. But if there is ever a case, you may want to take a look at [#958](https://github.com/MarkBind/markbind/issues/958#issuecomment-821011663) to see if the hydration issue is somehow related to it.
 
 #### <ins>Debugging Hydration Issues</ins>
 
@@ -292,8 +312,6 @@ Most importantly, regardless of which debugging approach you undertake, I think 
 Debugging hydration issues is not easy but here are some resources that really helped me in rectifying the hydration issues when implementing SSR on MarkBind:
 - [Understand and solve hydration errors in Vue.js](https://www.sumcumo.com/en/understand-and-solve-hydration-errors-in-vue-js)
 - [What to do when Vue hydration fails](https://blog.lichter.io/posts/vue-hydration-error/)
-
-In my opinion, there aren't many resources out there for Vue SSR as compared to React SSR. Thus, if the resources for Vue SSR are not sufficient, you may want to reference some of the React SSR resources; the principles for both should be somewhat similar.
 
 ## Other Challenges Faced when Implementing SSR for MarkBind
 
@@ -306,6 +324,8 @@ Implementing SSR for MarkBind also introduced quite a few challenges along the w
 - Deciding how the automated tests would be affected with SSR in place (we decided to retain the HTML output that is not server-rendered)
 - Resolving CI issues where the tests run fine locally but not on certain CI platforms (e.g. setting Node environment variables; [`cross-env`](https://www.npmjs.com/package/cross-env) really helped a lot here)
 - Resolving hydration issues due to existing bugs in MarkBind (#1548)[https://github.com/MarkBind/markbind/pull/1548]
+
+In my opinion, there aren't many resources out there for Vue SSR as compared to React SSR. Thus, if the resources for Vue SSR are not sufficient, you may want to reference some of the React SSR resources; the principles for both should be somewhat similar.
 
 ## Final Thoughts 
 
