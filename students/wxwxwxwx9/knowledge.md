@@ -1,4 +1,5 @@
 # Intersection Observer API
+---
 
 This web API was brought to my attention by my mentor when I was implementing the Disqus plugin for MarkBind.
 
@@ -13,6 +14,7 @@ Mozilla usually have very comprehensive and well-written documentation for web A
 Another good resource that I would recommend to learn about this API is an [introductory video by Kevin Powell](https://www.youtube.com/watch?v=T8EYosX4NOo&ab_channel=KevinPowell).
 
 # Markdown Parsers
+---
 
 Markdown is one of the core components of MarkBind. As I was working on the markdown feature to enable `++` for larger text, `--` for smaller text, and `$$` for underlining, I decided to research more about the markdown parsers in general.
 
@@ -23,6 +25,7 @@ Even though **marked** is considerably more popular than **markdown-it** based o
 What I have written so far is based on my brief insight into the available markdown parsers. There are a lot more details and nuances that I have yet to look into like — markdown parsers are actually quite complex! I will continue to update this space when I find out more about markdown parsers. 
 
 # Why you should **not** use `setTimeout` to resolve asynchronous bugs (even when it *seems* to work)
+---
 
 Whenever I suspect that I am looking at an asynchronous bug, I would usually use `setTimeout` to help me ascertain whether the bug is asynchronous in nature. Not knowing better, I used to employ it as a way to execute a function after a certain asset is loaded. However, after hearing [Philip Roberts' explanation on Javascript's event loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ&ab_channel=JSConf) and learning more about it, I know to never do it again. If Javascript's event loop sounds foreign to you, I highly recommend that you watch the video! It is arguably one of the most popular videos that explains the concept in a manner that is easily understandable with really good visual examples.
 
@@ -35,6 +38,7 @@ Suppose you wish to use `setTimeout` to schedule a callback after a certain asse
 Instead, a better solution, perhaps, would be to look for an appropriate [event hook](https://developer.mozilla.org/en-US/docs/Web/Events) such as [DOMContentLoaded](https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event) to ensure that your function executes at the specific time that you want. 
 
 # Hot-reload vs. Live-reload
+---
 
 This topic confused me for quite awhile when I started working on MarkBind. However, all my doubts were cleared when I read up on an [article](https://reactnative.dev/blog/2016/03/24/introducing-hot-reloading#hot-reloading) recommended by my mentor. Let me explain these concepts in the context of MarkBind. 
 
@@ -57,6 +61,7 @@ We make use of [`chokidar`](https://github.com/paulmillr/chokidar), a file watch
 Essentially, you can see `hot-reload` as a feature that is meant for MarkBind developers (although the `live-reload` feature is also useful to us for testing purposes), and `live-reload` as a feature that is targeted at authors who use MarkBind to aid their write-up process.
 
 # Server-Side Rendering (SSR) using Vue
+---
 
 Implementing SSR for MarkBind is definitely the highlight of my learning and contributions this semester. In the following sections, I will be giving a summary of what I have learnt and implemented for MarkBind with regards to SSR. Note that I will only be discussing the main ideas of SSR. 
 
@@ -195,6 +200,8 @@ In our webpack configuration, we have to define what is known as **client-entry*
 
 **client-entry** is essentially what we had in the old CSR setup (no changes). The only change here is adding a new `server-entry`, which bundles just the `vue-components` package that is needed for SSR.
 
+The code structure above is inspired by [Vue's official documentation for SSR](https://ssr.vuejs.org/guide/structure.html#code-structure-with-webpack).
+
 #### <ins>3) Instantiating a Vue instance with the `render` function to output the final HTML markup strings</ins>
 
 In the third step, we want to finally execute SSR by using the `render` function to help us output the final HTML markup strings that we want to send to the client.
@@ -292,7 +299,7 @@ In my opinion, there aren't many resources out there for Vue SSR as compared to 
 
 Implementing SSR for MarkBind also introduced quite a few challenges along the way. I will not delve too much into the details of these challenges but here are some of them:
 - Learning more about how Vue works
-- Learning about **webpack** and how it is currently used in MarkBind
+- Learning about webpack and how it is currently used in MarkBind
 - Understanding MarkBind's architecture and analyzing how SSR can be integrated into the setup 
 - Setting up SSR for MarkBind in development mode
 - Ensuring that the SSR implementation works in all modes
