@@ -267,7 +267,7 @@ The first category was challenging, however. Typically, if you were to write raw
 
 Thus, it is imperative that we ensure the HTML markup that we generate is compliant with the [HTML content models specification](https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html) as much as possible (e.g. do not have `<div>` nested within `<span>`).
 
-### Dealing with the Hydration Issues 
+### Dealing with Hydration Issues 
 
 In this section, I will give some advice as to how you can resolve hydration issues in MarkBind. Remember to always refer to the developer console of the browser that you are using as that is where the hydration error messages will be logged.
 
