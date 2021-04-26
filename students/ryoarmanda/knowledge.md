@@ -183,7 +183,21 @@ function sequentialAsyncForEach(arr, callback) {
 References:
 - https://codeburst.io/javascript-async-await-with-foreach-b6ba62bbf404
 
-### `lodash`: In using `uniq` vs JavaScript's Set
+### WebStorm IDE: Save Resource by Unmarking Compiled Folders
+
+When developing the background-build system for MarkBind and testing it towards the documentation files, I noticed that the CPU
+usage goes high when WebStorm is in its indexing phase, which can go up to very high percentages (90-100%). The indexing
+happens as there are changes in the project folder. As I was testing it against the files which are within the project folder,
+the folder that stores the compiled files are also within the project folder, and as it keeps getting updated, WebStorm keeps
+doing indexing which can tax the user's machine unnecessarily.
+
+My finding and recommendation is to unmark this compiled folder, such that WebStorm does not trigger its indexing phase, and
+save resources in doing so.
+
+References:
+- https://www.jetbrains.com/help/webstorm/configuring-project-structure.html
+
+### `lodash`: Performance of `uniq` vs JavaScript's Set
 
 For the case of filtering out elements and later testing some other elements against the former, we have two possible options:
 using `lodash`'s `uniq` and test the elements with `Array.some`, or use the native `Set` and test against `Set.has`.
