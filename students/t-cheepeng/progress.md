@@ -33,3 +33,6 @@ Week | Achievements
 12 | Reviewed PR: [[#10950] Add Audit Logs for Instructors #11074](https://github.com/TEAMMATES/teammates/pull/11074)
 12 | Reviewed PR: [[#10969] E2E tests for Audit Logs #11095](https://github.com/TEAMMATES/teammates/pull/11095)
 13 | Responded to contributor queries: [Audit logs: right-align timestamps #11103](https://github.com/TEAMMATES/teammates/issues/11103)
+14 | Reviewed PR: [[#11099] Audit logs: restrict viewing and searching permissions to course owners #11112](https://github.com/TEAMMATES/teammates/pull/11112)
+14 | Reviewed PR: [[#11102] Add student email to dropdown in audit logs #11113](https://github.com/TEAMMATES/teammates/pull/11113)
+14 | Reviewed PR: [[#11100] Add padding to no activity message for audit logs #11117](https://github.com/TEAMMATES/teammates/pull/11117)
