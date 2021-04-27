@@ -38,7 +38,7 @@ Week | Achievements
 12 | Merged PR: [SessionFixConfirmationComponent: Fix bug in permission prompt](https://github.com/CATcher-org/CATcher/issues/676)
 13 | Submitted Issue: [Usage Notes: Include reminder & FAQ regarding disabling ad-blockers when using CATcher](https://github.com/CATcher-org/CATcher/issues/685)
 13 | Merged PR: [IssuesDataTable: Move pagination logic into separate module, add tests](https://github.com/CATcher-org/CATcher/pull/668)
-11 | Merged PR: [Setup Notes: Update section on setting up access rights](https://github.com/CATcher-org/CATcher/pull/677)
+13 | Merged PR: [Setup Notes: Update section on setting up access rights](https://github.com/CATcher-org/CATcher/pull/677)
 13 | Merged PR: [Dev guide: Port to markbind, add onboarding info](https://github.com/CATcher-org/catcher-org.github.io/pull/5)
 13 | Responded to Issue: [Unable to create PE repo with CATcher web version](https://github.com/CATcher-org/CATcher/issues/684)
 13 | Responsded to Issue: [Glitching of "Issues Responded" List](https://github.com/CATcher-org/CATcher/issues/694)
