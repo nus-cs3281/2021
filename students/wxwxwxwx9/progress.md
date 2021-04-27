@@ -48,5 +48,5 @@ Week | Achievements
 13 | Approved & Merged PR (into master): [Fix live-server to keep client on CSS refresh #1545](https://github.com/MarkBind/markbind/pull/1545)
 13 | Investigated Issue: [Unexpected behaviour of components when immediately prepended by GFMD #958](https://github.com/MarkBind/markbind/issues/958)
 Reading | Merged PR: [Fix custom components markdown parsing #1548](https://github.com/MarkBind/markbind/pull/1548)
-Exam Week 1 | Merged PR: [SSR to resolve FOUC #1530](https://github.com/MarkBind/markbind/pull/1530)
+Finals | Merged PR: [SSR to resolve FOUC #1530](https://github.com/MarkBind/markbind/pull/1530)
 
