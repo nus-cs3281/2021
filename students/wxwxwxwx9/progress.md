@@ -37,7 +37,6 @@ Week | Achievements
 9 | Reviewed PR: [NodeProcessor refactor: split into separate files #1515](https://github.com/MarkBind/markbind/pull/1515)
 9 | Investigated Issue: [Support showing .md links #1516](https://github.com/MarkBind/markbind/issues/1516)
 9 | Merged PR: [Fix no-conversion syntax for intralink in user guide #1494](https://github.com/MarkBind/markbind/pull/1494)
-11 | Authored PR: [SSR to resolve FOUC #1530](https://github.com/MarkBind/markbind/pull/1530)
 11 | Reviewed & Merged PR (into master): [Lazy serve: fix untracked tab bug on backwards navigation #1522](https://github.com/MarkBind/markbind/pull/1522)
 11 | Approved & Merged PR (into master): [Lazy serve: Fix improper handling of incomplete active urls #1532](https://github.com/MarkBind/markbind/pull/1532)
 11 | Investigated Issue: [Modal content disppearing after reopening #1519](https://github.com/MarkBind/markbind/pull/1519)
@@ -49,5 +48,5 @@ Week | Achievements
 13 | Approved & Merged PR (into master): [Fix live-server to keep client on CSS refresh #1545](https://github.com/MarkBind/markbind/pull/1545)
 13 | Investigated Issue: [Unexpected behaviour of components when immediately prepended by GFMD #958](https://github.com/MarkBind/markbind/issues/958)
 Reading | Merged PR: [Fix custom components markdown parsing #1548](https://github.com/MarkBind/markbind/pull/1548)
-
+Exam Week 1 | Merged PR: [SSR to resolve FOUC #1530](https://github.com/MarkBind/markbind/pull/1530)
 
