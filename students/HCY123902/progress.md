@@ -42,6 +42,7 @@
 | 11    | Reviewd PR: [[#1354] Allow disowning of code by using empty author tags](https://github.com/reposense/RepoSense/pull/1520)                  |
 | 12    | Authored PR: [[#1234] Move relevant test cases in ArgsParserTest to RepoSenseTest class](https://github.com/reposense/RepoSense/pull/1530)  |
 | 12    | Authored PR: [[#435] Convert special character in path to the corresponding white space](https://github.com/reposense/RepoSense/pull/1531)  |
+| 12    | Reviewd PR: [Remove window.app state changes and remove this. in .pug](https://github.com/reposense/RepoSense/pull/1527)                    |
 | 13    | Merged PR: [[#1486] Rename zIsMerge to zIsMerged](https://github.com/reposense/RepoSense/pull/1487)                                         |
 | Reading | Merged PR: [Add link to first timer issues in the Developer Guide](https://github.com/reposense/RepoSense/pull/1492)                      |
 | Reading | Merged PR: [[#1476] Remove the highlighting when the panel is closed](https://github.com/reposense/RepoSense/pull/1480)                   |
