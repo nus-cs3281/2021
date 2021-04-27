@@ -122,8 +122,6 @@ In essence, the establishment flow of live-reload can be summed up to:
 
 Note that the live-reload mechanism is set up *after* request-response phase finishes.
 
-Also, a quirk 
-
 #### Things to Know about Live-reload
 
 In the implementation of `live-server` there are some quirks about the live-reload mechanism, some of which is instrumental
