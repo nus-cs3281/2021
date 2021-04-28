@@ -25,5 +25,7 @@ Week | Achievements
 7 | Authored PR: [[#11015] Break down question result fetch by section for scalability](https://github.com/TEAMMATES/teammates/pull/11017)
 9 | Reviewed PR: [[#5704] first commit Standardize you vs I in UI](https://github.com/TEAMMATES/teammates/pull/11035)
 9 | Reviewed PR: [[#10651] Broken Link on Instructor Help Page](https://github.com/TEAMMATES/teammates/pull/11036)
-9 | Reviewed PR: [[#10651] Broken Link on Instructor Help Page](https://github.com/TEAMMATES/teammates/pull/11036)
-
+10 | Authored PR: [[#10964] Improve Student Creation Performance](https://github.com/TEAMMATES/teammates/pull/11061)
+10 | Reviewed PR: [[#8769] Instructor: help page: add questions](https://github.com/TEAMMATES/teammates/pull/11049)
+11 | Authored PR: [[#11039] Synchronize instructor create calls from frontend to prevent race condition](https://github.com/TEAMMATES/teammates/pull/11063)
+11 | Reviewed PR: [[#10917] Fix unexpected behaviour when reverting to template feedback path](https://github.com/TEAMMATES/teammates/pull/10975)

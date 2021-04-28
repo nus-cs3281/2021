@@ -23,6 +23,10 @@
 | 9      | Merged PR: [Include version number in issues created](https://github.com/CATcher-org/CATcher/pull/656)                             |
 | 9      | Reviewed PR: [Read Profiles from External Repository](https://github.com/CATcher-org/CATcher/pull/661)                             |
 | 9      | Reviewed PR: [GH Actions: Add retry for tests on Mac OS](https://github.com/CATcher-org/CATcher/pull/633)                          |
-| 10     | Opened PR: [Enforcing prettier on commits](https://github.com/CATcher-org/CATcher/pull/669)                                        |
+| 10     | Merged PR: [Enforcing prettier on commits](https://github.com/CATcher-org/CATcher/pull/669)                                        |
 | 10     | Reviewed PR: [Markdown Links: Fix redirection href values](https://github.com/CATcher-org/CATcher/pull/666)                        |
 | 10     | Reviewed PR: [Update Dev Notes about Logging Process](https://github.com/CATcher-org/CATcher/pull/664)                             |
+| 11     | Reviewed PR: [DuplicatedIssuesComponent: Add tests](https://github.com/CATcher-org/CATcher/pull/675)                               |
+| 12     | Opened PR: [Add stack trace for errors](https://github.com/CATcher-org/CATcher/pull/682)                                           |
+| 12     | Opened PR: [IssuesFaultyComponent:Decompose logical expressions into methods](https://github.com/CATcher-org/CATcher/pull/683)     |
+| 13     | Reviewed PR: [Bug Fix: Logging into Non-BugReporting Session](https://github.com/CATcher-org/CATcher/pull/691)                     |
