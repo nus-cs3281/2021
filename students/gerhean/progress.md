@@ -71,5 +71,63 @@ Merged PRs:
 </td>
 </tr>
 
+<tr>
+<td>7</td>
+<td>
+
+Merged PRs:
+- [\[#1420\] Extract some code from summary.js](https://github.com/reposense/RepoSense/pull/1421)
+- [Rewrite how zoom refreshes](https://github.com/reposense/RepoSense/pull/1419)
+- [\[#1440\] Call this.getFiltered() only once during initialization](https://github.com/reposense/RepoSense/pull/1447)
+
+</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>
+
+Merged PRs:
+- [\[#1468\] Dashboard loading empty if base URL is given](https://github.com/reposense/RepoSense/pull/1469)
+
+</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>
+
+Merged PRs:
+- [Frontend: remove browsersify and vueify](https://github.com/reposense/RepoSense/pull/1482)
+- [\[#1485\] Watch tab info directly](https://github.com/reposense/RepoSense/pull/1490)
+
+</td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>
+
+Merged PRs:
+- [Upgrade minimatch version](https://github.com/reposense/RepoSense/pull/1511)
+
+</td>
+</tr>
+
+<tr>
+<td>13</td>
+<td>
+
+Merged PRs:
+- [\[#1397, #1460\] Charts panel: header info misplaced](https://github.com/reposense/RepoSense/pull/1467)
+- [\[#1473\] Checkbox not working properly in break down by file type](https://github.com/reposense/RepoSense/pull/1475)
+- [Remove duplicate initiate in v_zoom](https://github.com/reposense/RepoSense/pull/1489)
+- [\[#1116\] Code Panel: weird syntax highlighting](https://github.com/reposense/RepoSense/pull/1521)
+
+
+
+</td>
+</tr>
+
 </tbody>
 </table>

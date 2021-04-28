@@ -46,6 +46,11 @@ Vuex
 - Global store for Vue, helps in debugging.
 - https://vuex.vuejs.org/
 
+### Gradle
+Background tasks:
+    - Scripts started by gradle tasks are not interupted when the gradle daemon is interupted. This means that if one is not careful, one can accidentally spawn many orphan processes, leading to a memory leak.
+    - In order to avoid this problem, one can spawn the script started by the gradle task in a seperate terminal.
+
 ### Github
 
 Nicer commit messages are beneficial even to myself, as it helps me to remember what I did previously.
