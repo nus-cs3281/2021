@@ -123,8 +123,7 @@ Merged PRs:
 - [\[#1473\] Checkbox not working properly in break down by file type](https://github.com/reposense/RepoSense/pull/1475)
 - [Remove duplicate initiate in v_zoom](https://github.com/reposense/RepoSense/pull/1489)
 - [\[#1116\] Code Panel: weird syntax highlighting](https://github.com/reposense/RepoSense/pull/1521)
-
-
+- [Upgrade cypress version to ^7.0.1](https://github.com/reposense/RepoSense/pull/1529)
 
 </td>
 </tr>
