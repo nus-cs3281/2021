@@ -124,6 +124,7 @@ Reviewed PRs:
 - [v-ramp render on visible](https://github.com/reposense/RepoSense/pull/1477)
 - [\[#1452\] Implement multi-threading](https://github.com/reposense/RepoSense/pull/1451) (second review)
 - [CSVParser: check column headers when parsing config CSV files](https://github.com/reposense/RepoSense/pull/1459)
+- [DG: add link to first timer issues](https://github.com/reposense/RepoSense/pull/1492)
 
 Opened issues:
 - [Move DevOps guide in the wiki to the developer guide](https://github.com/reposense/RepoSense/issues/1493)
@@ -166,8 +167,42 @@ Opened PRs:
 
 Reviewed PRs:
 - [Fix User Guide to reflect new method of CSV parsing](https://github.com/reposense/RepoSense/pull/1523)
-- [Add warning when there are a large number of files to be analyzed](https://github.com/reposense/RepoSense/pull/1524)
+- [Add warning when there are a large number of files to be analyzed](https://github.com/reposense/RepoSense/pull/1524) (first review)
 - [\[#1234\] Move relevant test cases in ArgsParserTest to a new RepoSenseTest class](https://github.com/reposense/RepoSense/pull/1530)
+
+</td>
+</tr>
+<tr>
+<td>13</td>
+<td>
+
+Merged PRs:
+- [\[#1184\] Test: improve assertion of authors for file analysis](https://github.com/reposense/RepoSense/pull/1518)
+- [\[#634\] Extract time-based functionalities to TimeUtil](https://github.com/reposense/RepoSense/pull/1535)
+
+</td>
+</tr>
+<tr>
+<td>Reading</td>
+<td>
+
+Merged PRs:
+- [\[#634\] Extract time-based functionalities to TimeUtil](https://github.com/reposense/RepoSense/pull/1535)
+- [\[#1515\] UG: update documentation on using RepoSense at a specific commit](https://github.com/reposense/RepoSense/pull/1516)
+- [Support using RepoSense of a specific commit](https://github.com/reposense/publish-RepoSense/pull/10)
+- [\[#634\] Move logic for getting ReportConfiguration to ArgsParser](https://github.com/reposense/RepoSense/pull/1534)
+
+Reviewed PRs:
+- [Add warning when there are a large number of files to be analyzed](https://github.com/reposense/RepoSense/pull/1524) (second review)
+
+</td>
+</tr>
+<tr>
+<td>Exam 1</td>
+<td>
+
+Opened issues:
+- [Commits Panel: "Show ramp chart for this period" does nothing](https://github.com/reposense/RepoSense/issues/1543)
 
 </td>
 </tr>
