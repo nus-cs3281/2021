@@ -3,12 +3,13 @@
 Aspects: Components, Templates, Directives, Dependency Injection
 Source: Official Docs
 
+- An Angular app usually has 3 main types of component: UI, service and module. RxJs is heavily used in service classes to help UI classes communicate with the backend server
 - Learnt about `ngTemplate` to make reusable widgets
 - Learnt about specificity of CSS to change component styles without directives or Typescripts code changes
 - Learnt about `@Input` and `@Output` decorators for communication among the UI components:
   - `@Input` is usually used for the parent component to pass data to the child component.
   - `@Output` is useful when a child component wants to communicate witht the parent component. An EventEmitter is usually decorated with this decorator to act as a callback for changes in the child component.
-- Learnt about modules in Angular: a component can be treated as a standalone module or as a part of a parent module
+- Learnt about modules in Angular: a component can be treated as a standalone module or as a part of a parent module. Modules aid dependency injection in Angular
 
 ### RxJs
 
@@ -49,12 +50,12 @@ Source: Teammates code base, Official Docs
   - Entity groups: to allow atomic transactions to be carried out. The groups are defined based on each entity's parent
   - Optimistic concurrency: Objectify allows concurrent transactions, and any conflicts in timestamps of entities will cause the transaction to be rolled back. Optimistic concurrency generally has a higher throughput than pessimistic concurrency
 - Indexing:
-  - To index an entity with an attribute, use the tag `@Index`
+  - To index an entity with an attribute, use the tag `@Index` (`@Cache` can also be used to cache entities)
   - Appengine indexing rules enforce the use of efficient queries, and make it almost impossible to write slow queries
 
 ### Google Cloud Platform
 
-- Learnt that parallelism might cause mutiple instances to be created and thus increase the cost
+- Learnt that parallelism can cause mutiple instances to be created and thus increase the cost. Thus, large requests are broken down into smaller ones and run synchronously to avoid a burst of instance creation
 - Used API services such as Gmail API to send notifications to customers and production logs to admin
 - Used Cloud Trace to find performance bottle-neck of API calls
 - Used Cloud Profiler to identify and analyze performance bottlenecks
