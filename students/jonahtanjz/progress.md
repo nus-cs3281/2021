@@ -27,7 +27,7 @@ Week | Achievements
 9 | Merged PR: [Implement live preview for pages in site.json #1514](https://github.com/MarkBind/markbind/pull/1514)
 11 | Submitted Issue: [Syntax highlighting not working when it is contained #1523](https://github.com/MarkBind/markbind/issues/1523)
 11 | Merged PR: [Fix intrasiteLinkValidation code block #1527](https://github.com/MarkBind/markbind/pull/1527)
-11 | Responded to PR | [SSR to resolve FOUC #1534](https://github.com/MarkBind/markbind/pull/1534)
+11 | Responded to PR: [SSR to resolve FOUC #1534](https://github.com/MarkBind/markbind/pull/1534)
 11 | Approved and Merged PR: [Change all $slots to $scopedSlots #1535](https://github.com/MarkBind/markbind/pull/1535)
 12 | Approved and Merged PR: [Fix delay to return delayed function result for use #1538](https://github.com/MarkBind/markbind/pull/1538)
 12 | Merged PR: [Fix missing return termination #1541](https://github.com/MarkBind/markbind/pull/1541)
