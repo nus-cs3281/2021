@@ -162,6 +162,7 @@ Reviewed PRs:
 <td>
 
 Opened PRs:
+- [Add test lines for disowned code](https://github.com/reposense/testrepo-Alpha/pull/6)
 - [\[#634\] Move logic for getting ReportConfiguration to ArgsParser](https://github.com/reposense/RepoSense/pull/1534)
 - [\[#634\] Extract time-based functionalities to TimeUtil](https://github.com/reposense/RepoSense/pull/1535)
 
