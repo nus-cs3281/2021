@@ -29,3 +29,31 @@ Instead, a [blog post suggested](http://stiemannkj1.gitlab.io/use-Runtime-addShu
 > Don’t Clean Up After Tests with `RunListener.testRunFinished()`, Add a Shutdown Hook Instead
 
 Even so, it is still possible for the Java Virtual Machine (JVM) to be terminated externally, such that it is not even possible to run code from the shutdown hook. Nonetheless, it does show that despite your best efforts, **there is always a way for the user to cause havoc**, which is really a demonstration of Murphy's Law.
+
+### CommonJS and ES6
+
+When doing frontend development work, the use of external libraries and packages is inevitable. However, there are different ways in which these external libraries can be included into a project, two of which are CommonJS and ES6.
+
+[CommonJS](https://medium.com/@cgcrutch18/commonjs-what-why-and-how-64ed9f31aa46) is a type of standard or specification that declares how libraries can be imported. Previously, global or shared variables will have to be shared using the `module.exports` object, which is inherently insecure. The other way is to load dependencies using the `&lt;script&gt;` tag, which is rather slow and prone to errors.
+
+ES6 is another standard which indicates how JavaScript-like programming languages should be written in order to ensure web pages render the same way on different web browsers. While this is the official standard used, it is not able to support modules that were written before this standard is produced. Hence, CommonJS and other workarounds were used to allow for the same import and export features to be made available for earlier versions of JavaScript.
+
+[A comment on Reddit](https://www.reddit.com/r/javascript/comments/668cvh/commonjs_vs_es6_importexport_which_is_the_standard/) explains the differences between CommonJS and ES6. It also explains when to use which, although for best practices, ES6 should be used moving forward. [Another article](https://redfin.engineering/node-modules-at-war-why-commonjs-and-es-modules-cant-get-along-9617135eeca1) lists the various differences and goes deeper into other topics such as asynchronous loading of modules, etc.
+
+Going deeper into this topic is useful for understanding the JavaScript programming language better, and to understand the differences between server-side JavaScript and frontend JavaScript.
+
+### GitHub API
+
+The [GitHub REST API](https://docs.github.com/en/rest) provides many endpoints for interacting with various aspects of GitHub programmatically. It also allows using GitHub in a way that the web interface does not offer.
+
+The API was first used in RepoSense as part of the migration from TravisCI to GitHub Actions earlier in the semester. At that time, we wanted to set up pull request statuses in a way that allows for marking the preview websites as deployments. This required interacting with the [Deployments API](https://docs.github.com/en/rest/reference/repos#deployments) that is part of repositories, so that a nice "View deployment" button can appear for pull request reviewers to click on.
+
+It is important to note that the GitHub API documentation is very incomplete. The [repository](https://github.com/github/docs) is available for anyone to make a contribution to, but there are many features that are "hidden" and takes a while to find. For instance, as part of the deployment status, a special `Accept` header needs to be specified, known as preview notices. However, I encountered a situation where I needed to specify multiple preview notices, but this information was not provided in the GitHub documentation.
+
+After some trial-and-error, I figured the way to indicate this, which is to separate them by a comma:
+
+```
+Accept: application/vnd.github.flash-preview+json,application/vnd.github.ant-man-preview+json
+```
+
+This allows for both `application/vnd.github.flash-preview+json` and `application/vnd.github.ant-man-preview+json` to be used, which allows for `in_progress` & `queued` statuses, as well as the `inactive` state to be used.
