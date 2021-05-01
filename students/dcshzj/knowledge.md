@@ -34,7 +34,7 @@ Even so, it is still possible for the Java Virtual Machine (JVM) to be terminate
 
 When doing frontend development work, the use of external libraries and packages is inevitable. However, there are different ways in which these external libraries can be included into a project, two of which are CommonJS and ES6.
 
-[CommonJS](https://medium.com/@cgcrutch18/commonjs-what-why-and-how-64ed9f31aa46) is a type of standard or specification that declares how libraries can be imported. Previously, global or shared variables will have to be shared using the `module.exports` object, which is inherently insecure. The other way is to load dependencies using the `&lt;script&gt;` tag, which is rather slow and prone to errors.
+[CommonJS](https://medium.com/@cgcrutch18/commonjs-what-why-and-how-64ed9f31aa46) is a type of standard or specification that declares how libraries can be imported. Previously, global or shared variables will have to be shared using the `module.exports` object, which is inherently insecure. The other way is to load dependencies using the `<script>` tag, which is rather slow and prone to errors.
 
 ES6 is another standard which indicates how JavaScript-like programming languages should be written in order to ensure web pages render the same way on different web browsers. While this is the official standard used, it is not able to support modules that were written before this standard is produced. Hence, CommonJS and other workarounds were used to allow for the same import and export features to be made available for earlier versions of JavaScript.
 
