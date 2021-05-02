@@ -29,4 +29,4 @@ Week | Achievements
 13 | Authored PR (approved): [Add student email to dropdown in audit logs](https://github.com/TEAMMATES/teammates/pull/11113)
 13 | Authored PR (approved): [Add padding to no activity message for audit logs](https://github.com/TEAMMATES/teammates/pull/11117)
 14 | Submitted issue: [Update timezone database to 2021a: timezone syncer E2E test failing](https://github.com/TEAMMATES/teammates/issues/11118)
-14 | Merged PR: [Update timezone database version to 2021a](Update timezone database version to 2021a)
+14 | Merged PR: [Update timezone database version to 2021a](htts://github.com/TEAMMATES/teammates/pull/11125)
