@@ -29,3 +29,6 @@ Week | Achievements
 10 | Reviewed PR: [[#8769] Instructor: help page: add questions](https://github.com/TEAMMATES/teammates/pull/11049)
 11 | Authored PR: [[#11039] Synchronize instructor create calls from frontend to prevent race condition](https://github.com/TEAMMATES/teammates/pull/11063)
 11 | Reviewed PR: [[#10917] Fix unexpected behaviour when reverting to template feedback path](https://github.com/TEAMMATES/teammates/pull/10975)
+12 | Reviewed PR: [[#11003] LnP tests for batch processing](https://github.com/TEAMMATES/teammates/pull/11027)
+12 | Reviewed PR: [[#11084] Remove error highlighting on a new enrollment](https://github.com/TEAMMATES/teammates/pull/11089)
+12 | Reviewed PR: [[#11085] Instructor edit questions: tweak option order for generating answers from teams](https://github.com/TEAMMATES/teammates/pull/11092)
