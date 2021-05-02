@@ -71,3 +71,39 @@ such metrics include [metrics on log usage](https://console.cloud.google.com/log
 **Resources:**
 - [Google Cloud Logging: code samples](https://cloud.google.com/logging/docs/samples): references for using Cloud Logging in Java
 - [Google Cloud Operations Suite: pricing](https://cloud.google.com/stackdriver/pricing): contains information on pricing for logging and monitoring
+
+### CSRF tokens
+
+Cross-site request forgery (CSRF) is a form of malicious attack,
+whereby a user with access privileges is unknowingly tricked into submitting an illicit web request.
+
+Traditionally, these can be protected against with methods such as CSRF tokens.
+A unique valid CSRF token value is set for some request, typically in a hidden form field,
+such that only requests from the particular web application will be considered valid.
+
+However, X-CSRF tokens serve as another alternative.
+The server can send a cookie setting a random token, which is received and read by JavaScript on the client-side.
+The token is then sent with each subsequent request through a custom `X-CSRF-TOKEN` HTTP header,
+which is validated by the server.
+
+This technique is used by frameworks such as Angular, and used in TEAMMATES as well.
+By default, we use these protections with non-GET requests such as POST and PUT,
+for instance in the POST requests for creating new audit logs.
+
+**Resources:**
+- [Wikipedia page on CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
+- [StackOverflow answer on difference between CSRF and X-CSRF token](https://stackoverflow.com/questions/34782493/difference-between-csrf-and-x-csrf-token)
+
+### Timezone configuration
+
+As our front-end and back-end use different libraries and databases when obtaining timezone information,
+and these timezones can change over time, we need to keep those two databases in sync.
+Both rely on IANA's tz database as the authoritative source for timezone information,
+but may be out-of-date and require manual updating when IANA releases a new timezone version.
+The front-end and back-end databases can be updated through means such as the `grunt `tool with `moment-timezone`,
+or the `tzupdater` tool.
+
+**Resources:**
+- [IANA Time Zone Database](https://www.iana.org/time-zones)
+- [TEAMMATES ops maintainer guide](https://github.com/TEAMMATES/teammates-ops/blob/master/maintainer-guide.md): further information on conducting timezone database updates
+
