@@ -27,7 +27,6 @@
 | 9    | Merged PR: [[#1446] Restore the name on authorship panel after reloading](https://github.com/reposense/RepoSense/pull/1458)                  |
 | 9    | Reviewd PR: [Utilise GITHUB_TOKEN to commit to gh-pages and deploy](https://github.com/reposense/publish-RepoSense/pull/9)                   |
 | 9    | Reviewd PR: [[#1448] Update documentation to remove need for personal access token](https://github.com/reposense/RepoSense/pull/1465)        |
-| 10    | Authored PR: [[#1500] Add a Learn basics section to the DG](https://github.com/reposense/RepoSense/pull/1507)                               |
 | 10    | Reviewd PR: [[#1349] Clone test repositories only once when testing](https://github.com/reposense/RepoSense/pull/1478)                      |
 | 10    | Reviewd PR: [Watch tab info directly](https://github.com/reposense/RepoSense/pull/1490)                                                     |
 | 10    | Release: Made the release for [v1.13.1](https://github.com/reposense/RepoSense/releases/tag/v1.13.1)                                        |
@@ -47,4 +46,5 @@
 | Reading | Merged PR: [[#1476] Remove the highlighting when the panel is closed](https://github.com/reposense/RepoSense/pull/1480)                   |
 | Reading | Merged PR: [Add link to path glob syntax in the User Guide](https://github.com/reposense/RepoSense/pull/1541)                             |
 | Reading | Merged PR: [Add message for invalid repository link on the summary view](https://github.com/reposense/RepoSense/pull/1509)                |
+| Reading | Merged PR: [[#1500] Add a Learn basics section to the DG](https://github.com/reposense/RepoSense/pull/1507)                               |
 
