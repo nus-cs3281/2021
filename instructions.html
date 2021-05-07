@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="MarkBind 2.18.1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Updating this website</title>
+  <link rel="stylesheet" href="markbind/css/bootstrap.min.css">
+  <link rel="stylesheet" href="markbind/css/bootstrap-vue.min.css">
+  <link rel="stylesheet" href="markbind/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="markbind/css/octicons.css">
+  <link rel="stylesheet" href="markbind/css/codeblock-light.min.css">
+  <link rel="stylesheet" href="markbind/css/markbind.min.css">
+  <script src="markbind/js/polyfill.min.js"></script>
+  <script src="markbind/js/vue.min.js"></script>
+  <script src="markbind/js/markbind.min.js"></script>
+  <script src="markbind/js/jquery.min.js"></script>
+  <link rel="stylesheet" href="/2021/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css">
+  <link rel="stylesheet" href="markbind/layouts/default/styles.css">
+  <link rel="icon" href="/2021/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target="#page-nav" data-offset="100">
+  <div id="app">
+    <header>
+      <navbar placement="top" type="primary" class="temp-navbar">
+        <a slot="brand" href="/2021/index.html" title="Home" class="navbar-brand">CS3281-2021/Students</a>
+        <li>
+          <a href="/2021/index.html" class="nav-link">Students</a>
+        </li>
+        <li>
+          <a href="/2021/instructions.html" class="nav-link">Instructions</a>
+        </li>
+
+        <li>
+          <a href="/2021/students/knowledge.html" class="nav-link">Knowledge</a>
+        </li>
+
+        <li>
+          <a href="https://nus-cs3281.github.io/2021-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByAuthors&breakdown=false" class="nav-link">Code Dashboard</a>
+        </li>
+        <li>
+          <a href="https://nus-cs3281.github.io/website/" class="nav-link">CS3281&2 Website <span><span aria-hidden="true" class="glyphicon glyphicon-share-alt"></span></span></a>
+        </li>
+        <li slot="right">
+          <a href="https://github.com/nus-cs3281/2021" class="nav-link"><span><span aria-hidden="true" class="fab fa-github"></span></span></a>
+        </li>
+      </navbar>
+    </header>
+    <div id="flex-body">
+
+
+      <div id="content-wrapper">
+        <h1 id="instructions-for-updating-this-website"><span id="instructions-for-updating-this-website" class="anchor"></span>Instructions for Updating this Website<a class="fa fa-anchor" href="#instructions-for-updating-this-website" onclick="event.stopPropagation()"></a></h1>
+        <p>This repo/website is for hosting information about the students in the module, to be maintained by CS3281&amp;2 students collectively. <span class="dimmed">It is maintained as a separate repo because students need write access to it.</span></p>
+        <h2 id="general-instructions-for-updating-this-repo"><span id="general-instructions-for-updating-this-repo" class="anchor"></span>General Instructions for Updating This Repo<a class="fa fa-anchor" href="#general-instructions-for-updating-this-repo" onclick="event.stopPropagation()"></a></h2>
+        <ul>
+          <li>Clone <a href="https://github.com/nus-cs3281/2021">https://github.com/nus-cs3281/2021</a> to your Computer.</li>
+          <li>Do not force-push.</li>
+          <li>Usually, there is no need to create issues or PRs when updating this repo.</li>
+        </ul>
+        <p>While this site uses <a href="https://markbind.org">MarkBind</a>, you can use normal markdown syntax for your updates (MarkBind is compatible with Markdown).</p>
+        <p>All your files are in a <code class="hljs inline no-lang" v-pre>students/*</code> sub-folder that is named after you e.g., <code class="hljs inline no-lang" v-pre>students/johnDoe</code>. Update the <code class="hljs inline no-lang" v-pre>info.md</code> file in that folder with your basic info. After you have pushed the updated files to the repo, your info should appear automatically in <a href="/2021/">this page</a>, possibly after a lapse of a few minutes.</p>
+        <p>If you want to preview the generated site for your changes,</p>
+        <ul>
+          <li>Install MarkBind</li>
+          <li>Use the <code class="hljs inline no-lang" v-pre>markbind serve</code> command to generate the site locally, and ensure the output is as you intended.</li>
+        </ul>
+        <h2 id="updating-your-basic-info"><span id="updating-your-basic-info" class="anchor"></span>Updating Your Basic Info<a class="fa fa-anchor" href="#updating-your-basic-info" onclick="event.stopPropagation()"></a></h2>
+        <ul>
+          <li>Update a profile photo named <code class="hljs inline no-lang" v-pre>photo.png</code> to your folder. <span class="dimmed">Naturally, as the purpose of this photo is for others to identify you, you should choose a recent individual photo showing your face clearly (i.e., not too small) -- somewhat similar to a passport photo.</span></li>
+          <li>Update other info in the <code class="hljs inline no-lang" v-pre>info.md</code> file in your folder.</li>
+        </ul>
+        <h2 id="updating-your-project-progress"><span id="updating-your-project-progress" class="anchor"></span>Updating Your Project Progress<a class="fa fa-anchor" href="#updating-your-project-progress" onclick="event.stopPropagation()"></a></h2>
+        <p>Update the <code class="hljs inline no-lang" v-pre>progress.md</code> in your folder periodically, at least once every two weeks.</p>
+        <tabs>
+            <tab><template slot="_header">Sample</template>
+            <div class="table-responsive">
+              <table class="markbind-table table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>Week</th>
+                    <th>Achievements</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Reviewed PR: <a href>PR name 1 #1234</a></td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Merged PR: <a href>PR name 4 #3245</a></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Submitted Issue: <a href>Issue name #223</a></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Authored PR (put on hold by request): <a href>PR name 3 #365</a></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Responded to contributor queries: <a href>#1234</a>, <a href>#4567</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </tab>
+            <tab><template slot="_header">Code for the sample</template>
+            <pre><code class="hljs" v-pre><span>Week | Achievements
+</span><span>---- | ------------
+</span><span>1 | Reviewed PR: [PR name 1 #1234]()
+</span><span>1 | Merged PR: [PR name 4 #3245]()
+</span><span>2 | Submitted Issue: [Issue name #223]()
+</span><span>2 | Authored PR (put on hold by request): [PR name 3 #365]()
+</span><span>2 | Responded to contributor queries: [#1234](), [#4567]()
+</span></code></pre>
+          </tab>
+        </tabs>
+        <p>Notes:</p>
+        <ul>
+          <li>The page is for CS3281 work only (i.e., contributions to our own internal projects)</li>
+          <li>PR-related contributions: Report only when a PR is merged (or it's finalized in some other way e.g., abandoned)</li>
+          <li>Past PRs can be claimed in future weeks, but not the other way around.</li>
+          <li>Report each significant achievement in a separate row. You may aggregate multiple minor achievements in to a single row.</li>
+        </ul>
+        <h2 id="updating-the-knowledge-gained-page"><span id="updating-the-knowledge-gained-page" class="anchor"></span>Updating the <em>Knowledge Gained</em> Page<a class="fa fa-anchor" href="#updating-the-knowledge-gained-page" onclick="event.stopPropagation()"></a></h2>
+        <p>Update the <code class="hljs inline no-lang" v-pre>knowledge.md</code> page in your folder with the knowledge of tools/technologies you gained by doing the project.</p>
+        <p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p>
+      </div>
+      <nav id="page-nav" class="navbar navbar-light bg-transparent">
+        <div class="border-left-grey nav-inner position-sticky slim-scroll">
+
+          <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
+            <a class="nav-link py-1" href="#instructions-for-updating-this-website">Instructions for Updating this Website&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#general-instructions-for-updating-this-repo">General Instructions for Updating This Repo&#x200E;</a>
+              <a class="nav-link py-1" href="#updating-your-basic-info">Updating Your Basic Info&#x200E;</a>
+              <a class="nav-link py-1" href="#updating-your-project-progress">Updating Your Project Progress&#x200E;</a>
+              <a class="nav-link py-1" href="#updating-the-knowledge-gained-page">Updating the Knowledge Gained Page&#x200E;</a>
+            </nav>
+
+          </nav>
+        </div>
+      </nav>
+    </div>
+    <footer>
+      <div class="text-center">
+        <p><small>This page was built with <img src="https://markbind.org/favicon.ico" width="20"> <a href="https://markbind.org/">MarkBind 2.18.1</a> at Fri, May 7, 2021, 6:19:02 PM UTC</small></p>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="markbind/js/bootstrap-utility.min.js"></script>
+<script>
+  const baseUrl = '/2021'
+  MarkBind.setupWithSearch()
+</script>
+<script src="markbind/layouts/default/scripts.js"></script>
+<script>
+  if (MarkBind.AfterSetup) MarkBind.AfterSetup()
+</script>
+
+</html>
